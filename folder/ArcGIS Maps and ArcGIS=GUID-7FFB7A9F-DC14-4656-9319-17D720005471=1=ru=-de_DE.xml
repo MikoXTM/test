@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE esri_concept PUBLIC "-//ESRI//DTD DITA Concept//EN" "esri_concept.dtd">
+<?ish ishref="GUID-7FFB7A9F-DC14-4656-9319-17D720005471" version="1" lang="ru" srclng="en"?><esri_concept xml:lang="de" id="GUID-7FFB7A9F-DC14-4656-9319-17D720005471">
+<title id="GUID-64DF5790-FD32-45B2-AA4C-828C3EE28EB6"> <ph varref="product_name">ArcGIS Maps for Office</ph> and <ph varref="ArcGIS_platform">ArcGIS</ph></title>
+<shortdesc cid="1PoITm"> With <ph varref="product_name">ArcGIS Maps for Office</ph>, you can easily create maps that combine your <ph varref="Excel">Excel</ph> data with published geographic content from <ph varref="ArcGIS_platform">ArcGIS</ph>. You can also share the maps you create in <ph varref="product_name">ArcGIS Maps for Office</ph> with others within and outside of your organization using <ph varref="ArcGIS_platform">ArcGIS</ph>.</shortdesc>
+<esri_prolog cid="1f19mH">
+<esri_license esri_restriction="none"/>
+<esri_extensions/>
+<esri_indexterms><esri_indexterm1>ArcGIS Online</esri_indexterm1><esri_indexterm1>Portal for ArcGIS</esri_indexterm1><esri_indexterm1>ArcGIS</esri_indexterm1><esri_indexterm1>organizational subscription</esri_indexterm1><esri_indexterm1>subscription</esri_indexterm1><esri_indexterm1>service credits</esri_indexterm1><esri_indexterm1>data<esri_indexterm2>sharing</esri_indexterm2><esri_indexterm2>adding</esri_indexterm2></esri_indexterm1></esri_indexterms>
+</esri_prolog>
+<esri_conbody cid="9St2Z">
+
+
+
+
+
+<p id="GUID-2F3B6C09-FF60-4416-8023-E548B772D7C7"><ph varref="product_name">ArcGIS Maps for Office</ph> works directly with your organization's <ph varref="ArcGIS_platform">ArcGIS</ph> subscription to allow you to access geographic content to enhance your business data. You must be signed in to a level 2 <ph varref="ArcGIS_platform">ArcGIS</ph> named user account to use <ph varref="product_name">ArcGIS Maps for Office</ph>; depending how your administrator has configured the application, you may be prompted to enter your <ph varref="ArcGIS_platform">ArcGIS</ph> credentials. Your subscription includes a number of service credits, which are the currency of <ph varref="ArcGIS_platform">ArcGIS</ph> and are used in exchange for most of the <ph varref="ArcGIS_platform">ArcGIS</ph> services your organization uses. The number of service credits required depends on the type of service you are using. To help you estimate how many service credits you will need, see <xref href="GUID-B3604405-0708-4FA9-94E8-83A4B2E6C2A1" cid="MHAiL">Understand credits</xref>.</p></esri_conbody>
+<esri_authornotes cid="113PJu">
+
+</esri_authornotes>
+</esri_concept>
