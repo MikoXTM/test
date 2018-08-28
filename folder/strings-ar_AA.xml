@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Domo</string>
+    <string name="welcome_body">Domo makes hooking up easy. Connect to any source of data, faster than ever before possible.</string>
+    <string name="home">Home</string>
+    <string name="trends">Trends</string>
+    <string name="edit_home">Edit tiles</string>
+    <string name="untitled">Untitled</string>
+    <string name="logout">Logout</string>
+    <string name="logout_all">Logout all accounts</string>
+    <string name="settings">Settings</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="search_people_hint">Search people</string>
+    <string name="search_group_hint">Search groups</string>
+    <string name="search_pages_hint">Search pages</string>
+    <string name="search_projects_hint">Search projects</string>
+    <string name="search_people_stats">Search people</string>
+    <string name="preview_unavailable">Preview unavailable</string>
+    <string name="search_filter_columns_hint">Search…</string>
+    <string name="search_universal_compose">Search…</string>
+    <string name="search_people_groups_hint">Search people &amp; groups</string>
+    <string name="search_approval_history">Search approvals</string>
+    <string name="search_used_templates">Search templates</string>
+
+    <string name="daily_domo_people">New People</string>
+    <string name="daily_domo_recently_shared">Recently Shared</string>
+    <string name="daily_domo_most_followed_people">Most Followed People</string>
+    <string name="daily_domo_most_favorited_cards">Most Favorited Cards</string>
+    <string name="daily_domo_most_viewed_cards">Most Viewed Cards</string>
+    <string name="daily_domo_new_cards">New Cards</string>
+    <string name="daily_domo_recently_discussed_cards">Recently Discussed Cards</string>
+
+    <string name="trend_description_new_people">Displays new employee updates</string>
+    <string name="trend_description_shared">Displays cards that have been shared recently</string>
+    <string name="trend_description_most_followed_employees">Displays most followed employees</string>
+    <string name="trend_description_most_favorited_cards">Displays most favorited cards</string>
+    <string name="trend_description_most_viewed_cards">Displays most viewed cards</string>
+    <string name="trend_description_new_cards">Displays newly created cards</string>
+    <string name="trend_description_recently_discussed_cards">Displays cards that were recently commented on</string>
+
+    <string name="follower_count_plural">%d followers</string>
+    <string name="follower_count_singular">%d follower</string>
+
+    <string name="page_overview">Overview</string>
+    <string name="page_shared">Shared</string>
+
+    <string name="menu_favorite">Favorite</string>
+    <string name="menu_unfavorite">Remove from Favorites</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_to_home">Add to Home</string>
+    <string name="menu_remove_from_home">Remove from Home</string>
+    <string name="menu_list">Medium card view</string>
+    <string name="menu_history">History</string>
+    <string name="menu_schedule_report">Schedule report</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_follow_on_buzz">Follow on Buzz</string>
+    <string name="menu_view_conversation">View Conversation</string>
+    <string name="menu_move_copy">Move/Copy</string>
+    <string name="menu_duplicate">Duplicate</string>
+    <string name="menu_send_export">Send/Export</string>
+    <string name="menu_export">Export</string>
+    <string name="menu_delegate">Delegate</string>
+    <string name="menu_ask_question">Ask Question</string>
+    <string name="menu_feedback_domo">Feedback to Domo</string>
+    <string name="menu_connect_update_data">Connect/Update data</string>
+    <string name="menu_grid">Small card view</string>
+    <string name="menu_save_image_gallery">Save image to gallery</string>
+    <string name="menu_download">Download</string>
+    <string name="menu_preview">Preview</string>
+    <string name="menu_upload_another_version">Upload another version</string>
+    <string name="menu_task_edit">Edit task</string>
+    <string name="menu_project_edit">Edit project</string>
+    <string name="menu_task_archive">Archive</string>
+    <string name="menu_project_delete">Delete project</string>
+    <string name="menu_buzz_mute">Mute conversation</string>
+    <string name="menu_buzz_unmute">Unmute conversation</string>
+    <string name="menu_buzz_delete">Delete conversation</string>
+    <string name="menu_buzz2_new_channel">New channel</string>
+    <string name="menu_buzz2_new_chat">New conversation</string>
+    <string name="menu_buzz_share_with_collaborators">Share with collaborators</string>
+    <string name="menu_buzz_make_discussion_private">Make conversation private</string>
+    <string name="menu_buzz_make_discussion_public">Make conversation public</string>
+    <string name="menu_buzz_view_people_with_access">View people with access</string>
+    <string name="menu_buzz_cancel">Cancel</string>
+    <string name="menu_attachment_delete">Delete attachment</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_buzz2_leave">Unfollow</string>
+    <string name="menu_buzz2_mute">Mute buzz</string>
+    <string name="menu_buzz2_view_details">View details</string>
+    <string name="menu_buzz2_people">People</string>
+    <string name="menu_buzz2_attachments">Attachments</string>
+    <string name="menu_buzz2_integrations">Bots</string>
+    <string name="menu_buzz2_notifications">Manage Buzz notifications</string>
+    <string name="menu_buzz2_notifications_details">Set Notification</string>
+    <string name="menu_buzz2_hashtags">Hashtags</string>
+    <string name="menu_buzz2_mute_channel">Mute</string>
+    <string name="menu_buzz2_unmute_channel">Unmute</string>
+    <string name="menu_buzz2_join_channel">Follow conversation</string>
+    <string name="menu_buzz2_leave_channel">Unfollow conversation</string>
+    <string name="menu_buzz2_hide_conversation">Hide conversation</string>
+    <string name="menu_buzz2_save">Save channel</string>
+    <string name="menu_buzz2_view_card">View card</string>
+    <string name="menu_buzz2_view_page">View page</string>
+    <string name="menu_buzz2_view_project">View project</string>
+    <string name="menu_buzz2_view_task">View task</string>
+    <string name="menu_buzz2_inbox">View Notifications</string>
+    <string name="menu_buzz2_folder_view">View conversations</string>
+    <string name="menu_buzz2_feed_view">View feed</string>
+    <string name="menu_add_approval_request">Add Request</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="follow">Follow</string>
+    <string name="sign_in">Sign in</string>
+    <string name="company">company</string>
+    <string name="people">People</string>
+    <string name="could_not_login">Could not sign in</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="check_credentials">The credentials you entered are incorrect</string>
+    <string name="unexpected_error">Error</string>
+    <string name="login_error_try_again">Unable to login right now. Please try again</string>
+    <string name="login_url_error_try_again">Invalid URL. Please try again</string>
+    <string name="failed_load_channel">Unable to load the channel right now. Please try again</string>
+
+    <string name="hide_page">Remove from Home?</string>
+    <string name="hide_page_message">Are you sure that you’d like to remove this tile from the Home screen?</string>
+    <string name="delete">Delete</string>
+    <string name="remove">Remove</string>
+    <string name="connect">Connect</string>
+    <string name="email_required">Email required</string>
+    <string name="password_required">Password required</string>
+    <string name="forgot_password_link">Get password</string>
+    <string name="forgot_password">Get password</string>
+    <string name="forgot_password_prompt_body">Forgot your password or just getting started? Don\'t worry. We\'re here to help you out.</string>
+    <string name="request_reset_link">Send password link</string>
+    <string name="forgot_password_confirm_body">An email with instructions to reset your password for {domain} has been sent to {email}. Thanks!</string>
+    <string name="got_it">Got it</string>
+    <string name="email">Email</string>
+    <string name="access_code">Access code</string>
+    <string name="two_factor_authentication">2-step verification</string>
+    <string name="two_factor_no_phone">Your account has 2-step verification enabled but you have not registered a mobile phone.</string>
+    <string name="missing_access_code">Please provide an access code</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_compose">Compose message</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_pages">Pages</string>
+    <string name="nav_buzz">Buzz</string>
+    <string name="nav_tasks">Projects &amp; tasks</string>
+    <string name="nav_approval_center">Approval center</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_inbox">Notifications</string>
+    <string name="nav_people">People</string>
+    <string name="nav_alerts">Alerts</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_global_search">Global search</string>
+    <string name="nav_global_search_list">Global search list</string>O     <string name="nav_card_search">Select card</string>
+    <string name="home_type_page">Page</string>
+    <string name="home_type_subpage">Subpage</string>
+    <string name="home_type_publication_group">Publication group</string>
+    <string name="home_type_trends">Trends</string>
+    <string name="home_type_card">Card</string>
+    <string name="home_type_project">Project</string>
+    <string name="two_factor_invalid_access_code">Please double-check your access code</string>
+    <string name="sso_unable_to_authenticate">Unable to authenticate with this SSO account at this time</string>
+    <string name="people_all_people">All people</string>
+    <string name="people_following">Following</string>
+    <string name="people_team">Team</string>
+    <string name="people_groups">Groups</string>
+    <string name="not_given">Not given</string>
+    <string name="request_info">Request Info</string>
+    <string name="team_reports_to">Reports to</string>
+    <string name="team_peers">Peers</string>
+    <string name="groups_my">My groups</string>
+    <string name="groups_all">All groups</string>
+    <string name="group_member_count">{count} members</string>
+    <string name="team_reports">Reports</string>
+    <string name="bottom_sheet_text">Send text message</string>
+    <string name="bottom_sheet_add_contact">Add to contacts</string>
+    <string name="bottom_sheet_call">Call {phone}</string>
+    <string name="bottom_sheet_email">Send email to {email}</string>
+    <string name="buzz_trending_cards">CARDS</string>
+    <string name="buzz_trending_topics">TOPICS</string>
+    <string name="buzz_public">Public</string>
+    <string name="buzz_private">Private</string>
+    <string name="buzz_people_with_access">People with access</string>
+    <string name="buzz_discussion">Buzz conversation</string>
+    <string name="buzz_card_versioned">{version_number} conversation</string>
+    <string name="new_discussion">New conversation</string>
+    <string name="discussion_reply">Reply to {name}</string>
+    <string name="existing_discussion">{name}\'s conversation</string>
+    <string name="last_30_days">LAST 30 DAYS</string>
+    <string name="all_time">ALL TIME</string>
+
+    <string name="tab_discussions">CONVERSATIONS</string>
+    <string name="tab_buzz">BUZZ</string>
+    <string name="tab_about">ABOUT</string>
+    <string name="tab_alerts">ALERTS</string>
+    <string name="tab_versions">VERSIONS</string>
+    <string name="tab_related">RELATED</string>
+    <string name="no_results_found">No Results Found</string>
+
+    <string name="about_people_list_views">Views in the last 30 days</string>
+    <string name="about_people_list_access">People with access</string>
+    <string name="about_people_list_favorites">Added to favorites</string>
+    <string name="about_fragment_owner_title">Owner</string>
+    <string name="profile">Profile</string>
+    <string name="profile_contact">Contact</string>
+    <string name="profile_conversation">Conversation</string>
+    <string name="profile_discussions">Conversations</string>
+    <string name="profile_stats">Stats</string>
+    <string name="profile_org_chart">Org chart</string>
+    <string name="profile_compensation">Salary &amp; stock</string>
+    <string name="profile_follow">Follow</string>
+    <string name="mobile">Mobile</string>
+    <string name="work">Work</string>
+    <string name="domo_score">DOMO SCORE</string>
+    <string name="stats_followers">FOLLOWERS</string>
+    <string name="stats_likes">LIKES</string>
+    <string name="stats_profile_views">PROFILE VIEWS</string>
+    <string name="stats_subscribers">SUBSCRIBERS</string>
+    <string name="stats_conversations">CONVERSATIONS</string>
+    <string name="stats_profile_complete">PROFILE COMPLETE</string>
+
+    <string name="time_substitution_last_updated_minutes_plural">Updated {count} mins ago</string>
+    <string name="time_substitution_last_updated_minutes_singular">Updated a min ago</string>
+    <string name="time_substitution_last_updated_hours_plural">Updated {count} hours ago</string>
+    <string name="time_substitution_last_updated_hours_singular">Updated an hour ago</string>
+    <string name="time_substitution_last_updated_days_plural">Updated {count} days ago</string>
+    <string name="time_substitution_last_updated_days_singular">Updated yesterday</string>
+    <string name="time_substitution_last_updated_months_plural">Updated {count} months ago</string>
+    <string name="time_substitution_last_updated_months_singular">Updated a month ago</string>
+    <string name="time_substitution_last_updated_years_plural">Updated {count} years ago</string>
+    <string name="time_substitution_last_updated_years_singular">Updated a year ago</string>
+
+    <string name="time_substitution_short_minutes_plural">{count} mins ago</string>
+    <string name="time_substitution_short_minutes_singular">a min ago</string>
+    <string name="time_substitution_short_hours_plural">{count} hours ago</string>
+    <string name="time_substitution_short_hours_singular">an hour ago</string>
+    <string name="time_substitution_short_days_plural">{count} days ago</string>
+    <string name="time_substitution_short_days_singular">yesterday</string>
+    <string name="time_substitution_short_months_plural">{count} months ago</string>
+    <string name="time_substitution_short_months_singular">a month ago</string>
+    <string name="time_substitution_short_years_plural">{count} years ago</string>
+    <string name="time_substitution_short_years_singular">a year ago</string>
+
+    <string name="time_substitution_feed_short_minutes_singular">1m ago</string>
+    <string name="time_substitution_feed_short_minutes_plural">{count}m ago</string>
+    <string name="time_substitution_feed_short_hours_singular">1h ago</string>
+    <string name="time_substitution_feed_short_hours_plural">{count}h ago</string>
+    <string name="time_substitution_feed_short_days_singular">1d ago</string>
+    <string name="time_substitution_feed_short_days_plural">{count}d ago</string>
+    <string name="time_substitution_feed_short_months_singular">1mo ago</string>
+    <string name="time_substitution_feed_short_months_plural">{count}mo ago</string>
+    <string name="time_substitution_feed_short_years_singular">1y ago</string>
+    <string name="time_substitution_feed_short_years_plural">{count}y ago</string>
+
+    <string name="time_substitution_joined_minutes_plural">Joined {count} mins ago</string>
+    <string name="time_substitution_joined_minutes_singular">Joined a min ago</string>
+    <string name="time_substitution_joined_hours_plural">Joined {count} hours ago</string>
+    <string name="time_substitution_joined_hours_singular">Joined an hour ago</string>
+    <string name="time_substitution_joined_days_plural">Joined {count} days ago</string>
+    <string name="time_substitution_joined_days_singular">Joined yesterday</string>
+    <string name="time_substitution_joined_months_plural">Joined {count} months ago</string>
+    <string name="time_substitution_joined_months_singular">Joined a month ago</string>
+    <string name="time_substitution_joined_years_plural">Joined {count} years ago</string>
+    <string name="time_substitution_joined_years_singular">Joined a year ago</string>
+
+    <string name="unfollow">Unfollow</string>
+    <string name="phone">Phone</string>
+    <string name="try_domo_for_free">Try Domo for free</string>
+    <string name="skip_intro">Skip intro</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="page_favorites">Favorites</string>
+    <string name="shared_by">Shared by {name}</string>
+    <string name="shared_by_header">Shared By</string>
+    <string name="uploaded_by_header">Uploaded by</string>
+    <string name="quoted_text">\"{text}\"</string>
+    <string name="image_saved">Image saved</string>
+    <string name="image_save_error">There was a problem saving the image</string>
+    <string name="document_saved">Document saved</string>
+    <string name="document_upload_success">Document uploaded!</string>
+    <string name="document_save_error">There was a problem saving the document</string>
+    <string name="document_upload_error">There was a problem uploading the document</string>
+    <string name="document_upload_in_progress">Uploading…</string>
+    <string name="document_version">v{number}</string>
+    <string name="document_upload_date">Uploaded {date} {time}</string>
+
+    <string name="trending_views">{count} views</string>
+    <string name="trending_comments">{count} comments</string>
+    <string name="trending_linked_cards_viewed">{count} related cards viewed</string>
+
+    <string name="document_downloaded_failed">Failed to download {name}</string>
+    <string name="document_downloaded">Downloaded {name}</string>
+    <string name="document_download_complete">Download complete</string>
+    <string name="document_download_failed">Download failed</string>
+    <string name="item_downloading_see_notification_for_details">Item will be downloaded. See notification for details</string>
+
+    <string name="period_this_quarter">This Quarter</string>
+
+    <string name="period_this_quarter_n_years_ago">This Quarter {count} Years ago</string>
+
+    <string name="period_this_hour">This Hour</string>
+
+    <string name="period_today">Today</string>
+
+    <string name="period_week_to_date">Week to Date</string>
+
+    <string name="period_month_to_date">Month to Date</string>
+
+    <string name="period_quarter_to_date">Quarter to Date</string>
+
+    <string name="period_year_to_date">Year to Date</string>
+
+    <string name="period_last_n_hours">Last {count} Hours</string>
+
+    <string name="period_last_n_days">Last {count} Days</string>
+
+    <string name="period_last_n_weeks">Last {count} Weeks</string>
+
+    <string name="period_last_n_months">Last {count} Months</string>
+
+    <string name="period_last_n_quarters">Last {count} Quarters</string>
+
+    <string name="period_last_n_years">Last {count} Years</string>
+
+    <string name="period_next_n_hours">Next {count} Hours</string>
+
+    <string name="period_next_n_days">Next {count} Days</string>
+
+    <string name="period_next_n_weeks">Next {count} Weeks</string>
+
+    <string name="period_next_n_months">Next {count} Months</string>
+
+    <string name="period_next_n_quarters">Next {count} Quarters</string>
+
+    <string name="period_next_n_years">Next {count} Years</string>
+
+    <string name="period_interval_this_hour">This Hour</string>
+
+    <string name="period_interval_today">Today</string>
+
+    <string name="period_interval_this_week">This Week</string>
+
+    <string name="period_interval_this_month">This Month</string>
+
+    <string name="period_interval_this_quarter">This Quarter</string>
+
+    <string name="period_interval_this_year">This Year</string>
+
+    <string name="period_interval_next_day">Tomorrow</string>
+
+    <string name="period_interval_next_week">Next Week</string>
+
+    <string name="period_interval_next_month">Next Month</string>
+
+    <string name="period_interval_next_quarter">Next Quarter</string>
+
+    <string name="period_interval_next_year">Next Year</string>
+
+    <string name="period_n_hours_ago">{count} Hours ago</string>
+
+    <string name="period_n_days_ago">{count} Days ago</string>
+
+    <string name="period_n_weeks_ago">{count} Weeks ago</string>
+
+    <string name="period_n_months_ago">{count} Months ago</string>
+
+    <string name="period_n_quarters_ago">{count} Quarters ago</string>
+
+    <string name="period_n_years_ago">{count} Years ago</string>
+
+    <string name="period_fixed">{from_date} - {to_date}</string>
+
+    <string name="period_all_time">All Time</string>
+
+    <string name="grain_format">{date_period} by {date_grain}</string>
+
+    <string name="grain_hour">Hour</string>
+    <string name="grain_day">Day</string>
+    <string name="grain_week">Week</string>
+    <string name="grain_month">Month</string>
+    <string name="grain_quarter">Quarter</string>
+    <string name="grain_year">Year</string>
+
+
+    <string name="cd_page_stack_card_large_sharer">Image of person who shared this card</string>
+    <string name="cd_page_stack_card_preview">preview image of this card</string>
+    <string name="cd_document_preview_image">document preview image</string>
+    <string name="cd_document_editor_avatar">avatar of person who edited the document</string>
+    <string name="cd_document_owner">Avatar of the owner of this document</string>
+    <string name="cd_avatar_author">Avatar of author</string>
+    <string name="cd_buzz2_message_post">Post message</string>
+    <string name="cd_buzz2_message_attach">Add an attachment</string>
+    <string name="cd_buzz2_start_topic">Start a thread</string>
+    <string name="cd_buzz2_chip_remove">Remove user</string>
+    <string name="cd_buzz2_add_users">Add people</string>
+    <string name="cd_buzz2_add_user">Add user</string>
+    <string name="cd_buzz2_remove_user">Remove user</string>
+    <string name="cd_buzz2_email">Email Notifications</string>
+    <string name="cd_buzz2_push">Push Notifications</string>
+    <string name="cd_buzz2_sms">SMS Notifications</string>
+    <string name="cd_change_access">Change access</string>
+    <string name="cd_private_thread">Private thread</string>
+    <string name="cd_topic">Thread</string>
+    <string name="cd_view_topics">View threads</string>
+    <string name="cd_integration">Integration logo</string>
+    <string name="cd_dismiss">Close</string>
+    <string name="cd_view_more">View more</string>
+    <string name="cd_clear_all">Clear all</string>
+    <string name="cd_mention_toggle">Toggle showing mentions</string>
+    <string name="cd_scroll_to_first_unread">Go to first unread message</string>
+
+    <string name="requires_kitkat">Feature requires Android KitKat or later</string>
+    <string name="poll_see_results">See results</string>
+    <string name="vote_now_button">VOTE NOW</string>
+    <string name="poll_hide_results">Hide results</string>
+    <string name="poll_total_votes">Total Votes: {count}</string>
+
+
+    <string name="poll_result_summary_one">{label} ({percent}, {count} Vote)</string>
+    <string name="poll_result_summary_other">{label} ({percent}, {count} Votes)</string>
+    <string name="poll_error_checkbox_no_selection">Please select at least one option to register your vote</string>
+    <string name="poll_error_radiobutton_no_selection">Please select an option to register your vote</string>
+
+    <string name="no_preview">No\nPreview</string>
+    <string name="settings_account">Account</string>
+    <string name="settings_company">Company</string>
+    <string name="settings_my_profile">My profile</string>
+    <string name="settings_change_password">Change password</string>
+    <string name="settings_privacy_policy">Privacy policy</string>
+    <string name="settings_service_agreement">Service agreement</string>
+    <string name="settings_community">Community</string>
+    <string name="settings_current_password">Current password</string>
+    <string name="settings_retype_password">Re-type password</string>
+    <string name="change_password_error_empty_field">Please fill in all fields</string>
+    <string name="change_password_error_match">Passwords do not match</string>
+    <string name="password_changed">Password changed</string>
+    <string name="change_password_error">There was an error changing your password</string>
+
+    <string name="network_error">A network error has occurred. Please try again</string>
+    <string name="no_connectivity">Network connection failed</string>
+
+    <string name="projects">Projects</string>
+    <string name="task">Task</string>
+    <string name="tasks">Tasks</string>
+    <string name="projects_my">My projects</string>
+    <string name="projects_all">All projects</string>
+    <string name="tasks_my">My tasks</string>
+    <string name="tasks_all">All tasks</string>
+    <string name="project_open_tasks_one">1 open task</string>
+    <string name="project_open_tasks_other">{count} open tasks</string>
+    <string name="project_closed_tasks_one">1 closed task</string>
+    <string name="project_closed_tasks_other">{count} closed tasks</string>
+    <string name="task_assignees_one">1 assignee</string>
+    <string name="task_assignees_other">{count} assignees</string>
+    <string name="task_due">Due {date}</string>
+    <string name="task_todo">To-do</string>
+    <string name="task_in_progress">In progress</string>
+    <string name="task_completed">Completed</string>
+    <string name="task_sort_default">Default</string>
+    <string name="task_sort_project">Project</string>
+    <string name="task_sort_due_date">Due date</string>
+    <string name="task_sort_name">Name (alphabetically)</string>
+    <string name="project_create">Create project</string>
+    <string name="project_name">Project name</string>
+    <string name="due_date">Due date</string>
+    <string name="description">Description</string>
+    <string name="create_a_description">Create a description…</string>
+    <string name="privacy">Privacy</string>
+    <string name="team_members">Team members</string>
+    <string name="privacy_public">Public</string>
+    <string name="privacy_private">Private</string>
+    <string name="project_your_tasks">Your Personal Tasks</string>
+    <string name="project_personal_tasks">Personal Tasks - {name}</string>
+    <string name="project_tasks_youve_assigned">Tasks You’ve Assigned</string>
+    <string name="project_error_no_name">Please provide a name for the project</string>
+    <string name="project_edit">Edit project</string>
+    <string name="project_delete">Delete project</string>
+    <string name="project_no_tasks">No tasks yet. Drag a task here or tap the + button</string>
+    <string name="project_add_team_member">Add team member</string>
+    <string name="task_description">Task description</string>
+    <string name="activity">Activity</string>
+    <string name="task_assigned_to">Assigned to</string>
+    <string name="tags">Tags</string>
+    <string name="attachments">Attachments</string>
+    <string name="task_create">Create task</string>
+    <string name="task_details">Task details</string>
+    <string name="task_error_no_name">Please provide a name for the task</string>
+    <string name="task_list">List</string>
+    <string name="task_add_assignee">Add assignee</string>
+    <string name="task_alert_archive_warning">Are you sure you want to archive this task?</string>
+    <string name="list_alert_archive_warning">Are you sure you want to archive this list?</string>
+    <string name="list_tasks_alert_archive_warning">Are you sure you want to archive all tasks this list?</string>
+    <string name="project_alert_delete_warning">Are you sure you want to delete this project?</string>
+    <string name="task_attachment_delete_warning">Are you sure you want to delete this attachment?</string>
+    <string name="share_buzz_card_message">Only people with access will be able to see this card. Grant access to everyone in this channel?</string>
+    <string name="share_buzz_page_message">Only people with access will be able to see this page. Grant access to everyone in this channel?</string>
+    <string name="tag_add_hint">Add a tag…</string>
+    <string name="tag_add_button">Add</string>
+    <string name="task_archive">Archive task</string>
+    <string name="tags_zero">0 Tags</string>
+    <string name="project_update_failed">Failed to update project</string>
+    <string name="project_create_failed">Failed to create new project</string>
+    <string name="project_delete_failed">Failed to delete project</string>
+    <string name="list_create_failed">Failed to create list</string>
+    <string name="task_update_failed">Failed to update task</string>
+    <string name="task_create_failed">Failed to create new task</string>
+    <string name="task_delete_failed">Failed to archive task</string>
+    <string name="task_created">Task created</string>
+    <string name="attachment_upload_failed">Failed to upload attachment</string>
+    <string name="person_remove">Remove person</string>
+    <string name="menu_list_move_up">Move up</string>
+    <string name="menu_list_move_down">Move down</string>
+    <string name="menu_list_change_name">Edit list name</string>
+    <string name="list_name">List name</string>
+    <string name="menu_list_archive">Archive list</string>
+    <string name="menu_list_archive_tasks">Archive all tasks in list</string>
+    <string name="menu_list_unarchive">Unarchive list</string>
+    <string name="menu_task_unarchive">Unarchive task</string>
+    <string name="project_create_list">Create list</string>
+    <string name="project_rename_list">Edit list name</string>
+    <string name="menu_view_archived">View archives</string>
+    <string name="actionbar_subtitle_archived">Archives</string>
+    <string name="buzz_add_failed">Failed to add new Buzz message</string>
+    <string name="buzz_like_failed">Failed to like Buzz message</string>
+    <string name="buzz_unlike_failed">Failed to unlike Buzz message</string>
+    <string name="buzz_mute_failed">Failed to mute Buzz message</string>
+    <string name="buzz_unmute_failed">Failed to unmute Buzz message</string>
+    <string name="buzz_delete_failed">Failed to delete Buzz message</string>
+    <string name="buzz_collaborators_failed">Failed to share buzz message with collaborators</string>
+    <string name="buzz_private_failed">Failed to make Buzz message private</string>
+    <string name="buzz_public_failed">Failed to make Buzz message public</string>
+
+    <string name="task_attachments_singular">{count} Attachment</string>
+    <string name="task_attachments_plural">{count} Attachments</string>
+    <string name="task_in_project">in {projectname}</string>
+    <string name="menu_show_filters">Show filters</string>
+    <string name="menu_clear_filters">Clear filters</string>
+    <string name="document_upload">Uploading {name}</string>
+    <string name="no_tags">No tags in results</string>
+    <string name="task_assign_personal_message">This task is in a personal project and can only be assigned to the user the project belongs to.</string>
+    <string name="task_reasssign">Reassign</string>
+    <string name="menu_task_go_to_project">Go to project</string>
+    <string name="task_new_task">NEW TASK</string>
+    <string name="task_new_list">NEW LIST</string>
+    <string name="task_assign_task">ASSIGN TASK</string>
+    <string name="intro_page1_title">Information is moving faster than your business.</string>
+    <string name="intro_page1_body">It’s time that changed.</string>
+    <string name="intro_page2_title">Connect to your data</string>
+    <string name="intro_page2_body">Domo makes hooking up your data easy. Connect to any source of data, faster than ever before possible.</string>
+    <string name="intro_page3_title">Visualize your metrics</string>
+    <string name="intro_page3_body">You’re a visual animal. Domo lets you consume business data the way nature intended.</string>
+    <string name="menu_show_hidden_pages">Show hidden pages</string>
+    <string name="menu_hide_hidden_pages">Don’t show hidden pages</string>
+    <string name="page_hide">Hide page</string>
+    <string name="page_unhide">Unhide page</string>
+    <string name="view_more">View more</string>
+    <string name="view_less">View less</string>
+    <string name="logging_out">Logging out…</string>
+    <string name="menu_reorder">Reorder</string>
+    <string name="welcome_to_domo">Welcome to Domo!</string>
+    <string name="home_welcome">This is your Home screen, where shortcuts of your most interesting Pages, Subpages, and Trends are displayed.\n\nTap on those that most interest you.</string>
+    <string name="get_started">Get started</string>
+    <string name="menu_table_sort_ascending">Sort ascending</string>
+    <string name="menu_table_sort_descending">Sort descending</string>
+    <string name="menu_table_group">Group</string>
+    <string name="menu_table_hide_column">Hide column</string>
+    <string name="menu_table_unhide_all">Show all columns</string>
+    <string name="menu_table_hide_others">Hide other columns</string>
+    <string name="menu_table_filter">Filter</string>
+    <string name="menu_table_expand_column">Expand column</string>
+    <string name="menu_table_contract_column">Contract column</string>
+    <string name="menu_table_search">Search column</string>
+    <string name="menu_table_search_all">Search all columns</string>
+    <string name="home_nothing_added">Nothing added</string>
+    <string name="home_empty_message">Customize your Home screen by adding your most interesting Pages, Subpages, and Trends below.</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="searching_column_name">Searching - {name}</string>
+    <string name="searching_all_columns">Search</string>
+    <string name="select_a_column">Select a column</string>
+
+    <string name="operation_less_than">is less than</string>
+    <string name="operation_less_than_or_equal">is less than or equal to</string>
+    <string name="operation_greater_than">is greater than</string>
+    <string name="operation_greater_than_or_equal">is greater than or equal to</string>
+    <string name="operation_equal_to">is</string>
+    <string name="operation_not_equal_to">is not</string>
+    <string name="operation_between">is between</string>
+    <string name="filter_max">Max:</string>
+    <string name="filter_average">Avg:</string>
+    <string name="filter_minimum">Min:</string>
+    <string name="filter_bar_selected_operand">{operand} {value}</string> <string name="apply">Apply</string>
+    <string name="filter_hint_enter_value">Enter value</string>
+    <string name="filter_to">to</string>
+    <string name="provide_a_value">Please provide a value</string>
+    <string name="provide_both_values">Please provide both values</string>
+    <string name="select_date">Select date</string>
+    <string name="operation_in">in</string>
+    <string name="operation_not_in">not in</string>
+    <string name="filter_select">Select {all}, {none}</string>
+    <string name="filter_select_all">All</string>
+    <string name="filter_select_none">None</string>
+    <string name="filter_nothing_selected">Nothing is selected.</string>
+    <string name="operator_above_average">is above average</string>
+    <string name="operator_below_average">is below average</string>
+    <string name="user_profile_title">Title</string>
+    <string name="user_profile_name">Name</string>
+    <string name="uber_user_title">Uber User Mode</string>
+    <string name="start">Start</string>
+    <string name="proxy_warning">You are now logging in as a proxy user. All proxy activity will be logged by Domo.</string>
+    <string name="operation_symbol_and">and</string>
+    <string name="operation_symbol_or">or</string>
+    <string name="operation_symbol_equals_to">=</string>
+    <string name="operation_symbol_not_equals_to">≠</string>
+    <string name="operation_symbol_like">like</string>
+    <string name="operation_symbol_null">null</string>
+    <string name="operation_symbol_less_than"><![CDATA[<]]></string>
+    <string name="operation_symbol_greater_than"><![CDATA[>]]></string>
+    <string name="operation_symbol_less_than_or_equal">≤</string>
+    <string name="operation_symbol_greater_than_or_equal">≥</string>
+    <string name="operation_symbol_between">in between</string>
+    <string name="operation_symbol_in">in</string>
+    <string name="operation_symbol_not_in">not in</string>
+    <string name="column_type_date">Date</string>
+    <string name="column_type_datetime">DateTime</string>
+    <string name="column_type_numeric">Numeric</string>
+    <string name="column_type_string">String</string>
+    <string name="notification_conversation">commented in Buzz</string>
+    <string name="notification_task_created">created a task</string>
+
+    <string name="notification_mention">{names} mentioned you in a conversation {topic}</string>
+    <string name="notification_group_mention">{names} mentioned your group in a conversation {topic}</string>
+    <string name="notification_replied_owner">{names} replied to their conversation</string>
+    <string name="notification_replied">{names} replied to {name_possessive} conversation</string>
+    <string name="notification_commented">{names} commented on {name_possessive} conversation on {topic}</string>
+    <string name="notification_names_two">{name1} &amp; {name2}</string>
+    <string name="notification_names_three">{name1}, {name2} &amp; 1 other</string>
+    <string name="notification_names_many">{name1}, {name2} &amp; {count} others</string>
+    <string name="notification_task_moved">{name} moved the task \"{taskname}\" to \"{listname}\"</string>
+    <string name="notification_task_attached">{name} attached the file \"{filename}\" to the task \"{taskname}\"</string>
+    <string name="notification_task_assigned">{name} assigned you the task \"{taskname}\"</string>
+    <string name="notification_task_comment">{name} commented on your task \"{taskname}\"</string>      // These strings are lifted mostly verbatim from DomoWeb     <string name="notif_conv_mentioned_user">{displayname} mentioned you in a conversation \"{html}\"</string>
+    <string name="notif_conv_mentioned_group">{displayname} mentioned your group in a conversation \"{html}\"</string>
+    <string name="notif_reply_my_conversation">{displayname} replied to your conversation</string>
+    <string name="notif_reply_their_conversation">{displayname} replied to their conversation"</string>
+    <string name="notif_reply_conversation">{displayname} replied to {originatorname}’s conversation</string>
+    <string name="notif_dataflow_disabled">The dataflow {dataflowname} is having problems and has been disabled</string>
+    <string name="notif_task_created">{displayname} assigned you the task \"{taskname}\"</string>
+    <string name="notif_task_updated">{displayname} updated the task \"{taskname}\"</string>
+    <string name="notif_task_attachment">{displayname} attached the file \"{filename}\" to the task \"{taskname}\"</string>
+    <string name="notif_task_moved">{displayname} moved the task \"{taskname}\" to \"{listname}\"</string>
+    <string name="notif_task_sys_log">{displayname} modified your task {taskname}</string>
+    <string name="notif_task_name_unavail">task name unavailable</string>
+    <string name="notif_task_comment">{displayname} commented on your task \"{taskname}\"</string>
+    <string name="notif_achievement_awarded">{awardedtoname} was awarded the {awardname} Achievement by {awardedbyname}</string>
+    <string name="notif_themself">themselves</string>
+    <string name="notif_first_login">{displayname} just logged in for the first time!</string>
+    <string name="notif_card_mention_user">{displayname} mentioned you in a conversation on {cardname}</string>
+    <string name="notif_card_mention_group">{displayname} mentioned your group in a conversation {cardname}</string>
+    <string name="notif_card_comment_user">{displayname} commented on {originator}’s conversation on {cardname}</string>
+    <string name="conjunction_short">&amp;</string>
+    <string name="other_one">other</string>
+    <string name="other_other">others</string>
+
+    <string name="moment_just_now">just now</string>
+    <string name="moment_seconds_ago">a few seconds ago</string>
+    <string name="moment_a_minute_ago">a minute ago</string>
+    <string name="moment_minutes_ago">{count} minutes ago</string>
+    <string name="moment_an_hour_ago">an hour ago</string>
+    <string name="moment_hours_ago">{count} hours ago</string>
+    <string name="moment_a_day_ago">a day ago</string>
+    <string name="moment_days_ago">{count} days ago</string>
+    <string name="moment_a_month_ago">a month ago</string>
+    <string name="moment_months_ago">{count} months ago</string>
+    <string name="moment_a_year_ago">a year ago</string>
+    <string name="moment_years_ago">{count} years ago</string>
+
+    <string name="moment_seconds">A few seconds</string>
+    <string name="moment_a_minute">A minute ago</string>
+    <string name="moment_minutes">{count} minutes</string>
+    <string name="moment_an_hour">An hour</string>
+    <string name="moment_hours">{count} hours</string>
+    <string name="moment_a_day">A day</string>
+    <string name="moment_days">{count} days</string>
+    <string name="moment_a_month">A month</string>
+    <string name="moment_months">{count} months</string>
+    <string name="moment_a_year">A year</string>
+    <string name="moment_years">{count} years</string>
+
+    <string name="buzz_compose_message_public">Public. \nThis post can be viewed by everyone in your company.</string>
+    <string name="buzz_compose_message_collaborators">Collaborators. \nThis post can only be viewed by the collaborators of this card.</string>
+    <string name="buzz_compose_message_private">Private. \nThis post can only be viewed by people who have been explicitly @mentioned.</string>
+    <string name="typeahead_users">Users</string>
+    <string name="typeahead_groups">Groups</string>
+    <string name="typeahead_cards">Cards</string>
+    <string name="typeahead_pages">Pages</string>
+    <string name="typeahead_projects">Projects</string>
+    <string name="typeahead_channels">Buzz Channels</string>
+    <string name="typeahead_message">Buzz Messages</string>
+    <string name="unrecognized_link">The link you selected is not recognized.</string>
+    <string name="downloading_remote_image">Downloading remote image</string>
+
+    <string name="search_people_groups">People &amp; Groups</string>
+    <string name="search_cards_pages">Cards &amp; Pages</string>
+    <string name="search_buzz">Buzz</string>
+    <string name="search_cards">Cards</string>
+    <string name="search_pages">Pages</string>
+    <string name="search_people">People</string>
+    <string name="search_groups">Groups</string>
+    <string name="search_messages">Buzz Messages</string>
+    <string name="search_channels">Buzz Channels</string>
+    <string name="search_channel">Buzz Channel</string>
+    <string name="search_all">All</string>
+
+    <string name="buzz2_conversations">Conversations</string>
+    <string name="buzz2_chats">People Conversations</string>
+    <string name="buzz2_channels">Data Conversations</string>
+    <string name="buzz2_topics">Threads</string>
+    <string name="buzz2_object_chats">Cards &amp; Pages</string>
+    <string name="buzz2_new_chat">New Conversation</string>
+    <string name="buzz2_new_channel">New channel</string>
+    <string name="buzz2_new_topic">New thread</string>
+    <string name="buzz2_new_object">New card</string>
+    <string name="buzz2_message_timestamp">Last Here {date} @ {time}</string>
+
+    <string name="buzz_view_attachments">View {count} attachments</string>
+    <string name="buzz_card_access_prompt">{name} does not have access to {cardname}. They will still be able to see this conversation, but not the referenced content</string>
+    <string name="grant_access">Grant access</string>
+    <string name="ignore">Ignore</string>
+    <string name="card_share_error">There was an error granting access to the card.</string>
+    <string name="card_share_success">Card shared</string>
+    <string name="buzz2_compose_hint">Write a message…</string>
+    <string name="buzz2_private_compose_hint">Send private message</string>
+    <string name="buzz2_mention_all">"{alltag} - mention all channel members</string>
+    <string name="buzz2_conversation_mention_all">"{alltag} - mention all conversation members</string>
+    <string name="buzz2_new_channel_title">Title</string>
+    <string name="buzz2_new_channel_description">Description</string>
+    <string name="buzz2_new_channel_date_created">Date created</string>
+    <string name="buzz2_channel_started">Conversation Started</string>
+    <string name="buzz2_mute">Mute</string>
+    <string name="buzz2_leave">Unfollow</string>
+    <string name="buzz2_start_conversation">Start the conversation</string>
+    <string name="buzz2_start_conversation_channel_name">Say something to {channel_name}</string>
+    <string name="buzz2_creating_channel">Creating channel</string>
+    <string name="buzz2_search_users_messages">{user_count} people / {post_count} posts</string>
+    <string name="bottom_sheet_buzz_attach_file">Attach a file</string>
+    <string name="bottom_sheet_buzz_attach_card">Add a card</string>
+    <string name="bottom_sheet_buzz_attach_photo">Take a photo</string>
+    <string name="bottom_sheet_select_gallery">Select from device</string>
+    <string name="buzz2_now_typing_one_user">{name} is typing…</string>
+    <string name="buzz2_now_typing_multiple_user">{names} are typing…</string>
+    <string name="message_send_failed_retry">Send failed. Touch to retry.</string>
+    <string name="filter_by_hint">Filter by…</string>
+    <string name="bottom_sheet_buzz2_edit_post">Edit post</string>
+    <string name="bottom_sheet_buzz2_delete_post">Delete message</string>
+    <string name="bottom_sheet_buzz2_add_reaction">Add reaction</string>
+    <string name="bottom_sheet_buzz2_reply">Create thread from message</string>
+    <string name="bottom_sheet_buzz2_quote_reply">Reply</string>
+    <string name="bottom_sheet_buzz2_favorite">Favorite</string>
+    <string name="bottom_sheet_buzz2_unfavorite">Unfavorite</string>
+    <string name="bottom_sheet_buzz2_copy">Copy text</string>
+    <string name="buzz2_new_conversation">New conversation</string>
+    <string name="buzz2_you_were_invited">You were invited</string>
+    <string name="buzz2_thread">Thread</string>
+    <string name="buzz2_thread_error">Error creating thread</string>
+    <string name="buzz2_view_replies">View replies</string>
+    <string name="buzz2_reply_to">Reply to <b>{user}</b> • <i>\"{message}\"</i></string>
+    <string name="buzz2_no_users">No Users Added</string>
+    <string name="buzz2_add_users">Add members to this channel</string>
+    <string name="buzz2_add_private_chat_members">Add People</string>
+    <string name="buzz2_join">Follow</string>
+    <string name="buzz2_unmute">Unmute</string>
+    <string name="favorited_messages">Favorited messages</string>
+    <string name="topics">Threads</string>
+    <string name="buzz_card_channel_under_construction">We are currently building a preview mode for Buzz in this area. For now, tap the button below to view this card\'s channel inside Buzz.</string>
+    <string name="error_loading_card">Error loading card</string>
+    <string name="access_denied">Access denied</string>
+    <string name="card_no_access">You don\'t have access to see this card</string>
+    <string name="request_card_access">Request access from card owner</string>
+    <string name="buzz_share_grant">Grant</string>
+    <string name="buzz2_save_error">There was an error saving your changes</string>
+    <string name="buzz2_save_success">Changes saved</string>
+    <string name="buzz2_history_title">History Display</string>
+    <string name="buzz2_history_prompt">This user will now be able to see this chat\'s history</string>
+    <string name="buzz2_placeholder_channel_title">No Channels Added</string>
+    <string name="buzz2_placeholder_channel_subtitle">Tap the globe icon up top to to discover all the existing data conversations you can choose to join.</string>
+    <string name="buzz2_placeholder_chat_title">No Chats Added</string>
+    <string name="buzz2_placeholder_chat_subtitle">Create or follow one by tapping add</string>
+    <string name="buzz2_placeholder_conversations_title">No Conversations Added</string>
+    <string name="loading">Loading…</string>
+    <string name="location_hint">Enter a location…</string>
+    <string name="empty_collection_card">There are currently no cards in this collection</string>
+    <string name="add_title">Add a title</string>
+    <string name="buzz2_type_to_search">Type to Search</string>
+    <string name="buzz2_type_to_search_hint_card">Search for a card with keywords</string>
+    <string name="buzz2_type_to_search_hint_page">Search for a page with keywords</string>
+    <string name="buzz2_no_results">No Results Found</string>
+    <string name="buzz2_try_again">Try to search again with different keywords</string>
+    <string name="buzz2_private_message">This is a private message</string>
+    <string name="buzz2_task_from_comment">Create task from comment</string>
+
+    <string name="buzz2_access_pattern_no_groups">To: {type} ({person_count} {person_label})</string>
+    <string name="buzz2_access_pattern_groups">To: {type} ({person_count} {person_label}, {group_count} {group_label})</string>
+    <string name="buzz2_private_group_type">Private Group</string>
+    <string name="buzz2_access_type">People with Access</string>
+    <string name="buzz2_person_label">Person</string>
+    <string name="buzz2_people_label">People</string>
+    <string name="buzz2_group_label">Group</string>
+    <string name="buzz2_groups_label">Groups</string>
+    <string name="buzz2_users_required">You must add users or groups to create a private thread</string>
+    <string name="buzz2_private_chat_title">Private chat with {users}</string>
+    <string name="buzz2_private_chat_no_title">Private chat</string>
+
+    <string name="non_collected_card">{count} additional card</string>
+    <string name="non_collected_cards">{count} additional cards</string>
+    <string name="settings_visit_dojo">Visit the Dojo</string>
+    <string name="page_stack_remaining_cards">Remaining cards</string>
+    <string name="page_stack_remaining_card_count_singular">1 additional card</string>
+    <string name="page_stack_remaining_card_count">{count} additional cards</string>
+    <string name="no_matching_columns">No matching columns</string>
+
+    <string name="page_stack_card_views_count_plural">{count} Views</string>
+    <string name="page_stack_card_views_count">1 View</string>
+    <string name="page_stack_card_favorites_count_plural">{count} Favorites</string>
+    <string name="page_stack_card_favorites_count">1 Favorite</string>
+
+    <string name="range_all_time">All Time</string>
+    <string name="range_all_time_with_date">All Time ({range})</string>
+
+    <string name="range_today">Today</string>
+    <string name="range_this_week">This Week</string>
+    <string name="range_this_month">This Month</string>
+    <string name="range_this_quarter">This Quarter</string>
+    <string name="range_this_year">This Year</string>
+
+    <string name="range_previous_day">Previous Day</string>
+    <string name="range_previous_week">Previous Week</string>
+    <string name="range_previous_month">Previous Month</string>
+    <string name="range_previous_quarter">Previous Quarter</string>
+    <string name="range_previous_year">Previous Year</string>
+    <string name="range_this_quarter_last_year">This Quarter Last Year</string>
+
+    <string name="range_tomorrow">Tomorrow</string>
+    <string name="range_next_week">Next Week</string>
+    <string name="range_next_month">Next Month</string>
+    <string name="range_next_quarter">Next Quarter</string>
+    <string name="range_next_year">Next Year</string>
+
+    <string name="range_last_24_hours">Last 24 Hours</string>
+    <string name="range_last_7_days">Last 7 Days</string>
+    <string name="range_last_30_days">Last 30 Days</string>
+    <string name="range_last_60_days">Last 60 Days</string>
+    <string name="range_last_3_months">Last 3 Months</string>
+    <string name="range_last_6_months">Last 6 Months</string>
+    <string name="range_last_12_months">Last 12 Months</string>
+    <string name="range_last_x_menu">Last…</string>
+    <string name="range_last_x">Last</string>
+
+    <string name="range_next_30_days">Next 30 Days</string>
+    <string name="range_next_60_days">Next 60 Days</string>
+    <string name="range_next_90_days">Next 90 Days</string>
+    <string name="range_next_x_menu">Next…</string>
+    <string name="range_next_x">Next</string>
+
+    <string name="range_week_to_date">Week to Date</string>
+    <string name="range_month_to_date">Month to Date</string>
+    <string name="range_quarter_to_date">Quarter to Date</string>
+    <string name="range_year_to_date">Year to Date</string>
+
+    <string name="range_between">Between</string>dateran      <string name="range_last_x_hours_one">Hour</string>
+    <string name="range_last_x_hours_other">Hours</string>
+    <string name="range_last_x_days_one">Day</string>
+    <string name="range_last_x_days_other">Days</string>
+    <string name="range_last_x_weeks_one">Week</string>
+    <string name="range_last_x_weeks_other">Weeks</string>
+    <string name="range_last_x_months_one">Month</string>
+    <string name="range_last_x_months_other">Months</string>
+    <string name="range_last_x_quarters_one">Quarter</string>
+    <string name="range_last_x_quarters_other">Quarters</string>
+    <string name="range_last_x_years_one">Year</string>
+    <string name="range_last_x_years_other">Years</string>
+
+    <string name="range_grain_none">None</string>
+    <string name="range_grain_hour">Hour</string>
+    <string name="range_grain_day">Day</string>
+    <string name="range_grain_week">Week</string>
+    <string name="range_grain_month">Month</string>
+    <string name="range_grain_quarter">Quarter</string>
+    <string name="range_grain_year">Year</string>
+    <string name="no_content_has_been_shared_with_you">No content has been shared with you</string>
+    <string name="sample_data">Demo data</string>
+    <string name="sample_data_prompt">This card contains sample data. It has been assigned to {assignee}. Power this card on the desktop site.</string>
+
+    <string name="collection_header_more">More</string>
+    <string name="collection_header_less">Less</string>
+    <string name="edit_date_range">Edit date range</string>
+
+
+    <string name="buzz_v3_notification_title_like_conversation">Conversation Liked</string>
+    <string name="buzz_v3_notification_title_conversation">New Conversation</string>
+    <string name="buzz_v3_notification_title_like_reply">Reply Liked</string>
+    <string name="buzz_v3_notification_title_reply">New Reply</string>
+    <string name="buzz_v3_notification_title_task_assign">Task Assigned</string>
+    <string name="buzz_v3_notification_title_task_update">Task Updated</string>
+    <string name="buzz_v3_notification_title_alert">Alert Triggered</string>
+    <string name="buzz_v3_notification_title_mentioned">New Mention</string>
+
+    <string name="buzz_v3_notification_like_conversation">{name} liked your post: \"{message}\"</string>
+    <string name="buzz_v3_notification_conversation">{name} started a conversation with you: \"{message}\"</string>
+    <string name="buzz_v3_notification_like_reply">{name} liked your comment: \"{message}\"</string>
+    <string name="buzz_v3_notification_reply">{name} replied to your conversation: \"{message}\"</string>
+    <string name="buzz_v3_notification_new_reply">{name} replied to {author}\'s conversation: \"{message}\"</string>
+    <string name="buzz_v3_notification_mention">{name} mentioned you: \"{message}\"</string>
+    <string name="buzz_v3_notification_group_mention">{name} mentioned {mentioned}: \"{message}\"</string>
+    <string name="buzz_v3_notification_task_assigned">{name} assigned you the task \"{task_name}\"</string>
+    <string name="buzz_v3_notification_task_updated">{name} updated the task \"{task_name}\"</string>
+    <string name="buzz_v3_notification_alert">The alert \"{alert_name}\" was triggered</string>
+
+    <string name="card_share_notification_title">Card shared</string>
+    <string name="card_share_notification_no_title">A card has been shared with you</string>
+    <string name="card_share_notification">\"{card_name}\" has been shared with you</string>
+
+    <string name="page_share_notification_title">Page shared</string>
+    <string name="page_share_notification_no_title">A page has been shared with you</string>
+    <string name="page_share_notification">\"{page_name}\" been shared with you</string>
+
+    <string name="doc_update_notification_title">Document updated</string>
+    <string name="doc_update_notification">\"{doc_name}\" has been updated</string>
+    <string name="doc_update_notification_no_title">One of your documents has been updated</string>
+
+    <string name="task_assigned_notification_title">Task Assigned</string>
+    <string name="task_assigned_notification">{name} assigned you the task {task_name}</string>
+    <string name="task_assigned_name_unknown">Someone</string>
+    <string name="task_assigned_task_name_unknown">Unknown</string>
+
+    <string name="buzz2_private_thread_title">Discuss Privately?</string>
+    <string name="buzz2_private_thread_body">Private messages allow you to continue your conversation in this channel while keeping your conversation private</string>
+    <string name="forgot_password_email_prompt">Enter your email address, then tap \"Forgot Your Password?\" again</string>
+    <string name="related_channels_title">Related conversations</string>
+    <string name="related_cards">RELATED CARDS</string>
+    <string name="related_channels">RELATED CHANNELS</string>
+    <string name="related_cards_empty">0 RELATED CARDS</string>
+    <string name="related_channels_empty">0 RELATED CHANNELS</string>
+    <string name="write_something">Compose your message…</string>
+    <string name="write_reply">Compose your reply…</string>
+    <string name="deny">Deny</string>
+    <string name="bottom_sheet_buzz2_like">Like</string>
+    <string name="invite_hint_full_name">Full name</string>
+    <string name="invite_hint_email">Email</string>
+    <string name="invite_message">Domo will send a personal invitation to the person of your choosing.</string>
+    <string name="invite_add_another">Add another</string>
+    <string name="invite_title">Send an invite</string>
+    <string name="invite_error">Error sending invite</string>
+    <string name="invite_invalid_email">Invalid email address</string>
+    <string name="invite_sent">Invitation sent!</string>
+    <string name="invite_email_invalid_domain">Email address must include a domain from this list:\n\n</string>
+    <string name="invite_error_empty_name">Name is empty</string>
+    <string name="invite_error_empty_email">Email is empty</string>
+    <string name="nav_invite">Invite new users</string>
+    <string name="invite_team_member">Invite team member</string>
+    <string name="invite_to_domo">Invite to Domo</string>
+    <string name="no_people_found">No people found</string>
+    <string name="check_spelling_or_try_another_search">Check spelling or try another search</string>
+    <string name="view_task_channel">Activity</string>
+    <string name="title_hint">Enter a title…</string>
+    <string name="buzz2_new_private_topic">New private thread</string>
+    <string name="buzz2_topic_name_required">Your thread must have a name</string>
+    <string name="buzz2_channel_name_required">Your channel must have a name</string>
+    <string name="buzz2_private_topic">Private thread</string>
+    <string name="buzz2_private_channel">Private channel</string>
+    <string name="create">Create</string>
+    <string name="failed_to_update_profile_picture">Failed to update profile picture</string>
+    <string name="no_followed_people">No followed people</string>
+    <string name="no_team_members">No team members found</string>
+    <string name="no_group_members">No group members found</string>
+    <string name="no_followed_people_body">To start following, view \"all people\"</string>
+    <string name="no_team_members_body">Add members to your team</string>
+    <string name="no_group_members_body">This group is empty</string>
+    <string name="buzz2_grant_access">Grant Access?</string>
+    <string name="buzz2_grant_card_access_message">If you grant access, all the conversations and details about this card will be visible</string>
+    <string name="error_granting_access_card">There was an error granting access to this card</string>
+    <string name="buzz2_grant_page_access_message">If you grant access, all the conversations and details about this page will be visible</string>
+    <string name="error_granting_access_page">There was an error granting access to this page</string>
+
+    <string name="guide_title_home">Home</string>
+    <string name="guide_message_home">Welcome home! Find shortcuts to your favorite pages, subpages, and trends right this way. You can customize your home to fit your needs.</string>
+    <string name="guide_title_pages">Welcome to Pages</string>
+    <string name="guide_message_pages">Your pages and subpages all hang out here until you need them.</string>
+    <string name="guide_title_interactive_mode">Welcome to Interactive Mode!</string>
+    <string name="guide_message_interactive_mode">If you\'re looking for new insights surrounding your data, you\'ll find it in Interactive Mode. Here you can drill, add filters, or access table data. Just rotate your device to see your charts in landscape view.</string>
+    <string name="guide_title_filters">Filters</string>
+    <string name="guide_message_filters">To see things in a new perspective, use a filter to customize your data.</string>
+    <string name="guide_title_date_range">Date range</string>
+    <string name="guide_message_date_range">Tap anywhere on the date range text above to view your chart\'s data during a specific time period.</string>
+    <string name="guide_title_buzz_v3">Welcome to Buzz!</string>
+    <string name="guide_message_buzz_v3">Have a private conversation or spread the good news. Buzz lets you chat with the right people whenever, wherever.</string>
+    <string name="guide_title_notifications">Notifications</string>
+    <string name="guide_message_notifications">‘Buzz’ and ‘Projects and Tasks’ notifications show up here. Tap any of these to jump to that topic.</string>
+    <string name="guide_title_projects_and_tasks">Nice and neat</string>
+    <string name="guide_message_projects_and_tasks">Here in Projects &amp; Tasks your work is nicely laid out for you. Create, assign, and organize your projects and tasks in one place.</string>
+    <string name="guide_title_people">Find your people</string>
+    <string name="guide_message_people">Access your company\'s directory here.</string>
+
+    <string name="guide_title_tt_menu">Buzz Navigation Menu</string>
+    <string name="guide_message_tt_menu">This is where all of your channels and private chats reside. If something is happening, this is where you\'ll find it.</string>
+    <string name="guide_title_slash">Slash Commands</string>
+    <string name="guide_message_slash">Type a forward slash (/) to open the list of possible commands.</string>
+    <string name="guide_title_chat">Create a Chat</string>
+    <string name="guide_message_chat">Find and create private 1:1 or group chats with team members.</string>
+    <string name="guide_title_topic_from_message">Create thread from message</string>
+    <string name="guide_message_topic_from_message">You can also turn another person\'s posted comment into a thread for further discussion. Just long press on their comment and select "Create thread from message."</string>
+    <string name="guide_title_reply_topic">Reply as Thread</string>
+    <string name="guide_message_reply_topic">You can also turn another person\'s posted comment into a thread for further discussion. Just tap on their comment and select "Reply as a Thread."</string>
+    <string name="guide_title_reaction">Congrats!</string>
+    <string name="guide_message_reaction">You added your first reaction! To undo your reaction, just tap it again.</string>
+    <string name="guide_title_tt_notifications">Notifications</string>
+    <string name="guide_message_tt_notifications">Somebody mentioned you! Follow the red indicators to find the comment.</string>
+    <string name="guide_title_channels">Channels</string>
+    <string name="guide_message_channels">Channels are public conversations, or conversations about your cards and pages. Private Chats are conversations with a single person or a group. You can create new conversations by clicking the \'+\' button.</string>
+    <string name="guide_title_long_press">Long Press to Unfollow</string>
+    <string name="guide_message_long_press">Hiding a chat or unfollowing a channel will remove it from your Navigation Menu so you will no longer receive updates for unread activity.</string>
+    <string name="guide_title_privacy">Privacy Settings</string>
+    <string name="guide_message_privacy">Threads can also be private. Just click on the toggle and select who you want to add. Only the people you have added will be able to view this content.</string>
+
+    <string name="buzz2_topic_title_preview">Started a new thread named \"{name}\"</string>
+    <string name="buzz2_topic_preview_no_title">Started a new thread</string>
+    <string name="buzz2_private_topic_title_preview">Started a new private thread named \"{name}\"</string>
+    <string name="open_deep_link_with">Open with</string>
+    <string name="deep_link_mismatched_domain">The domain in the link is different than the user currently signed into the Domo app. Redirecting to the browser</string>
+
+    <string name="failed_to_refresh_home">Failed to refresh home tiles</string>
+    <string name="failed_to_refresh_pages">Failed to refresh pages</string>
+    <string name="failed_to_refresh_page">Failed to refresh page</string>
+    <string name="failed_to_refresh_projects">Failed to refresh projects</string>
+    <string name="failed_to_refresh_notifications">Failed to refresh notifications</string>
+    <string name="failed_to_refresh_buzz">Failed to refresh Buzz</string>
+    <string name="failed_to_refresh_approval_center">Failed to refresh approvals</string>
+    <string name="failed_to_save_home_tiles">Failed to save changes to home tiles</string>
+    <string name="retry">Retry</string>
+    <string name="search_is_not_available_offline">Search is unavailable offline</string>
+
+    <string name="buzz2_add_description">Add a Description</string>
+    <string name="buzz2_invite_people">Invite People</string>
+    <string name="buzz2_favorites_title">Favorite Messages</string>
+    <string name="buzz2_favorites_message">You don\'t have any favorites in this conversation</string>
+    <string name="buzz2_topics_empty">No threads have been created</string>
+    <string name="buzz2_topics_message">Threads for this channel will appear here</string>
+    <string name="buzz2_attachments_title">Nothing has been attached</string>
+    <string name="buzz2_attachments_message">Attachments for this channel will appear here</string>
+    <string name="buzz2_related_title">No related channels</string>
+    <string name="buzz2_related_message">Related conversations will appear here</string>
+    <string name="buzz2_bots_title">Channel Bots</string>
+    <string name="buzz2_bots_message">You don\'t have any bots added to this conversation</string>
+    <string name="buzz2_show_more_topics">View more</string>
+    <string name="buzz_people_tab_in_channel">In channel</string>
+    <string name="buzz_people_tab_with_access">With access</string>
+    <string name="buzz_people_tab_in_topic">In thread</string>
+    <string name="buzz_people_tab_in_chat">In chat</string>
+    <string name="error_unable_to_get_user_list">Unable to get user list</string>
+    <string name="people_public_channel_topic">This is a public thread</string>
+    <string name="people_public_channel">This is a public channel</string>
+    <string name="public_all_users_may_view_it">All users may view it</string>
+    <string name="buzz2_start_of_topic">This is the start of the conversation in the thread \"{topic_name}\". The conversation was started on {creation_date}.</string>
+    <string name="buzz2_start_of_channel">This is the start of the conversation in the channel \"{channel_name}\". The conversation was started on {creation_date}.</string>
+    <string name="buzz2_start_of_private_channel">This is the start of the conversation in the private channel \"{channel_name}\". The conversation was started on {creation_date}.</string>
+    <string name="buzz2_reply">Reply</string>
+    <string name="buzz2_favorite">Favorite</string>
+    <string name="buzz2_unfavorite">Unfavorite</string>
+    <string name="buzz2_favorites">Favorites</string>
+
+    <string name="buzz2_unpin_favorited_chat">Unfollowing this chat will also remove it as a favorited chat in your Buzz menu</string>
+    <string name="buzz2_unpin_favorited_channel">Unfollowing this channel will also remove it as a favorited channel in your Buzz menu</string>
+
+    <string name="upgrade_required_dialog_title">Update required</string>
+    <string name="upgrade_suggested_dialog_title">Update available</string>
+    <string name="upgrade_required_dialog_message">A new version of Domo is out. Upgrade now to continue.</string>
+    <string name="upgrade_suggested_dialog_message">A new version of Domo is out. Please update.</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="upgrade_not_now">Not now</string>
+
+    <string name="buzz2_unable_to_remove_user">Unable to remove user</string>
+    <string name="buzz2_unable_to_remove_group">Unable to remove group</string>
+    <string name="buzz2_people_channel_users_updated">Channel users updated</string>
+    <string name="buzz2_people_unable_to_update_channel_users">Unable to update channel users</string>
+    <string name="buzz2_people_invitation_sent">Invitation sent</string>
+    <string name="buzz2_people_unable_to_invite_people">Unable to invite people to channel</string>
+    <string name="buzz2_group_chat_title_hint">Title (optional)</string>
+
+    <string name="relogin_required">Settings updated</string>
+    <string name="relogin_required_message">Please re-enter your credentials.</string>
+    <string name="copyright">Copyright © 2016 Domo Inc. All rights reserved.</string>
+
+    <string name="daily_domo_favorite">Favorite</string>
+    <string name="daily_domo_unfavorite">Unfavorite</string>
+    <string name="request_phone_number">Please add a phone number to your profile.</string>
+    <string name="message">Buzz Message</string>
+    <string name="send_email">Send Email</string>
+
+    <string name="buzz2_inbox_empty_title">No Notifications</string>
+    <string name="buzz2_inbox_empty_body">Notifications will appear here</string>
+    <string name="buzz2_new_topic_creator">{name} started a thread</string>
+    <string name="buzz2_you_started_topic">You started a thread</string>
+    <string name="buzz2_topic_access_denied">You must grant access to add {name} to this topic</string>
+    <string name="empty_favorites_page">You haven\'t favorited anything yet</string>
+    <string name="empty_page">No cards found for this page</string>
+    <string name="buzz2_mark_read">Mark as read</string>
+    <string name="checking_access">Checking rights…</string>
+    <string name="request_decryption_access">Request access from owner</string>
+    <string name="unlock_private_data">Unlock private data</string>
+    <string name="unlock_password">Password</string>
+    <string name="unlock">Unlock</string>
+    <string name="wrong_password">Wrong password. Try again</string>
+    <string name="encrypted_data"><![CDATA[<Encrypted Data>]]></string>
+    <string name="document_processing">Processing file…</string>
+    <string name="upgrade_requried">This feature is not available to social users</string>
+    <string name="buzz2_people">People</string>
+    <string name="buzz2_data">Data</string>
+    <string name="buzz2_activity_loading">Channel activity appears here</string>
+    <string name="buzz2_view_channel">View channel</string>
+    <string name="buzz2_search_no_channels">No matches</string>
+
+    <string name="social_dialog_benefits">Benefits</string>
+    <string name="social_dialog_benefits_body">The free version of Domo barely scratches the surface. Unleash the beast and you\'ll become the master of your data, and your business (or somebody else\'s business if you\'re an employee).</string>
+    <string name="social_dialog_cancel">No thanks</string>
+    <string name="social_dialog_start_trial">Start free trial</string>
+
+    <string name="social_dialog_feature">Feature</string>
+    <string name="social_dialog_free">Free</string>
+    <string name="social_dialog_full">Full Domo</string>
+    <string name="social_dialog_buzz">Buzz</string>
+    <string name="social_dialog_projects_tasks">Projects &amp; Tasks</string>
+    <string name="social_dialog_people">People</string>
+    <string name="social_dialog_profile">Profile</string>
+    <string name="social_dialog_card_builder">Card Builder *</string>
+    <string name="social_dialog_pages">Pages</string>
+    <string name="social_dialog_unlimited_appstore">Unlimited AppStore *</string>
+    <string name="social_dialog_data_center">Data Center *</string>
+    <string name="social_dialog_alerts">Alerts *</string>
+    <string name="social_dialog_upgrading">Upgrading account…</string>
+
+    <string name="social_dialog_title_card">Card Analyzer</string>
+    <string name="social_dialog_body_card">This area is part of the complete Domo experience. Think you\'re ready for a free 60 days of the real deal? Instant access to full Domo begins here.</string>
+
+    <string name="social_dialog_title_pages">Pages</string>
+    <string name="social_dialog_body_pages">This area is part of the complete Domo experience. Think you\'re ready for a free 60 days of the real deal? Instant access to full Domo begins here.</string>
+
+    <string name="social_dialog_title_download">Downloading Documents</string>
+    <string name="social_dialog_body_download">This area is part of the complete Domo experience. Think you\'re ready for a free 60 days of the real deal? Instant access to full Domo begins here.</string>
+
+    <string name="social_dialog_title_upload">Uploading Documents</string>
+    <string name="social_dialog_body_upload">This area is part of the complete Domo experience. Think you\'re ready for a free 60 days of the real deal? Instant access to full Domo begins here.</string>
+    <string name="social_dialog_upgrade_failed">We\'re sorry. It looks like the upgrade failed. Lets give it another try!</string>
+    <string name="social_dialog_available_in_a_browser">* Available in a browser</string>
+    <string name="social_dialog_thanks">Thank you for upgrading!\nStarting your trial in…</string>
+    <string name="social_dialog_trial_expired_close">Close</string>
+    <string name="nav_drawer_social_count_days_left_on_trial">{count} days left on trial</string>
+    <string name="social_dialog_expired_body">Are you ready to bump this account up to the real thing? We\'re sure ready for you. To get the details on upgrading your account, check in with your company\'s Domo manager.</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="save_new_password">Save new password</string>
+    <string name="reset_link_is_expired_or_invalid">Reset password link is expired or invalid</string>
+    <string name="failed_to_reset_password">Failed to reset password</string>
+
+    <string name="pdp_enabled">Personalized Data Permissions enabled</string>
+    <string name="open_email">Check your email</string>
+    <string name="annotation_edit_text_hint">Type message</string>
+    <string name="screenshot">Annotate Screenshot</string>
+    <string name="annotation_close_warning">Do you want to exit without saving changes?</string>
+    <string name="post_to_buzz">Post to Buzz</string>
+    <string name="save_as">Save as</string>
+    <string name="share_snapshot">Share snapshot</string>
+    <string name="failed_to_save_annotation">Failed to save annotation</string>
+    <string name="save_annotation_successful">Annotation saved to gallery</string>
+    <string name="exit">Exit</string>
+    <string name="menu_annotate">Annotate</string>
+    <string name="menu_share_snapshot">Share snapshot</string>
+    <string name="pdp_template">{count} of {total}</string>
+    <string name="all">All</string>
+    <string name="policies">Policies</string>
+
+    <string name="buzz2_channel_notifications">Channel Options</string>
+    <string name="buzz2_chat_notifications">Chat Options</string>
+    <string name="buzz2_notify_all">All activity</string>
+    <string name="buzz2_notify_all_summary">Notifications for all activity</string>
+    <string name="buzz2_notify_mention">Mentions</string>
+    <string name="buzz2_notify_user_mention_summary">Notifications for mentions only</string>
+    <string name="buzz2_notify_none">None</string>
+    <string name="buzz2_notify_none_summary">No notifications</string>
+    <string name="buzz2_notify_email">Email</string>
+    <string name="buzz2_notify_sms">SMS</string>
+    <string name="buzz2_notify_push">Push Notifications</string>
+    <string name="buzz2_notify_desktop">Desktop</string>
+    <string name="buzz2_global_settings_title">Global Buzz Notifications</string>
+    <string name="buzz2_channel_notifications_title">Channel Notifications</string>
+    <string name="buzz2_chat_notifications_title">Chat Notifications</string>
+    <string name="buzz2_notification_type_title">{type} Notifications</string>
+    <string name="buzz2_notify_push_title">Push</string>
+    <string name="share_card">Share card</string>
+    <string name="save_as_title">Title</string>
+    <string name="save_as_description">Description</string>
+    <string name="save_as_location">Location</string>
+    <string name="save_card_as">Saving as new card</string>
+    <string name="none">None</string>
+    <string name="take_me_to_new_card_after_saved">Take me to new card after saved</string>
+    <string name="choose_location">Choose location</string>
+    <string name="location_required">Location required</string>
+    <string name="creating_card">Creating card…</string>
+    <string name="failed_to_create_card">Failed to create card</string>
+    <string name="pdp_all_data">All data (unfiltered)</string>
+    <string name="pdp_select_policies">Select policies</string>
+    <string name="pdp_request_prompt">This DataSet now utilizes Personalized Data Permissions (PDP).</string>
+    <string name="pdp_request_message">{owner_name} Will you add me to a PDP security policy for the DataSet \"{datasource_name}\"? I need access to the data for the card \"{card_name}\"</string>
+    <string name="pdp_request_confirm">Access requested via private Buzz message</string>
+    <string name="data_source">DataSet</string>
+    <string name="pdp_request_error">Error requesting access</string>
+    <string name="buzz2_channel_title_hint">Channel Title</string>
+    <string name="buzz2_thread_title_hint">Thread Title</string>
+    <string name="buzz2_channel_grant_access">You must grant access to add {name} to this channel</string>
+    <string name="error_add_filter">Unable to apply filter</string>
+    <string name="error_edit_filter">Unable to edit filter</string>
+    <string name="error_edit_pdp">Unable to apply policy</string>
+    <string name="buzz2_add_user_direct_message">You are trying to mention someone in a 1:1 chat. A new chat will be created, and your current message will be included</string>
+    <string name="buzz2_add_user_direct_confirm">Start new chat</string>
+    <string name="buzz2_add_user_direct_cancel">Remove mention</string>
+    <string name="buzz2_add_user_group_message">This person does not currently have access to this Private Chat. Would you like to add them?</string>
+    <string name="buzz2_add_user_group_confirm">Add to chat</string>
+    <string name="request_access">Request Access</string>
+    <string name="card_title_description">Description</string>
+    <string name="card_no_description">No description</string>
+    <string name="forgot_password_email_not_configured">Email not configured</string>
+    <string name="forgot_password_setup_email">Please setup your email account on this device.</string>
+    <string name="buzz2_thread_single_participant">Visible to {count} person</string>
+    <string name="buzz2_thread_participants">Visible to {count} people</string>
+    <string name="buzz2_add_comment">Add a comment</string>
+    <string name="buzz2_started_a_thread">Started a thread</string>
+    <string name="buzz2_channel_details">Channel Details</string>
+    <string name="buzz2_conversation_details">Conversation Details</string>
+    <string name="buzz2_thread_details">Thread Details</string>
+    <string name="buzz2_members_pinned">People who have followed this channel</string>
+    <string name="buzz2_members_access">People who have access to this chat</string>
+    <string name="buzz2_members">People</string>
+    <string name="buzz2_member_count">{count} people can view this channel</string>
+    <string name="buzz2_member_count_singular">1 person can view this channel</string>
+    <string name="buzz2_channel_creator_template">Created <b>{date}</b> by <b>{user}</b></string>
+    <string name="you">you</string>
+    <string name="menu_buzz2_view_thread_notifications">View Notifications</string>
+    <string name="buzz2_private_thread_message">Only people @mentioned will be able to read and reply.</string>
+    <string name="buzz2_private_thread_one_user">Only {name} is able to read and reply.</string>
+    <string name="buzz2_private_thread_two_users">Only {name} and {second_name} are able to read and reply.</string>
+    <string name="buzz2_private_thread_three_users">Only {name}, {second_name} and 1 other are able to read and reply.</string>
+    <string name="buzz2_private_thread_more_users">Only {name}, {second_name} and {count} others are able to read and reply.</string>
+    <string name="buzz2_notifications">Notifications</string>
+    <string name="alert_via">via {user_name}</string>
+    <string name="buzz2_favorite_messages">Favorited</string>
+
+    <string name="buzz2_permission_banner">You are granting users new access rights. Tap to view</string>
+    <string name="buzz2_grant_access_title">Grant Access</string>
+
+
+    <string name="rationalize_permission_storage">Please allow Storage Permissions to perform this action</string>
+    <string name="rationalize_permission_contact">Please allow Contact Permissions to perform this action</string>
+
+
+    <string name="buzz2_user_added_to_conversation">1 user will be added to this conversation</string>
+    <string name="buzz2_users_added_to_conversation">{user_count} users will be added to this conversation</string>
+    <string name="buzz2_group_added_to_conversation">1 group will be added to this conversation</string>
+    <string name="buzz2_groups_added_to_conversation">{group_count} groups will be added to this conversation</string>
+    <string name="buzz2_user_group_added_to_conversation">1 user and 1 group will be added to this conversation</string>
+    <string name="buzz2_user_groups_added_to_conversation">1 user and {group_count} groups will be added to this conversation</string>
+    <string name="buzz2_users_group_added_to_conversation">{user_count} users and 1 group will be added to this conversation</string>
+    <string name="buzz2_users_groups_added_to_conversation">{user_count} users and {group_count} groups will be added to this conversation</string>
+
+    <string name="buzz2_user_granted_access">1 user will be given access to the {object_type} \"{object_name}\"</string>
+    <string name="buzz2_users_granted_access">{user_count} users will be given access to the {object_type} \"{object_name}\"</string>
+    <string name="buzz2_group_granted_access">1 group will be given access to the {object_type} \"{object_name}\"</string>
+    <string name="buzz2_groups_granted_access">{group_count} groups will be given access to the {object_type} \"{object_name}\"</string>
+    <string name="buzz2_user_group_granted_access">1 user and 1 group will be given access to the {object_type} \"{object_name}\"</string>
+    <string name="buzz2_user_groups_granted_access">1 user and {group_count} groups will be given access to the {object_type} \"{object_name}\"</string>
+    <string name="buzz2_users_group_granted_access">{user_count} users and 1 group will be given access to the {object_type} \"{object_name}\"</string>
+    <string name="buzz2_users_groups_granted_access">{user_count} users and {group_count} groups will be given access to the {object_type} \"{object_name}\"</string>
+    <string name="buzz2_access_type_card">card</string>
+    <string name="buzz2_access_type_page">page</string>
+    <string name="buzz2_access_type_project">project</string>
+    <string name="buzz2_max_unread_threads_counter_value">99+</string>
+    <string name="buzz2_private_thread_popup_message">Tap to make private</string>
+    <string name="footer_label_share">Share</string>
+    <string name="footer_label_table">Table</string>
+    <string name="footer_label_chart">Chart</string>
+    <string name="footer_label_annotate">Annotate</string>
+    <string name="footer_label_filter">Analyzer</string>
+    <string name="footer_label_chart_type">Chart Types</string>
+
+    <string name="compose_private_message">New Private Message</string>
+
+    <string name="universal_compose_posting_template">Posting to {target} in:</string>
+    <string name="universal_compose_posting_count_plural">{count} people</string>
+    <string name="universal_compose_posting_count_singular">{count} person</string>
+    <string name="date_range">Date range</string>
+
+    <string name="date_range_pattern_hour_long_date">MMM d, YYYY h:mm a</string>
+    <string name="date_range_pattern_hour_long_template">Starts at {date}</string>
+    <string name="date_range_pattern_week_long_date">MMM d, YYYY</string>
+    <string name="date_range_pattern_week_long_template">Starts on {date}</string>
+    <string name="date_range_pattern_month_long_date">MMM YYYY</string>
+    <string name="date_range_pattern_month_long_template">{date}</string>
+    <string name="date_range_pattern_quarter_long_date">YYYY</string>
+    <string name="date_range_pattern_quarter_long_template">Q{quarter} {date}</string>
+    <string name="date_range_pattern_year_long_date">YYYY</string>
+    <string name="date_range_pattern_year_long_template">{date}</string>
+    <string name="date_range_pattern_last_long_date">EEE, MMM d, YYYY</string>
+    <string name="date_range_pattern_last_long_template">Starts on {date}</string>
+    <string name="date_range_pattern_last_year_long_date">EEE, MMM d, YYYY</string>
+    <string name="date_range_pattern_last_year_long_template">Starts on {date}</string>
+    <string name="date_range_pattern_quarter_short_date">YYYY</string>
+    <string name="date_range_pattern_quarter_short_template">Q{quarter} {date}</string>
+
+    <string name="date_range_pattern_hour_short">h:mm a</string>
+    <string name="date_range_pattern_day_short">M/d</string>
+    <string name="date_range_pattern_week_short">M/d</string>
+    <string name="date_range_pattern_month_short">MMM</string>
+    <string name="date_range_pattern_year_short">YYYY</string>
+    <string name="date_range_pattern_last_short">M/d</string>
+    <string name="date_range_pattern_last_year_short">M/d/YY</string>
+
+    <string name="graph_by">Graph by</string>
+    <string name="compare_to">Compare to</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="date_range_label">Date range</string>
+    <string name="card_synced_time">Synced {lastsynced}</string>
+    <string name="card_details_time">Card synced {lastsynced}</string>
+    <string name="card_details_dataset_time_synced">DataSet last updated {lastupdated}</string>
+    <string name="card_details_about_last_time_synced">Updated {lastupdated}</string>
+    <string name="card_updating_in_progress">Updating…</string>
+
+    <string name="pop_period_none">None</string>
+    <string name="period_none">None</string>
+    <string name="period_next">Next</string>
+    <string name="period_previous">Previous</string>
+    <string name="period_day">Day over Day (DoD)</string>
+    <string name="period_week">Week over Week (WoW)</string>
+    <string name="period_month">Month over Month (MoM)</string>
+    <string name="period_quarter">Quarter over Quarter (QoQ)</string>
+    <string name="period_year">Year over Year (YoY)</string>
+    <string name="period_eight_weeks_ago">8 weeks ago</string>
+    <string name="period_twelve_weeks_ago">12 weeks ago</string>
+    <string name="period_fifty_two_weeks_ago">52 weeks ago</string>
+    <string name="period_unavailable">Not available for this date range</string>
+    <string name="period_next_day">Next Day</string>
+    <string name="period_next_week">Next Week</string>
+    <string name="period_next_month">Next Month</string>
+    <string name="period_next_quarter">Next Quarter</string>
+    <string name="period_next_year">Next Year</string>
+
+    <string name="period_unavailable_day">Graph by Day to use this</string>
+    <string name="period_unavailable_week">Graph by Week to use this</string>
+    <string name="period_unavailable_month">Graph by Month to use this</string>
+    <string name="period_unavailable_quarter">Graph by Quarter to use this</string>
+    <string name="period_unavailable_year">Graph by Year to use this</string>
+
+    <string name="compare_hours_ago_singular">hour ago</string>
+    <string name="compare_hours_ago_other">hours ago</string>
+    <string name="compare_days_ago_singular">day ago</string>
+    <string name="compare_days_ago_other">days ago</string>
+    <string name="compare_weeks_ago_singular">week ago</string>
+    <string name="compare_weeks_ago_other">weeks ago</string>
+    <string name="compare_months_ago_singular">month ago</string>
+    <string name="compare_months_ago_other">months ago</string>
+    <string name="compare_quarters_ago_singular">quarter ago</string>
+    <string name="compare_quarters_ago_other">quarters ago</string>
+    <string name="compare_years_ago_singular">year ago</string>
+    <string name="compare_years_ago_other">years ago</string>
+
+    <string name="universal_compose_guidance_channel">You\'re creating a private message in the channel above.</string>
+    <string name="universal_compose_guidance_chat">You\'re creating a private chat with the people you add above.</string>
+    <string name="universal_compose_guidance_thread">You\'re creating a new conversation with the people you add above.</string>
+
+    <string name="universal_compose_actionbar_public_object">New Message</string>
+    <string name="universal_compose_actionbar_private_object">New Private Message</string>
+    <string name="universal_compose_actionbar_chat">New Private Message</string>
+    <string name="universal_compose_add_recipients">Add recipients…</string>
+    <string name="universal_compose_to">To:</string>
+    <string name="universal_compose_search">Conversations</string>
+    <string name="universal_compose_private_message">New Private Message</string>
+    <string name="universal_compose_message">New Message</string>
+    <string name="universal_compose_posting_privately_in_channel">You\'re creating a private message in the channel above</string>
+    <string name="universal_compose_posting_in_channel">You\'re creating a message in the channel above</string>
+    <string name="universal_compose_search_tab_people">People</string>
+    <string name="universal_compose_search_tab_groups">Groups</string>
+    <string name="universal_compose_search_tab_conversations">Chats</string>
+    <string name="universal_compose_posting_publicly">Posting in:</string>
+    <string name="universal_compose_posting_privately">Posting privately in:</string>
+    <string name="universal_compose_currently_viewing_header">Currently Viewing</string>
+    <string name="universal_compose_currently_viewing_chanel">Post conversation in current channel:</string>
+    <string name="pop_align_by_day_of_week">Align by day of the week</string>
+    <string name="range_current">Current</string>
+    <string name="period_to_date">Period to date</string>
+    <string name="pop_compare_unavailable">Not available for this card</string>
+    <string name="save_as_copy">Copy of {card_name}</string>
+
+    <string name="universal_compose_alert_header">Clear current recipients?</string>
+    <string name="universal_compose_alert_message">Selecting this chat will remove the people and groups you\'ve already selected</string>
+
+    <string name="discard_changes">Do you want to discard your changes?</string>
+    <string name="discard">Discard</string>
+    <string name="daily_domo_approval_center">Approval Center</string>
+
+    <string name="view_all">View all</string>
+    <string name="search_results">{count} results</string>
+    <string name="learn_more">Learn more</string>
+    <string name="buzz2_start_trial">Cards are a great way to collaborate around your data. Start a free trial of Domo to bring your business into the conversation.</string>
+    <string name="buzz2_delete_message">Are you sure you want to delete this message?</string>
+
+    <string name="login_password_hint">Password</string>
+    <string name="add_instance">Sign into another instance</string>
+    <string name="switching_accounts">Switching accounts…</string>
+
+    <string name="rbd_start">Start</string>
+    <string name="rbd_department_ceo">CEO</string>
+    <string name="rbd_department_sales">Sales</string>
+    <string name="rbd_department_hr">HR</string>
+    <string name="rbd_department_finance">Finance</string>
+    <string name="rbd_department_operations">Operations</string>
+    <string name="rbd_department_marketing">Marketing</string>
+    <string name="rbd_department_it">IT</string>
+    <string name="rbd_department_client_services">Client Services</string>
+    <string name="rbd_department_more">More</string>
+
+    <string name="rbd_description_ceo">Lead your company to the Promised Land with world class dashboards</string>
+    <string name="rbd_description_sales">Disciplined approach to ensuring a healthy topline</string>
+    <string name="rbd_description_hr">Lets understand your peeps</string>
+    <string name="rbd_description_finance">You like money, we like dashboards. Lets do this</string>
+    <string name="rbd_description_operations">Get a handle on your internal operation with real time goodness</string>
+    <string name="rbd_description_marketing">Top or bottom of the funnel, we have you covered</string>
+    <string name="rbd_description_it">It’s your data. Let’s leverage it</string>
+    <string name="rbd_description_client_services">Clients are the life-blood of your company; let’s keep ‘em happy</string>
+    <string name="rbd_description_more">Visit the Domo Appstore for more world-class apps</string>
+
+
+    <string name="nav_global_search_filter">Filter</string>
+    <string name="clear_all">Clear All</string>
+    <string name="filters_created_in">Date created in</string>
+    <string name="filters_created_by">Owned by</string>
+    <string name="filters_mentions">Mentions</string>
+    <string name="filters_channel_title">Channel title</string>
+    <string name="filters_job_title">Has job title</string>
+    <string name="filters_in_department">In department</string>
+    <string name="filters_message_from">Message from</string>
+    <string name="filters_data_provider">Data provider</string>
+    <string name="filter_count">{count} filter</string>
+    <string name="filter_count_plural">{count} filters</string>
+    <string name="filter_results">Filter Results</string>
+    <string name="categories">Categories</string>
+
+    <string name="search_chat">Public Conversation</string>
+    <string name="search_thread">Thread</string>
+    <string name="search_card_chat">Card Conversation</string>
+    <string name="search_group_chat">Group Chat</string>
+    <string name="search_page_chat">Page Conversation</string>
+    <string name="search_projects_tasks">Projects &amp; Tasks</string>
+    <string name="search_public_chat">Public Conversation</string>
+
+    <string name="pages_and_subpages"><![CDATA[Pages & Subpages]]></string>
+    <string name="save_as_success">Card successfully saved</string>
+    <string name="filters_label">Filters</string>
+    <string name="filters_hint">Tap + to add a filter</string>
+
+    <string name="buzz2_folder_author">{name} \u2022 {time}</string>
+    <string name="buzz2_attachment_posted">Attachment posted</string>
+    <string name="buzz2_activity_channel">Public Conversation</string>
+    <string name="buzz2_activity_direct_chat">1 on 1</string>
+    <string name="buzz2_activity_private_channel">Chat</string>
+    <string name="buzz2_activity_thread">Thread</string>
+    <string name="buzz2_activity_private_thread">Private Thread</string>
+    <string name="buzz2_activity_group_chat">Group Chat</string>
+
+    <string name="page_selection_dialog_title_denied">Cannot select page</string>
+    <string name="page_selection_dialog_message_denied">This page is locked. Only page owners can save cards to locked pages.</string>
+
+    <string name="approval_center_by_waiting_on_you">waiting on you</string>
+    <string name="approval_center_by_submitted_by_you">submitted by you</string>
+    <string name="menu_approval_accounts">Accounts</string>
+    <string name="approval_person_system_card_requests_and_time_info">"{requesttotal} \u2022 {timestamp}"</string>
+    <string name="approval_request">" request"</string>
+    <string name="approval_requests">" requests"</string>
+    <string name="approval_singular">Approval</string>
+    <string name="approvals_plural">Approvals</string>
+    <string name="approvals_pending_person_text">{count} {approvals_pending} pending</string>
+    <string name="approvals_pending_template_text">{approvals_pending} pending</string>
+    <string name="approval_time_in_queue">{time} in queue</string>
+    <string name="approval_center_new_request">"New request"</string>
+    <string name="approval_type_pending">Pending Requests</string>
+    <string name="approval_type_past">Past Requests</string>
+    <string name="approval_type_draft">Drafts</string>
+    <string name="add_approval_request_content_description">Add Approval Request</string>
+    <string name="your_submitted_requests">Your submitted requests</string>
+    <string name="number_of_attachments_in_approval_request">{number} {attachment}</string>
+    <string name="approve_individual_approval">Approve</string>
+    <string name="send_back_individual_approval">Send back</string>
+    <string name="bottom_sheet_request_change">Request change</string>
+    <string name="bottom_sheet_deny_request">Deny request</string>
+    <string name="approval_amount_header_name">Amount</string>
+    <string name="approval_description_header_name">Description</string>
+    <string name="approval_action_message_explanation_optional">Explanation (optional)</string>
+    <string name="approval_sent_by_header_name">Sent by</string>
+    <string name="approval_action_approver_message_header">Approving this request will advance the approval flow. The request will be forwarded to {name}.</string>
+    <string name="approval_action_deny_message_header">Denying this request will stop the approval flow. It will not be sent to other approvers and the requester will have to resubmit the request.</string>
+    <string name="approval_action_approve_request_toolbar">Approve request</string>
+    <string name="approval_actiond_deny_request_toolbar">Deny request</string>
+    <string name="approval_chain_step_submitted_request">Submitted request</string>
+    <string name="approval_chain_step_approved_request">Approved</string>
+    <string name="approval_chain_step_denied_request">Denied</string>
+    <string name="approval_chain_step_pending_request">Pending</string>
+    <string name="approval_chain_step_upcoming_request">Upcoming</string>
+    <string name="approval_chain_step_change_requested">Change\n requested</string>
+    <string name="approval_details_via_name">Via {name}</string>
+    <string name="approval_sent_by_name_timestamp">By {name} {timestamp}</string>
+    <string name="approval_notification_view_request">View request</string>
+    <string name="approval_details_private_buzz_label">Private buzz</string>
+    <string name="request_approved_snackbar_notification">Request approved.</string>
+    <string name="request_denied_snackbar_notification">Request denied.</string>
+    <string name="approval_request_action_sent_to_snackbar_notification">Notified {name}</string>
+    <string name="approval_history_activity">Approval history</string>
+    <string name="approval_zero_history_row_header_title">Check your history</string>
+    <string name="approval_zero_history_row_header_text">A log of your approval actions will be kept here. You have no recorded actions.</string>
+    <string name="approval_zero_main_screen_header_title">Keep approvals moving</string>
+    <string name="approval_zero_main_screen_header_text">Your approval requests will show up here. You have no pending approvals.</string>
+    <string name="approval_zero_submitted_by_you_title">Get your requests approved</string>
+    <string name="approval_zero_submitted_by_you_text">Your submitted requests will show up here. \nNothing so far.</string>
+    <string name="approval_new_request_activity">New Request</string>
+    <string name="new_approval_request_details_header">Request details</string>
+    <string name="new_approval_approval_chain_header">Approval chain</string>
+    <string name="template_approver_count">Approver {count}</string>
+    <string name="approval_notification_request_edited">Your approval request has been edited</string>
+    <string name="approval_action_resolved_notification">Your approval request, \'{title}\', was {action_name} by {approvers_name}</string>
+    <string name="approval_action_resolved_approved">approved</string>
+    <string name="approval_action_resolved_denied">denied</string>
+
+
+    <string name="new_chat_audience_hint">Begin by searching for the specific person or group name.</string>
+    <string name="new_chat_options">Options</string>
+    <string name="new_chat_privacy">Privacy</string>
+    <string name="new_chat_private_label">Private</string>
+    <string name="new_chat_private_summary">Only invited people have access</string>
+    <string name="new_chat_public_label">Public</string>
+    <string name="new_chat_public_summary">Anyone in the company can join</string>
+    <string name="new_thread_public_summary">Anyone with access to the data can join</string>
+    <string name="new_chat_title">Conversation Title</string>
+    <string name="new_chat_title_hint">What\'s this conversation about?</string>
+    <string name="create_thread">Create a thread…"</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="everyone">Everyone</string>
+    <string name="tap_to_connect_your_data">Tap to connect your data</string>
+    <string name="app_denied_title">You need to request access</string>
+    <string name="you_do_not_have_access_to_view_this_page_we_can_send_a_request_to_the_owner_of_this_page_for_you">You do not have access to view this page. We can send a request to the owner of this page for you.</string>
+    <string name="page_owner">Page owner</string>
+    <string name="access_request_success">Access requested</string>
+    <string name="access_request_error">There was an error requesting access</string>
+    <string name="app_assign_title">Make it yours</string>
+    <string name="app_assign_message">This is powered by demo data. Connect your data via desktop or assign that task to someone else.</string>
+    <string name="assign_task">Assign</string>
+    <string name="not_now">Not now</string>
+    <string name="app_assign_success">{username} has been sent a request to connect your data</string>
+    <string name="app_assign_error">There was an error sending the request</string>
+    <string name="approval_request_template_owned_by">Owned by</string>
+    <string name="approval_main_spinner_by_category">By category</string>
+    <string name="approval_main_spinner_by_person">By person</string>
+    <string name="approval_request_required_field">* Required field</string>
+    <string name="approval_request_required_fields_count">{field} of {total_fields}</string>
+    <string name="delegate_approval_request">Delegate approval</string>
+    <string name="delegate_request_to">Delegate to</string>
+    <string name="approval_delegated_to_information_text">Delegated to</string>
+    <string name="message_for_delegating_optional">Public message (optional)</string>
+    <string name="modification_error_message">* A user must be selected</string>
+    <string name="request_change_approval_request">Request change</string>
+    <string name="request_change_description_of_change">Description of change</string>
+    <string name="request_assigned_to">Assigned to</string>
+
+
+
+    <string name="reply_buzz_hint">Reply…</string>
+    <string name="empty_home_button">Add content</string>
+    <string name="buzz2_spinner_all">All conversations</string>
+    <string name="buzz2_spinner_my_people">Your conversations with people</string>
+    <string name="buzz2_spinner_my_data">Your conversations around data</string>
+    <string name="buzz2_spinner_my_favs">Your favorited conversations</string>
+    <string name="public_channel_title_required">Public conversations must have a title</string>
+    <string name="menu_direct_signon">Direct sign on</string>
+    <string name="approval_system_activity_indicator_description">Approval System Activity Indicator</string>
+    <string name="custom_report_banner">Viewing custom report: filters applied</string>
+    <string name="pop_no_available_periods">No available periods</string>
+    <string name="buzz2_pinned_people">Favorited people conversations</string>
+    <string name="buzz2_pinned_data">Favorited data conversations</string>
+    <string name="buzz2_mentioned">Mentioned</string>
+    <string name="approval_chain">Approval chain</string>
+    <string name="create_task_project_label">Project</string>
+    <string name="buzz2_favorites_placeholder_title">ADD A FAVORITE</string>
+    <string name="buzz2_favorites_placeholder_text">Customize what to see here by pressing and holding on any conversation and adding it to your favorites.</string>
+    <string name="added_to_favorites">Added to favorites</string>
+    <string name="removed_from_favorites">Removed from favorites</string>
+    <string name="search_titles">Search conversation titles</string>
+    <string name="find_and_discover">Find &amp; Discover Convos</string>
+    <string name="filter">Filter</string>
+    <string name="find_conversation_message">Find any conversation you are already a part of or discover a new one that you have access to.</string>
+    <string name="approval_center_no_approvals_create_one">No approvals yet, create one</string>
+    <string name="approval_send_reminder">Send reminder</string>
+    <string name="message_deleted">Message deleted.</string>
+    <string name="no_unread_threads">No unread activity</string>
+    <string name="unread_thread_singular">{count} updated conversation</string>
+    <string name="unread_thread_plural">{count} updated conversations</string>
+    <string name="buzz2_menu_invite">Invite team member to</string>
+    <string name="invite">Invite</string>
+
+    <string name="hide_gif">(hide image)</string>
+    <string name="show_gif">(show image)</string>
+    <string name="edit_message">Edit Message</string>
+    <string name="message_edited">(message edited)</string>
+
+    <string name="page_analyzer">Page Analyzer</string>
+    <string name="page_analyzer_choose">Choose…</string>
+    <string name="page_analyzer_add_dataset_to_filter">Select another DataSet to filter</string>
+    <string name="page_analyzer_add_a_filter">Add a filter</string>
+    <string name="page_analyzer_apply_filters">Apply filters</string>
+    <string name="page_analyzer_menu_page_filters">Page filters</string>
+    <string name="page_analyzer_no_filters_added_yet">No filters added yet</string>
+    <string name="page_analyzer_dataset">DataSet</string>
+    <string name="page_analyzer_choose_dataset">Choose DataSet</string>
+    <string name="page_analyzer_choose_pdp">PDP Policy</string>
+    <string name="page_analyzer_new_filter">New filter</string>
+    <string name="page_analyzer_edit_filter">Edit filter</string>
+    <string name="failed_to_apply_filters">Failed to apply page filters</string>
+    <string name="page_analyzer_filter_when">Filter when</string>
+    <string name="page_analyzer_value">Value</string>
+    <string name="enter_value">Enter value</string>
+
+    <string name="page_analyzer_label_start">Start</string>
+    <string name="page_analyzer_label_end">End</string>
+    <string name="page_analyzer_filtered_by_prefix">Filtered by</string>
+    <string name="all_data_sets">All DataSets</string>
+    <string name="buzz2_nav_you_pattern">You: {message}</string>
+    <string name="new_messages">New Messages</string>
+
+
+    <string name="buzz_your_conversations">Your conversations</string>
+    <string name="buzz_other_conversations">Other conversations</string>
+    <string name="none_of_your_conversations_match_the_search">None of your conversations match the search</string>
+    <string name="no_other_conversations_match_the_search">No other conversations match the search</string>
+
+    <string name="remove_filter">Remove filter</string>
+    <string name="column_example_string">e.g. Sales Figures</string>
+    <string name="column_example_date">e.g. 7–14–2012</string>
+    <string name="column_example_numeric">e.g. $23,004.00</string>
+    <string name="rbd_start_title">Your Business Optimized</string>
+    <string name="rbd_start_description">Domo knows business and we’ve found the industry best dashboards that successful leaders devour time and time again. They’re all here, we’ve loaded them (demo data for now, so you can test out the waters) and they’re all yours in just a click. Once you’re ready, connect your own data and optimize the heck out of your business from here on out.</string>
+    <string name="read_more">Read More</string>
+    <string name="collapse">Collapse</string>
+    <string name="rbd_view_dashboard">View dashboard</string>
+    <string name="rbd_demo">Demo</string>
+    <string name="rbd_request_access">Request access</string>
+
+    <string name="rbd_hold_for_more">HOLD FOR MORE</string>
+
+    <string name="card_analyzer_filters">Filters</string>
+    <string name="card_analyzer_active_filters">Your Filters</string>
+    <string name="card_analyzer_menu_filters">Card filters</string>
+
+    <string name="create_doc_card_from_attachment">Create doc card from attachment</string>
+    <string name="doc_card_creation_title">Create card</string>
+    <string name="card_title">Title</string>
+    <string name="page_spinner_label">Page</string>
+    <string name="card_analyzer_slicers_available">{count} Slicers available</string>
+    <string name="card_analyzer_slicers_available_singular">1 Slicer available</string>
+    <string name="string_slicer_select_all">All</string>
+    <string name="string_slicer_select_none">None</string>
+
+    <string name="failed_to_search_buzz">Failed to Search Buzz</string>
+    <string name="direct_mention_header">Mentioned Directly</string>
+    <string name="group_mention_header">Group Conversations / Mentions</string>
+    <string name="all_mention_header">Mentioned Via @All</string>
+
+    <string name="menu_upload_doc_card">Upload a doc card</string>
+    <string name="related_conversations">Related conversations</string>
+
+    <string name="buzz_subtitle_direct">1 on 1</string>
+    <string name="buzz_subtitle_group">Group Conversation</string>
+    <string name="buzz_subtitle_card">Card</string>
+    <string name="buzz_subtitle_page">Page</string>
+    <string name="buzz_subtitle_project">Project</string>
+    <string name="buzz_subtitle_approval">Approval</string>
+    <string name="buzz_subtitle_public">Public conversation</string>
+    <string name="buzz_subtitle_private">Private</string>
+    <string name="buzz_subtitle_private_thread">Private thread</string>
+    <string name="buzz_subtitle_public_thread">Public thread</string>
+    <string name="buzz_subtitle_thread">Thread</string>
+
+    <string name="users_in_channel_count">\t• \t{count}</string>
+    <string name="thread_in">Thread in </string>
+
+    <string name="public_thread_count">Everyone on this {type} ({count} people)</string>
+    <string name="normal_chat">chat</string>
+    <string name="card_chat">card</string>
+    <string name="page_chat">page</string>
+    <string name="project_chat">project</string>
+    
+    <string name="alerts_subscribe">Subscribe</string>
+    <string name="alerts_subscribed">Subscribed</string>
+    <string name="last_triggered">Last triggered {date}</string>
+    <string name="subscribe_to_alerts">Subscribe to alerts</string>
+    <string name="no_alerts_created">No alerts available for this card. Create alerts via the desktop experience.</string>
+    <string name="alerts_notify_me">Notify me</string>
+    <string name="alerts_instantly">Instantly</string>
+    <string name="alerts_daily">Daily</string>
+    <string name="alerts_weekly">Weekly</string>
+    <string name="alerts_none">None</string>
+
+    <string name="share">Share</string>
+    <string name="share_message_header">Message to include</string>
+    <string name="send_email_notifications">Send email notifications</string>
+    <string name="share_people_label">People</string>
+
+    <string name="menu_share_page">Share page</string>
+    <string name="share_page_thought_interesting">I thought you might find this page interesting.</string>
+
+    <string name="menu_share_card">Share card</string>
+    <string name="share_card_thought_interesting">I thought you might find this card interesting.</string>
+
+    <string name="search_emojis">Search emojis</string>
+    <string name="visible_to_all">Visibile to all members</string>
+    <string name="tooltip_rearrange_tiles">Rearrange tiles</string>
+    <string name="tooltip_start_conversation">Start conversation</string>
+
+    <string name="card_analyzer_date_range">Date range</string>
+<!-- Date filters -->
+<!-- This Quarter -->
+<!-- Title case, description of a date range for the current quarter, i.e. from the beginning of the quarter to today. -->
+<!-- Title case, description of a date range, e.g. if it is currently Q3 2015 and we want 1 year ago, 'This Quarter Last Year' would be Q3 2014. -->
+<!-- Period to date -->
+<!-- Title case, description of a date range for the current hour, i.e. from the top of the hour to now.Title case, description of a date range for the current hour, i.e. from the top of the hour to now. -->
+<!-- Title case, description of a date range for the current day, i.e. from 12:00 a.m. to now. -->
+<!-- Title case, description of a date range for the current week, i.e. from Sunday to today. -->
+<!-- Title case, description of a date range for the current month, i.e. from the 1st of the month to today. -->
+<!-- Title case, description of a date range for the current quarter, i.e. from the beginning of the quarter to today. -->
+<!-- Title case, description of a date range for the current year, i.e. from January 1 to today. -->
+<!-- Rolling period -->
+<!-- Title case, description of a date range for the previous N hours, e.g. if N = 3, from 3 hours ago to now. -->
+<!-- Title case, description of a date range for the last N days, e.g. if N = 3, from 3 days ago to today. -->
+<!-- Title case, description of a date range for the last N days, e.g. if N = 3, from 3 days ago to today. -->
+<!-- Title case, description of a date range for the last N months, e.g. if N = 3, from 3 months ago to today. -->
+<!-- Title case, description of a date range for the last N quarters, e.g. if N = 3, from 3 quarters ago to today. -->
+<!-- Title case, description of a date range for the last N years, e.g. if N = 3, from 3 years ago to today. -->
+<!-- Title case, description of a date range for the next N hours, e.g. if N = 3, from 3 hours ago to now. -->
+<!-- Title case, description of a date range for the next N days, e.g. if N = 3, from 3 days ago to today. -->
+<!-- Title case, description of a date range for the next N days, e.g. if N = 3, from 3 days ago to today. -->
+<!-- Title case, description of a date range for the next N months, e.g. if N = 3, from 3 months ago to today. -->
+<!-- Title case, description of a date range for the next N quarters, e.g. if N = 3, from 3 quarters ago to today. -->
+<!-- Title case, description of a date range for the next N years, e.g. if N = 3, from 3 years ago to today. -->
+<!-- Interval -->
+<!-- Title case, description of a date range for the current hour, i.e. from the top of the hour to now. -->
+<!-- Title case, description of a date range for the current day, i.e. from 12:00 a.m. to now. -->
+<!-- Title case, description of a date range for the current week, i.e. from Sunday to today. -->
+<!-- Title case, description of a date range for the current month, i.e. from the 1st of the month to today. -->
+<!-- Title case, description of a date range for the current quarter, i.e. from the beginning of the quarter to today. -->
+<!-- Title case, description of a date range for the current year, i.e. from January 1 to today. -->
+<!-- Title case, description of a date range for the next day (tomorrow). -->
+<!-- Title case, description of a date range for the next week. -->
+<!-- Title case, description of a date range for the next month, i.e. from the 1st of the month to today. -->
+<!-- Title case, description of a date range for the next quarter, i.e. from the beginning of the quarter to today. -->
+<!-- Title case, description of a date range for the next year, i.e. from January 1 to today. -->
+<!-- Offset Interval -->
+<!-- Title case, description of a date range for a previous hour, e.g. if it's 6:35 p.m. '2 Hours Ago' would be 4:00 to 5:00 p.m. -->
+<!-- Title case, description of a date range for a previous day, e.g. if it's July 20 '2 Days Ago' would be July 18. -->
+<!-- itle case, description of a date range for a previous week, e.g. if it's Monday July 20 '2 Weeks Ago' would be July 5-11. -->
+<!-- Title case, description of a date range for a previous month, e.g. if it's February 10, 2015 '2 months Ago' would be December 2014. -->
+<!-- Title case, description of a date range for a previous quarter, e.g. if it's Q3 '2 Quarters Ago' would be Q1. -->
+<!-- Title case, description of a date range for a previous quarter, e.g. if it's 2015 '2 Years Ago' would be 2013. -->
+<!-- Fixed Range-->
+<!-- Format for a date range, e.g. 'Feb 1, 2014 - Feb 12, 2015' -->
+<!-- All Time -->
+<!-- Title case, description of a date range for all time. -->
+<!-- Construct a period from a date range and a grain. A date range would be constructed using the above period_ strings and the grain comes from the grain_ strings
+      for example: "Last 2 years by Month" -->
+<!-- Granularity -->
+<!-- Appended to a period to specify granularity (substituted into grain_format above), "Last 3 Years by Quarter", "Last 2 Years by Month"-->
+<!-- these are content descriptions on images for those without sight :-)-->
+<!-- Displayed for each item in the poll results. "Donald Trump (14%, 38 Votes)" -->
+<!--  e.g. = TX  -->
+<!-- Menu options for the date grain dialog. Some of these duplicate strings that already -->
+<!-- exist but are kept separate for simplicity's sake. Once that feature is complete we can -->
+<!-- see about merging them. -->
+<!-- Easy permissions -->
+<!-- Counts and types of things being given access to the channel -->
+<!-- Counts and types of things being given object access -->
+<!-- The object types we filter the typeahead by so we know what we're giving access to -->
+<!-- Role-Based Dashboards -->
+<!--- Search filters -->
+<!-- New Chat -->
+<!-- TODO: Remove or change this placeholder text -->
+<!-- This has to be a short string - we use it to indicate when other text is too long to fit. -->
+<!-- Alerts -->
+<!-- Share -->
+<!-- Share Page -->
+<!-- Share Card -->
+<!-- card analyzer -->
+</resources>
