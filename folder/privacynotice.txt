@@ -1,0 +1,3 @@
+﻿PRIVACY NOTICE
+
+By using the Cisco Jabber software without disabling the "Send usage data to Cisco" option under the "Help" or "About Cisco Jabber", you consent to Cisco Systems, Inc. collection of data from your usage of the Cisco Jabber software.  Cisco does not collect any Personally Identifiable Information.  All data is collected in conformity with Cisco's Privacy Policy which is located at http://www.cisco.com/web/siteassets/legal/privacy_02Jun10.html.
