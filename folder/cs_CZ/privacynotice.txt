@@ -1,0 +1,3 @@
+UPOZORNĚNÍ K OCHRANĚ SOUKROMÍ
+
+Pomocí softwaru Cisco Jabber bez zakázání možnost "Odeslat data využití Cisco" za "Pomoc" nebo "O Cisco Jabber" vyjadřujete souhlas s Cisco Systems, Inc. sběr dat z vašeho používání softwaru Cisco Jabber.  Cisco neshromažďuje žádné identifikovatelné osobní údaje.  Všechny údaje jsou shromažďovány v souladu se zásady ochrany osobních údajů společnosti Cisco, která se nachází v http://www.cisco.com/web/siteassets/legal/privacy_02Jun10.html.
