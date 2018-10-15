@@ -1,0 +1,3 @@
+PRIVACYVERKLARING
+
+Met behulp van de software van Cisco Jabber zonder het uitschakelen van de optie "Verzenden gebruiksgegevens aan Cisco" onder de "Help" of "Over Cisco Jabber", stemt u in met Cisco Systems, Inc. verzameling gegevens uit uw gebruik van de software van Cisco Jabber.  Cisco verzamelt niet alle persoonlijk identificeerbare informatie.  Alle gegevens worden verzameld in overeenstemming met de Cisco's Privacy Policy, die is gelegen op http://www.cisco.com/web/siteassets/legal/privacy_02Jun10.html.
