@@ -1,0 +1,3 @@
+ANMERKUNG ZUM DATENSCHUTZ
+
+Durch die Verwendung der Cisco Jabber Software ohne Deaktivierung der Option "Senden Nutzungsdaten an Cisco" unter dem "Hilfe" oder "Über Cisco Jabber" Stimmen Sie Cisco Systems, Inc.-Sammlung von Daten aus Ihrer Nutzung der Cisco Jabber Software.  Cisco sammelt keine persönlich identifizierbaren Informationen nicht.  Alle Daten werden in Übereinstimmung mit Ciscos Privacy Policy, die sich am http://www.cisco.com/web/siteassets/legal/privacy_02Jun10.html befindet.
