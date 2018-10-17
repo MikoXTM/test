@@ -1,0 +1,3 @@
+REMARQUE SUR LA CONFIDENTIALITÉ
+
+En utilisant le logiciel Cisco Jabber sans désactivation de l’option « Envoyer les données d’utilisation de Cisco » sous « Aide » ou « Sur Cisco Jabber », vous consentez à la collecte de Cisco Systems, Inc. de données de votre utilisation du logiciel Cisco Jabber.  Cisco ne recueille aucune Information personnelle Identifiable.  Toutes les données sont collectées conformément à la politique de confidentialité de Cisco qui se trouve à http://www.cisco.com/web/siteassets/legal/privacy_02Jun10.html.
