@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="monster_weapon_home">Monster Builder</string>
+    <string name="choose_weapon_header">Now choose your implement of destruction!</string>
+    <string name="choose_weapon_message">How will you slay your frenemies?</string>
+    <string name="weapon_shooter">Shooters</string>
+    <string name="weapon_stabber">Stabbers</string>
+	<string name="weapon_slasher">Slashers</string>
+    <string name="weapon_preview">Preview your Monster</string>
+    <string name="weapon_message">Ready to rock!</string>
+
+</resources>

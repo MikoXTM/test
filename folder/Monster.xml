@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="home_monster">Monster Builder</string>
+    <string name="monster_message">Create and customize your gnarly Monster Characters.</string>
+    <string name="get_crazy">Get crazy with it!</string>
+    <string name="monster_head">Head</string>
+    <string name="monster_torso">Torso</string>
+	<string name="monster_legs">Legs</string>
+    <string name="monster_preview">Preview your Monster</string>
+    <string name="preview_message">Yikes!</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="home_welcome">Welcome to KillerApp</string>
+    <string name="main_login">Sign in to your account</string>
+    <string name="user_name.label">User name:</string>
+    <string name="user_password.label">Password:</string>
+    <string name="forgot_password">Forgot password?</string>
+	<string name="forgot_password_message">You will receive an email containing a special link to reset your password. Please check your spam folder.</string>
+    <string name="forgot_username">Forgot user name?</string>
+	<string name="forgot_username_message">To retrieve your user name you will be required to answer one of your security questions.</string>
+    <string name="no_search_results_title">Have a nice day!</string>
+
+</resources>
