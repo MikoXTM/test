@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddHeadersDisplayName" xml:space="preserve">
+    <value>ヘッダーの追加</value>
+  <comment>property name</comment>
+  </data>
+  <data name="AutoSaveDisplayName" xml:space="preserve">
+    <value>自動保存</value>
+  <comment>property name</comment>
+  </data>
+  <data name="CellDisplayName" xml:space="preserve">
+    <value>セル</value>
+    <comment>property name</comment>
+  </data>
+  <data name="CellArgumentInvalid" xml:space="preserve">
+    <value>{0} 引数が無効です</value>
+  </data>
+  <data name="CellOrRangeDescription" xml:space="preserve">
+    <value>書き込むセルまたは範囲を指定します。</value>
+  </data>
+  <data name="CodeFilePathDisplayName" xml:space="preserve">
+    <value>コードファイルのパス</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ColorDisplayName" xml:space="preserve">
+    <value>色</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ColorDescription" xml:space="preserve">
+    <value>指定のセルの System.Drawing.Color です。</value>
+  </data>
+  <data name="ColumnNameDisplayName" xml:space="preserve">
+    <value>列名</value>
+  <comment>property name</comment>
+  </data>
+  <data name="Common" xml:space="preserve">
+    <value>共通</value>
+  </data>
+  <data name="ContinueOnErrorDisplayName" xml:space="preserve">
+    <value>エラー発生時に実行を継続</value>
+  <comment>property name</comment>
+  </data>
+  <data name="CreateNewFileDisplayName" xml:space="preserve">
+    <value>新しいファイルの作成</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DataTableDisplayName" xml:space="preserve">
+    <value>データテーブル</value>
+  <comment>property name</comment>
+  </data>
+  <data name="DelimiterDisplayName" xml:space="preserve">
+    <value>区切り文字</value>
+    <comment>property name</comment>
+  </data>
+  <data name="EditPasswordDisplayName" xml:space="preserve">
+    <value>編集用パスワード</value>
+  <comment>property name</comment>
+  </data>
+  <data name="EncodingDisplayName" xml:space="preserve">
+    <value>エンコーディング</value>
+  <comment>property name</comment>
+  </data>
+  <data name="EntryMethodNameDisplayName" xml:space="preserve">
+    <value>エントリメソッド名</value>
+    <comment>property name</comment>
+  </data>
+  <data name="EntryMethodParametersDisplayName" xml:space="preserve">
+    <value>エントリメソッドのパラメーター</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ExistingWorkbookDisplayName" xml:space="preserve">
+    <value>既存のワークブック</value>
+  <comment>property name</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="FilePathDisplayName" xml:space="preserve">
+    <value>ファイルのパス</value>
+  <comment>property name</comment>
+  </data>
+  <data name="FilterOptionsDisplayName" xml:space="preserve">
+    <value>フィルターオプション</value>
+  <comment>property name</comment>
+  </data>
+  <data name="FormulaDisplayName" xml:space="preserve">
+    <value>数式</value>
+    <comment>property name</comment>
+  </data>
+  <data name="IncludeColumnNamesDisplayName" xml:space="preserve">
+    <value>列名を含める</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>入力</value>
+  </data>
+  <data name="IsPivotDisplayName" xml:space="preserve">
+    <value>ピボット</value>
+  <comment>property name</comment>
+  </data>
+  <data name="MacroNameDisplayName" xml:space="preserve">
+    <value>マクロ名</value>
+    <comment>property name</comment>
+  </data>
+  <data name="MacroOutputDisplayName" xml:space="preserve">
+    <value>マクロ出力</value>
+    <comment>property name</comment>
+  </data>
+  <data name="MacroParametersDisplayName" xml:space="preserve">
+    <value>マクロパラメーター</value>
+    <comment>property name</comment>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>オプション</value>
+  </data>
+  <data name="OrderDisplayName" xml:space="preserve">
+    <value>順序</value>
+    <comment>property name</comment>
+  </data>
+  <data name="OutputDisplayName" xml:space="preserve">
+    <value>出力</value>
+    <comment>property name</comment>
+  </data>
+  <data name="OutputValueDisplayName" xml:space="preserve">
+    <value>出力値</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PasswordDisplayName" xml:space="preserve">
+    <value>パスワード</value>
+    <comment>property name</comment>
+  </data>
+  <data name="PositionDisplayName" xml:space="preserve">
+    <value>位置</value>
+  <comment>property name</comment>
+  </data>
+  <data name="RangeDisplayName" xml:space="preserve">
+    <value>範囲</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ResultDisplayName" xml:space="preserve">
+    <value>結果</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SheetNameDisplayName" xml:space="preserve">
+    <value>シート名</value>
+  <comment>property name</comment>
+  </data>
+  <data name="StartingCellDisplayName" xml:space="preserve">
+    <value>開始セル</value>
+    <comment>property name</comment>
+  </data>
+  <data name="TableNameDisplayName" xml:space="preserve">
+    <value>テーブル名</value>
+  <comment>property name</comment>
+  </data>
+  <data name="TargetDisplayName" xml:space="preserve">
+    <value>ターゲット</value>
+  <comment>property name</comment>
+  </data>
+  <data name="TextDisplayName" xml:space="preserve">
+    <value>テキスト</value>
+    <comment>property name</comment>
+  </data>
+  <data name="UseExistingWorkbook" xml:space="preserve">
+    <value>既存のワークブックを使用</value>
+  </data>
+  <data name="UseFilterDisplayName" xml:space="preserve">
+    <value>フィルターの使用</value>
+  <comment>property name</comment>
+  </data>
+  <data name="ValidationMessage" xml:space="preserve">
+    <value>アクティビティは、{0} の内部でのみ有効です</value>
+  </data>
+  <data name="ValueDisplayName" xml:space="preserve">
+    <value>値</value>
+    <comment>property name</comment>
+  </data>
+  <data name="ValueDescription" xml:space="preserve">
+    <value>入力値、または数式を指定します。</value>
+  </data>
+  <data name="VisibleDisplayName" xml:space="preserve">
+    <value>可視</value>
+    <comment>property name</comment>
+  </data>
+  <data name="WorkbookDisplayName" xml:space="preserve">
+    <value>ワークブック</value>
+  <comment>property name</comment>
+  </data>
+  <data name="WorkbookPathDisplayName" xml:space="preserve">
+    <value>ワークブックのパス</value>
+  <comment>property name</comment>
+  </data>
+  <data name="WorkbookPathNotSet" xml:space="preserve">
+    <value>{0} を設定する必要があります。</value>
+  </data>
+  <data name="WorkbookPathNotSupplied" xml:space="preserve">
+    <value>必要なアクティビティ引数 {0} の値が指定されていません。</value>
+  </data>
+  <data name="WorkbookClosedAbnormally" xml:space="preserve">
+    <value>Excel アプリケーションスコープの実行中に、ワークブックがサードパーティによって閉じられました。</value>
+  </data>
+  <data name="TableNameException" xml:space="preserve">
+    <value>テーブル名が無効です。</value>
+  </data>
+  <data name="DestinationFilePathDisplayName" xml:space="preserve">
+    <value>コピー先のファイルパス</value>
+  <comment>property name</comment>
+  </data>
+  <data name="DestinationSheetNameDisplayName" xml:space="preserve">
+    <value>コピー先のシート名</value>
+  <comment>property name</comment>
+  </data>
+  <data name="FillRangeDisplayName" xml:space="preserve">
+    <value>オートフィルの範囲</value>
+  <comment>property name</comment>
+  </data>
+  <data name="FillRangeDescription" xml:space="preserve">
+    <value>このセル範囲を指定のルールでオートフィルします。</value>
+  </data>
+  <data name="IndexDisplayName" xml:space="preserve">
+    <value>インデックス</value>
+    <comment>property name</comment>
+  </data>
+  <data name="IndexDescription" xml:space="preserve">
+    <value>シートを番号で指定します。一番左のシートのインデックスは 0 です。</value>
+  </data>
+  <data name="InvalidRangeException" xml:space="preserve">
+    <value>無効な範囲が指定されています</value>
+  </data>
+  <data name="PivotTableDestinationDescription" xml:space="preserve">
+    <value>このセル範囲に、ピボットテーブルが作成されます。</value>
+  </data>
+  <data name="PivotTableNameDescription" xml:space="preserve">
+    <value>ピボットテーブル名です。</value>
+  </data>
+  <data name="SelectedRangeDescription" xml:space="preserve">
+    <value>選択されていた範囲です。</value>
+  </data>
+  <data name="SheetDisplayName" xml:space="preserve">
+    <value>シート</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SheetDescription" xml:space="preserve">
+    <value>シート名です。</value>
+  </data>
+  <data name="SheetsDisplayName" xml:space="preserve">
+    <value>全シート</value>
+  <comment>property name</comment>
+  </data>
+  <data name="ShiftCellsDisplayName" xml:space="preserve">
+    <value>セルのシフト</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SourceTableNameDisplayName" xml:space="preserve">
+    <value>元のテーブル名</value>
+  <comment>property name</comment>
+  </data>
+  <data name="ShiftOptionDisplayName" xml:space="preserve">
+    <value>シフトオプション</value>
+    <comment>property name</comment>
+  </data>
+  <data name="SourceTableNameDescription" xml:space="preserve">
+    <value>ピボットの元テーブルの名前です。</value>
+  </data>
+  <data name="TableNameDescription" xml:space="preserve">
+    <value>新しいテーブルに付ける名前です。</value>
+  </data>
+  <data name="TableRangeDescription" xml:space="preserve">
+    <value>テーブルにするセル範囲を指定します。</value>
+  </data>
+  <data name="WorkbookSheetsDescription" xml:space="preserve">
+    <value>ワークブックに含まれる全シートの名前リストです。</value>
+  </data>
+  <data name="ChangeModeDisplayName" xml:space="preserve">
+    <value>変更の種別</value>
+  <comment>property name</comment>
+  </data>
+  <data name="ReadOnlyDisplayName" xml:space="preserve">
+    <value>読み込み専用</value>
+  <comment>property name</comment>
+  </data>
+  <data name="ChangeModeDescription" xml:space="preserve">
+    <value>挿入と削除のどちらを実行するか指定します。</value>
+  </data>
+  <data name="NoColumnsDisplayName" xml:space="preserve">
+    <value>列数</value>
+  <comment>property name</comment>
+  </data>
+  <data name="NoColumnsDescription" xml:space="preserve">
+    <value>挿入もしくは削除する列数を指定します。</value>
+  </data>
+  <data name="NoRowsDisplayName" xml:space="preserve">
+    <value>行数</value>
+  <comment>property name</comment>
+  </data>
+  <data name="NoRowsDescription" xml:space="preserve">
+    <value>挿入もしくは削除する行数を指定します。</value>
+  </data>
+  <data name="PositionDescription" xml:space="preserve">
+    <value>挿入もしくは削除する位置を指定します。</value>
+  </data>
+  <data name="LookupRangeDescription" xml:space="preserve">
+    <value>検索する範囲です。</value>
+  </data>
+  <data name="ResultLookupDescription" xml:space="preserve">
+    <value>検索した値を含むセルの場所です。</value>
+  </data>
+  <data name="ValueLookupDescription" xml:space="preserve">
+    <value>検索する値です。</value>
+  </data>
+  <data name="RemoveDuplicatesRangeDescription" xml:space="preserve">
+    <value>この範囲内で重複する行を全て削除します。</value>
+  </data>
+  <data name="DestinationCellDisplayName" xml:space="preserve">
+    <value>対象セル</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DestinationCellDescription" xml:space="preserve">
+    <value>貼り付け先範囲の最初のセルです。</value>
+  </data>
+  <data name="DestinationSheetDisplayName" xml:space="preserve">
+    <value>対象シート</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DestinationSheetDescription" xml:space="preserve">
+    <value>貼り付け先のシートです。</value>
+  </data>
+  <data name="SourceRangeDisplayName" xml:space="preserve">
+    <value>元の範囲</value>
+  <comment>property name</comment>
+  </data>
+  <data name="SourceRangeDescription" xml:space="preserve">
+    <value>コピー元の範囲です。</value>
+  </data>
+  <data name="CopyItemsDisplayName" xml:space="preserve">
+    <value>コピーする内容</value>
+  <comment>property name</comment>
+  </data>
+  <data name="CopyItemsDescription" xml:space="preserve">
+    <value>コピーする値と書式を選択します。</value>
+  </data>
+  <data name="NothingToCopyError" xml:space="preserve">
+    <value>少なくとも １ つのコピー対象となる項目／セルの機能を選択してください。</value>
+  </data>
+  <data name="SourceRangeAutoFillDescription" xml:space="preserve">
+    <value>オートフィルのルールを指定するセルの範囲です。</value>
+  </data>
+  <data name="Cell" xml:space="preserve">
+    <value>セル</value>
+  </data>
+  <data name="DestinationCell" xml:space="preserve">
+    <value>対象セル</value>
+  </data>
+  <data name="DestinationSheet" xml:space="preserve">
+    <value>対象シート</value>
+  </data>
+  <data name="DestinationSheetName" xml:space="preserve">
+    <value>コピー先のシート名</value>
+  </data>
+  <data name="NoColumns" xml:space="preserve">
+    <value>列数</value>
+  </data>
+  <data name="NoRows" xml:space="preserve">
+    <value>行数</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>範囲</value>
+  </data>
+  <data name="SourceRange" xml:space="preserve">
+    <value>元の範囲</value>
+  </data>
+  <data name="StartingCell" xml:space="preserve">
+    <value>開始セル</value>
+  </data>
+  <data name="Target" xml:space="preserve">
+    <value>ターゲット</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>値</value>
+  </data>
+  <data name="WorkbookPath" xml:space="preserve">
+    <value>ワークブックのパス</value>
+  </data>
+  <data name="SourceRangeAutoFillDisplayName" xml:space="preserve">
+    <value>元の範囲</value>
+  <comment>property name</comment>
+  </data>
+  <data name="Destination" xml:space="preserve">
+    <value>保存先</value>
+  </data>
+  <data name="ReadCellCellDescription" xml:space="preserve">
+    <value>読み込むセルをセル範囲で指定します。</value>
+  </data>
+  <data name="ReadRowResultDescription" xml:space="preserve">
+    <value>IEnumerable としての行の結果です。</value>
+  </data>
+  <data name="ReadRowStartingCellDescription" xml:space="preserve">
+    <value>読み込む行の最初のセルをセル範囲で指定します。</value>
+  </data>
+  <data name="ReadColumnResultDescription" xml:space="preserve">
+    <value>IEnumerable としての列の結果です。</value>
+  </data>
+  <data name="ReadColumnStartingCellDescription" xml:space="preserve">
+    <value>読み込む列の最初のセルをセル範囲で指定します。</value>
+  </data>
+  <data name="ReadRangeAddHeadersDescription" xml:space="preserve">
+    <value>範囲内の最初の行を列ヘッダーの定義と見なす必要があるかどうかを指定します。false に設定すると、返される DataTable の列の名前は空になります。</value>
+  </data>
+  <data name="ReadRangeDataTableDescription" xml:space="preserve">
+    <value>読み込んだデータを格納する DataTable オブジェクトです。</value>
+  </data>
+  <data name="ReadRangeRangeDescription" xml:space="preserve">
+    <value>読み込むセルの範囲を指定します。この値を指定しない場合、スプレッドシート全体が読み込まれます。範囲に 1 つのセルを指定すると、そのセル以降のスプレッドシート全体が読み込まれます。</value>
+  </data>
+  <data name="PreserveFormatSlowDisplayName" xml:space="preserve">
+    <value>表示形式を維持</value>
+  <comment>property name</comment>
+  </data>
+  <data name="PreserveFormatDisplayName" xml:space="preserve">
+    <value>表示形式を保持</value>
+  <comment>property name</comment>
+  </data>
+  <data name="ReadRangeUseFilterDescription" xml:space="preserve">
+    <value>ワークブックに定義したフィルターを適用します。</value>
+  </data>
+  <data name="PreserveFormatDescription" xml:space="preserve">
+    <value>セルの表示形式を保持します (通貨、日付など)。</value>
+  </data>
+  <data name="ReadCellResultDescription" xml:space="preserve">
+    <value>セルの値です。</value>
+  </data>
+  <data name="PreserveFormatSlowDescription" xml:space="preserve">
+    <value>セルの表示形式を保持します (通貨、日付など)。指定の範囲にあるセルをひとつずつ読み込むため、一括で読み込むよりも処理は遅くなります。</value>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>実行</value>
+  </data>
+  <data name="QuickHandleClosed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoRangeSelected" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoCellSelected" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WorkbookNotInitiliazed" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SelectedCellNotOpen" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SelectedSheetNotOpen" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SelectedRangeNotOpen" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VariableNotFound" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CannotMultiply" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TableOnDataColumnsMismatch" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CannotSubtract" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RangeAddressIsNullOrEmpty" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CannotDivide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CannotAdd" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CurrentRowColumnIndexOutsideRange" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CompareNotImplemented" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CannotConvertExcelValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VariableNameValidation" xml:space="preserve">
+    <value />
+  </data>
+</root>
