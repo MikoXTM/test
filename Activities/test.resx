@@ -462,7 +462,7 @@
     <comment>property name</comment>
   </data>
   <data name="CopyItemsDescription" xml:space="preserve">
-    <value>Values and format items to copy</value>
+    <value>Values and format items to copy - TEST</value>
   </data>
   <data name="NothingToCopyError" xml:space="preserve">
     <value>There must be at least one item/cell feature to copy.</value>
