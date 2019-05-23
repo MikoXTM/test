@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>   <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppendCsvFileDescription" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="AppendRange" xml:space="preserve">
+    <value>for the GIT</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="AppendRangeDescription" xml:space="preserve">
+    <value>Connector roundtrip on the XTM connector set up with .resx files</value>
+  </data>
+  <data name="AppendToCSV" xml:space="preserve">
+    <value>Append To CSV</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CategoryCSV" xml:space="preserve">
+    <value>CSV</value>
+  </data>
+  <data name="CategoryExcel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="CategoryTable" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="CloseWorkbook" xml:space="preserve">
+    <value>Close Workbook</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DeleteColumn" xml:space="preserve">
+    <value>Delete Column</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ExcelApplicationScopeDescription" xml:space="preserve">
+    <value>Opens an Excel Workbook providing a scope for Excel Activities. When this Activity ends, the Workbook and the Excel application are closed. If the specified file does not exist, a new Excel file is created.</value>
+  </data>
+  <data name="ExcelFilter" xml:space="preserve">
+    <value>Excel Workbooks</value>
+  </data>
+  <data name="ExecuteMacroDescription" xml:space="preserve">
+    <value>Execute the macro within a workbook. The Workbook file needs to be a Macro-Enabled Workbook. Changes are immediately saved.</value>
+  </data>
+  <data name="FilterTable" xml:space="preserve">
+    <value>Filter Table</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetCellColor" xml:space="preserve">
+    <value>Get Cell Color</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="GetTableRange" xml:space="preserve">
+    <value>Get Table Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="InsertColumn" xml:space="preserve">
+    <value>Insert Column</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ReadCell" xml:space="preserve">
+    <value>Read Cell</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ReadCellDescription" xml:space="preserve">
+    <value>Reads the value of a cell from a spreadsheet as a string.</value>
+  </data>
+  <data name="ReadCellFormula" xml:space="preserve">
+    <value>Read Cell Formula</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ReadCellFormulaDescription" xml:space="preserve">
+    <value>Reads the formula of a cell from a spreadsheet as a string.</value>
+  </data>
+  <data name="ReadColumn" xml:space="preserve">
+    <value>Read Column</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ReadCSV" xml:space="preserve">
+    <value>Read CSV</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ReadCSVFileDescription" xml:space="preserve">
+    <value>Reads all entries from a specified CSV file.</value>
+  </data>
+  <data name="ReadRange" xml:space="preserve">
+    <value>Read Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ReadRangeDescription" xml:space="preserve">
+    <value>Reads the value of a range in Range Excel Format from a spreadsheet as a DataTable. If Range isn't specified, the whole spreadsheet is read. If range is specified as a cell, the whole spreadsheet starting from that cell is read.</value>
+  </data>
+  <data name="ReadRow" xml:space="preserve">
+    <value>Read Row</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SaveWorkbook" xml:space="preserve">
+    <value>Save Workbook</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SelectRange" xml:space="preserve">
+    <value>Select Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SetRangeColor" xml:space="preserve">
+    <value>Set Range Color</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="SortTable" xml:space="preserve">
+    <value>Sort Table</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="WorkbookPath" xml:space="preserve">
+    <value>WorkbookPath</value>
+  </data>
+  <data name="WriteCell" xml:space="preserve">
+    <value>Write Cell</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="WriteCellDescription" xml:space="preserve">
+    <value>Writes the Text value into a cell from a spreadsheet. on the XTM connector If a value exists, it is overwritten. Changes are immediately saved.</value>
+  </data>
+  <data name="WriteCSV" xml:space="preserve">
+    <value>Write CSV</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="WriteCSVFileDescription" xml:space="preserve">
+    <value>Overwrites a specified DataTable to a CSV file.</value>
+  </data>
+  <data name="WriteRange" xml:space="preserve">
+    <value>Write Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="WriteRangeDescription" xml:space="preserve">
+    <value>Writes the data from a DataTable in a spreadsheet starting from StartingCell. If StartingCell isn't specified, the writing begins at A1 cell. on the XTM connector All cells within the DataTable range are overwritten. Changes are immediately saved.</value>
+  </data>
+  <data name="XlsxFilter" xml:space="preserve">
+    <value>Excel Workbooks</value>
+  </data>
+  <data name="InvokeVBADescription" xml:space="preserve">
+    <value>Load and execute VBA code into a workbook. Trust access to the VBA project object model must be enabled.</value>
+  </data>
+  <data name="ExcelAppendRangeDescription" xml:space="preserve">
+    <value>Connector roundtrip on the XTM connector Changes are immediately saved.</value>
+  </data>
+  <data name="ExcelReadCellDescription" xml:space="preserve">
+    <value>Reads the value of a cell from a spreadsheet as a string.</value>
+  </data>
+  <data name="ExcelReadCellFormulaDescription" xml:space="preserve">
+    <value>Reads the formula of a cell from a spreadsheet as a string.</value>
+  </data>
+  <data name="ExcelWriteCellDescription" xml:space="preserve">
+    <value>Writes a value/formula into a cell or a range from a spreadsheet. on the XTM connector If a value exists, it is overwritten. Changes are immediately saved.</value>
+  </data>
+  <data name="ExcelReadRangeDescription" xml:space="preserve">
+    <value>Reads the value of a range in Range Excel Format from a spreadsheet as a DataTable. If Range isn't specified, the whole spreadsheet is read. If range is specified as a cell, the whole spreadsheet starting from that cell is read.</value>
+  </data>
+  <data name="ExcelWriteRangeDescription" xml:space="preserve">
+    <value>Writes the data from a DataTable in a spreadsheet starting from StartingCell. If StartingCell isn't specified, the writing begins at A1 cell. on the XTM connector All cells within the DataTable range are overwritten. Changes are immediately saved.</value>
+  </data>
+  <data name="ExcelInsertColumnDescription" xml:space="preserve">
+    <value>Inserts a new column into a table. If no position is specified, the column will be inserted at the end of the table.</value>
+  </data>
+  <data name="ExcelDeleteColumnDescription" xml:space="preserve">
+    <value>Deletes a column table from a spreadsheet based on its name.</value>
+  </data>
+  <data name="ExcelSortTableDescription" xml:space="preserve">
+    <value>Sorts a table from a spreadsheet based on a column.</value>
+  </data>
+  <data name="ExcelFilterTableDescription" xml:space="preserve">
+    <value>Filters a table from a spreadsheet based on existing values from a column.</value>
+  </data>
+  <data name="ExcelSelectRangeDescription" xml:space="preserve">
+    <value>Selects an entire Excel Range for further operations from a spreadsheet.</value>
+  </data>
+  <data name="ExcelGetTableRangeDescription" xml:space="preserve">
+    <value>Retrieves the Excel Range of a table from a spreadsheet.</value>
+  </data>
+  <data name="ExcelCloseWorkbookDescription" xml:space="preserve">
+    <value>Closes an already opened workbook</value>
+  </data>
+  <data name="ExcelSaveWorkbookDescription" xml:space="preserve">
+    <value>Saves changes to the workbook opened in ExcelApplicationScope</value>
+  </data>
+  <data name="AppendCSVFileDataTableDescription" xml:space="preserve">
+    <value>Specifies the DataTable to be appended to the CSV file.</value>
+  </data>
+  <data name="AppendRangeDataTableDescription" xml:space="preserve">
+    <value>The DataTable object containing the input data</value>
+  </data>
+  <data name="CellContentHint" xml:space="preserve">
+    <value>Cell content. Text must be quoted</value>
+  </data>
+  <data name="CellHint" xml:space="preserve">
+    <value>If everything</value>
+  </data>
+  <data name="ColumnNameHint" xml:space="preserve">
+    <value>Column Name</value>
+  </data>
+  <data name="CSVAddHeadersDescription" xml:space="preserve">
+    <value>Boolean that specifies if the column names from the DataTable will be added to the output CSV file.</value>
+  </data>
+  <data name="CSVFilePathDescription" xml:space="preserve">
+    <value>Full path of the CSV file.</value>
+  </data>
+  <data name="CSVFilePathHint" xml:space="preserve">
+    <value>File path. Text must be quoted</value>
+  </data>
+  <data name="CSVFilter" xml:space="preserve">
+    <value>CSV Files (Comma delimited)</value>
+  </data>
+  <data name="CSVIncludeColumnNamesDescription" xml:space="preserve">
+    <value>Specifies if the first row in the CSV file should be considered to contain the column names. If set to false, the output DataTable will have columns with default names.</value>
+  </data>
+  <data name="DataTableHint" xml:space="preserve">
+    <value>Data table</value>
+  </data>
+  <data name="DelimiterDescription" xml:space="preserve">
+    <value>Specifies the delimiter in the CSV file. It can be comma(','), semicolon(';'), tab, pipe('|') or caret('^')</value>
+  </data>
+  <data name="DoubleClinkContent" xml:space="preserve">
+    <value>Double-click to view</value>
+  </data>
+  <data name="EditWorkbookPasswordDescription" xml:space="preserve">
+    <value>The password for editing the workbook, if necessary</value>
+  </data>
+  <data name="ExcelApplicationScopeAutoSaveDescription" xml:space="preserve">
+    <value>AutoSave the workbook on each change activity. Use the Save Workbook activity when disabled</value>
+  </data>
+  <data name="ExcelApplicationScopeCreateNewFileDescription" xml:space="preserve">
+    <value>Creates a new file if it does not already exist</value>
+  </data>
+  <data name="ExcelApplicationScopeWorkbookPathDescription" xml:space="preserve">
+    <value>Full path of the workbook. An error is thrown if the workbook path does not have a file extension</value>
+  </data>
+  <data name="ExcelFilePathDialogTitle" xml:space="preserve">
+    <value>Select an excel document</value>
+  </data>
+  <data name="FormulaHint" xml:space="preserve">
+    <value>A value or a formula. Text must be quoted</value>
+  </data>
+  <data name="InvokeVBACodeFilePathDescription" xml:space="preserve">
+    <value>Full path to the (text) file containing the necessary VBA Sub/Function definitions</value>
+  </data>
+  <data name="InvokeVBAEntryMethodNameDescription" xml:space="preserve">
+    <value>The Sub/Function name to be invoked. Must be implemented in the code file</value>
+  </data>
+  <data name="InvokeVBAEntryMethodParametersDescription" xml:space="preserve">
+    <value>A list of (up to 30) parameters to be passed to the entry method</value>
+  </data>
+  <data name="InvokeVBAFilePathTitle" xml:space="preserve">
+    <value>Select a VBA source code file</value>
+  </data>
+  <data name="InvokeVBAMethodNameHint" xml:space="preserve">
+    <value>Entry method name</value>
+  </data>
+  <data name="InvokeVBAOutputValueDescription" xml:space="preserve">
+    <value>Entry method return value, if any</value>
+  </data>
+  <data name="InvokeVBAPathHint" xml:space="preserve">
+    <value>VBA source code file path. Text must be quoted</value>
+  </data>
+  <data name="MacroNameDescription" xml:space="preserve">
+    <value>The name of the macro to be executed</value>
+  </data>
+  <data name="MacroNameHint" xml:space="preserve">
+    <value>Macro name. Text must be quoted</value>
+  </data>
+  <data name="MacroOutputDescription" xml:space="preserve">
+    <value>Macro return value, if any</value>
+  </data>
+  <data name="MacroParametersDescription" xml:space="preserve">
+    <value>A list of (up to 30) parameters to be passed to the macro</value>
+  </data>
+  <data name="QuotedTextHint" xml:space="preserve">
+    <value>Text must be quoted</value>
+  </data>
+  <data name="RangeHint" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="ReadCSVFileDataTableDescription" xml:space="preserve">
+    <value>Represents the output DataTable that contains the information obtained from the CSV file.</value>
+  </data>
+  <data name="SheetNameDescription" xml:space="preserve">
+    <value>The name of the sheet from the workbook</value>
+  </data>
+  <data name="SheetNameHint" xml:space="preserve">
+    <value>Sheet Name</value>
+  </data>
+  <data name="TableNameHint" xml:space="preserve">
+    <value>Table Name</value>
+  </data>
+  <data name="WorkbookPasswordDescription" xml:space="preserve">
+    <value>The password of the workbook, if necessary</value>
+  </data>
+  <data name="WorkbookPathDescription" xml:space="preserve">
+    <value>Full path of the workbook</value>
+  </data>
+  <data name="WorkbookPathHint" xml:space="preserve">
+    <value>Workbook path. Text must be quoted</value>
+  </data>
+  <data name="WriteCellCellDescription" xml:space="preserve">
+    <value>Specifies the cell (in range format) to which the input will be written</value>
+  </data>
+  <data name="WriteCellTextDescription" xml:space="preserve">
+    <value>The input text</value>
+  </data>
+  <data name="WriteCSVFileDataTableDescription" xml:space="preserve">
+    <value>Specifies the DataTable to be written in the CSV file.</value>
+  </data>
+  <data name="WriteRangeAddHeadersDescription" xml:space="preserve">
+    <value>Specifies if the first row written should be the column names from the DataTable input</value>
+  </data>
+  <data name="WriteRangeDataTableDescription" xml:space="preserve">
+    <value>The DataTable object containing the input data</value>
+  </data>
+  <data name="WriteRangeStartingCellDescription" xml:space="preserve">
+    <value>Specifies the starting cell (in range format) from which the input will be written</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>DisplayName</value>
+    <comment>property name</comment>
+  </data>
+  <data name="DeleteRange" xml:space="preserve">
+    <value>Delete Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CreateTable" xml:space="preserve">
+    <value>Create Table</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CopySheet" xml:space="preserve">
+    <value>Copy Sheet</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="DeleteRangeDescription" xml:space="preserve">
+    <value>Clears or deletes a range</value>
+  </data>
+  <data name="ExcelCreateTableDescription" xml:space="preserve">
+    <value>Creates a table from the specified range</value>
+  </data>
+  <data name="CopySheetDestinationFilePathDescription" xml:space="preserve">
+    <value>The workbook where the sheet is to be copied. Leave empty for the current scope workbook.</value>
+  </data>
+  <data name="DeleteRangeRangeDescription" xml:space="preserve">
+    <value>The affected range</value>
+  </data>
+  <data name="CreateTableDescription" xml:space="preserve">
+    <value>Creates a table from the specified range</value>
+  </data>
+  <data name="CopySheetDestinationSheetNameDescription" xml:space="preserve">
+    <value>The sheet name of the copy</value>
+  </data>
+  <data name="DeleteRangeShiftCellsDescription" xml:space="preserve">
+    <value>Leave this option unchecked to delete only cell data and leave formatting unchanged. When checked, cells will be shifted according to the Shift Option.</value>
+  </data>
+  <data name="ExcelCopySheetDescription" xml:space="preserve">
+    <value>Copy a sheet to a workbook</value>
+  </data>
+  <data name="DeleteRangeShiftOptionDescription" xml:space="preserve">
+    <value>Set how should cells be shifted to fill the deleted range.</value>
+  </data>
+  <data name="CreatePivotTable" xml:space="preserve">
+    <value>Create Pivot Table</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ExcelCreatePivotTableDescription" xml:space="preserve">
+    <value>Creates a pivot table from the specified table</value>
+  </data>
+  <data name="PivotTableNameHint" xml:space="preserve">
+    <value>Pivot Table Name</value>
+  </data>
+  <data name="SourceTableNameHint" xml:space="preserve">
+    <value>Source Table Name</value>
+  </data>
+  <data name="ExcelGetSelectedRangeDescription" xml:space="preserve">
+    <value>Retrieves the selected range.</value>
+  </data>
+  <data name="GetSelectedRange" xml:space="preserve">
+    <value>Get Selected Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ExcelGetWorkbookSheetsDescription" xml:space="preserve">
+    <value>Retrieves a list of all sheet names.</value>
+  </data>
+  <data name="GetWorkbookSheets" xml:space="preserve">
+    <value>Get Workbook Sheets</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ExcelGetWorkbookSheetDescription" xml:space="preserve">
+    <value>Returns the name of the sheet specified by its index.</value>
+  </data>
+  <data name="ExcelRefreshPivotTableDescription" xml:space="preserve">
+    <value>Refreshes the specified pivot table.</value>
+  </data>
+  <data name="GetWorkbookSheet" xml:space="preserve">
+    <value>Get Workbook Sheet</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="RefreshPivotTable" xml:space="preserve">
+    <value>Refresh Pivot Table</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CategoryProcessing" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="AutoFillRange" xml:space="preserve">
+    <value>Auto Fill Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ExcelAutoFillRangeDescription" xml:space="preserve">
+    <value>Fill a range using a source range rule</value>
+  </data>
+  <data name="FillRangeHint" xml:space="preserve">
+    <value>Destination range for autofill</value>
+  </data>
+  <data name="RuleRangeHint" xml:space="preserve">
+    <value>Source range for autofill</value>
+  </data>
+  <data name="ExcelInsertRemoveColumnsDescription" xml:space="preserve">
+    <value>Inserts or deletes columns in the specified position</value>
+  </data>
+  <data name="ExcelApplicationScopeReadOnlyDescription" xml:space="preserve">
+    <value>Open the workbook in read-only mode. May be useful should the file be locked for editing or perhaps you don't know the edit password.</value>
+  </data>
+  <data name="ExcelInsertRemoveRowsDescription" xml:space="preserve">
+    <value>Inserts or deletes rows in the specified position</value>
+  </data>
+  <data name="InsertRemoveColumns" xml:space="preserve">
+    <value>Insert/Delete Columns</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="InsertRemoveRows" xml:space="preserve">
+    <value>Insert/Delete Rows</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ValueLookupHint" xml:space="preserve">
+    <value>Value to be searched</value>
+  </data>
+  <data name="LookUpRange" xml:space="preserve">
+    <value>LookUp Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="RemoveDuplicatesRange" xml:space="preserve">
+    <value>Remove Duplicates Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="CopyPasteRange" xml:space="preserve">
+    <value>Copy Paste Range</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ExcelCopyPasteRangeDescription" xml:space="preserve">
+    <value>Copies a range from the current sheet to a given sheet and position</value>
+  </data>
+  <data name="CategoryAppIntegration" xml:space="preserve">
+    <value>App Integration</value>
+  </data>
+  <data name="CategoryFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="CategorySystem" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="CategoryWorkbook" xml:space="preserve">
+    <value>Workbook</value>
+  </data>
+  <data name="ExcelLookUpRangeDescription" xml:space="preserve">
+    <value>Search for a given value in a range</value>
+  </data>
+  <data name="ExcelRemoveDuplicatesRangeDescription" xml:space="preserve">
+    <value>Remove duplicate rows from a range</value>
+  </data>
+  <data name="ApplicationScope" xml:space="preserve">
+    <value>Excel Application Scope</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ExecuteMacro" xml:space="preserve">
+    <value>Execute Macro</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="InvokeVBA" xml:space="preserve">
+    <value>Invoke VBA</value>
+    <comment>activity name</comment>
+  </data>
+  <data name="ExcelGetCellColorDescription" xml:space="preserve">
+    <value>Extracts the background color of a cell and saves it as a Color variable.</value>
+  </data>
+  <data name="ExcelReadColumnDescription" xml:space="preserve">
+    <value>Reads the values from a column beginning with the cell specified in the StartingCell field, and stores them in an IEnumerable&lt;object&gt; variable.</value>
+  </data>
+  <data name="ExcelReadRowDescription" xml:space="preserve">
+    <value>Reads the values from a row beginning with the cell specified in the StartingCell field, and stores it in an IEnumerable&lt;object&gt; variable.</value>
+  </data>
+  <data name="ExcelSetRangeColorDescription" xml:space="preserve">
+    <value>Changes the color of a specified cell or cell range using a Color variable.</value>
+  </data>
+  <data name="GetTableRangeDescription" xml:space="preserve">
+    <value>Extracts the range of an Excel table from a specified spreadsheet.</value>
+  </data>
+  <data name="ReadColumnDescription" xml:space="preserve">
+    <value>Reads the values from a column beginning from the cell specified in the StartingCell field, and stores them in an IEnumerable &lt;object&gt;variable.</value>
+  </data>
+  <data name="ReadRowDescription" xml:space="preserve">
+    <value>Reads the values of an Excel row beginning from the cell specified in the StartingCell field, and stores it in an IEnumerable&lt;object&gt; variable.</value>
+  </data>
+  <data name="ConfigureExcelFile" xml:space="preserve">
+    <value>Configure Excel File</value>
+  </data>
+  <data name="QuickHandleSubCategoryName" xml:space="preserve">
+    <value>StudioX</value>
+  </data>
+  <data name="ConfigureExcelFileDescription" xml:space="preserve">
+    <value>Temporary activity to test the Excel Quick Handle</value>
+  </data>
+  <data name="ConfigureExcelFileVariableName" xml:space="preserve">
+    <value>Variable name:</value>
+  </data>
+</root>
