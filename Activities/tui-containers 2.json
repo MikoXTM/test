@@ -1,0 +1,6 @@
+{
+  "DELETE_RESOURCE_YES": "REMOVE",
+  "DELETE_RESOURCE_NO": "CANCEL",
+  "DELETE_RESOURCE_MESSAGE": "Are you sure you want to remove the <1>{{resourceTypeLabel}}</1> <3><0>{{label}}</0></3>?",
+  "DELETE_RESOURCE_MESSAGE_female": "Are you sure you want to remove the <1>{{resourceTypeLabel}}</1> <3><0>{{label}}</0></3>?"
+}
