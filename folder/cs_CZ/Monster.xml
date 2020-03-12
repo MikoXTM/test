@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="home_monster">Nástroj Monster Builder</string>
+    <string name="monster_message">Vytvořte a přizpůsobte si své drsné postavy monstra.</string>
+    <string name="get_crazy">Zblázni se tím!</string>
+    <string name="monster_head">Hlava</string>
+    <string name="monster_torso">Trup</string>
+	<string name="monster_legs">Nohy</string>
+    <string name="monster_preview">Zobrazit náhled příšery</string>
+    <string name="preview_message">Jéje!</string>
+
+</resources>
