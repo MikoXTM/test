@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="home_welcome">Vítejte v aplikaci KillerApp</string>
+    <string name="main_login">Přihlásit se ke svému účtu</string>
+    <string name="user_name.label">Uživatelské jméno:</string>
+    <string name="user_password.label">Heslo:</string>
+    <string name="forgot_password">Zapomněli jste heslo?</string>
+	<string name="forgot_password_message">Obdržíte e-mail obsahující speciální odkaz pro obnovení hesla. Zkontrolujte složku nevyžádané pošty.</string>
+    <string name="forgot_username">Zapomněli jste uživatelské jméno?</string>
+	<string name="forgot_username_message">Pro načtení uživatelského jména budete muset zodpovědět jednu z otázek zabezpečení.</string>
+    <string name="no_search_results_title">Hezký den!</string>
+
+</resources>
