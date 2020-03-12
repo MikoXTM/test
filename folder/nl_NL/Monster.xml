@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="home_monster">Monstermaker</string>
+    <string name="monster_message">Creeer en pas uw vroege Karakters van het Monster aan.</string>
+    <string name="get_crazy">Word er gek van!</string>
+    <string name="monster_head">Hoofd</string>
+    <string name="monster_torso">Torso</string>
+	<string name="monster_legs">Legs</string>
+    <string name="monster_preview">Je voorbeeld bekijken</string>
+    <string name="preview_message">Yikes.</string>
+
+</resources>
