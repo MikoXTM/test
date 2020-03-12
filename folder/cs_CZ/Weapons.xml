@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="monster_weapon_home">Nástroj Monster Builder</string>
+    <string name="choose_weapon_header">Nyní si vyberte svou implementaci destrukce!</string>
+    <string name="choose_weapon_message">Jak zabijete své přátele?</string>
+    <string name="weapon_shooter">Střelci</string>
+    <string name="weapon_stabber">Pobodávky</string>
+	<string name="weapon_slasher">Lomítka</string>
+    <string name="weapon_preview">Zobrazit náhled příšery</string>
+    <string name="weapon_message">Připraven ke skákání!</string>
+
+</resources>
