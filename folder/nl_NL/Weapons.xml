@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="monster_weapon_home">Monstermaker</string>
+    <string name="choose_weapon_header">Kies nu uw implementatie van vernietiging!</string>
+    <string name="choose_weapon_message">Hoe ga je je fransen slachten?</string>
+    <string name="weapon_shooter">Afschieten</string>
+    <string name="weapon_stabber">Stabbers</string>
+	<string name="weapon_slasher">Slasher</string>
+    <string name="weapon_preview">Je voorbeeld bekijken</string>
+    <string name="weapon_message">Klaar om te rotten!</string>
+
+</resources>
