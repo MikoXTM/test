@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="home_monster">モンスタービルダー</string>
+    <string name="monster_message">一般的なモンスターキャラクタを作成し、カスタマイズします。</string>
+    <string name="get_crazy">気が狂うな！</string>
+    <string name="monster_head">ヘッド</string>
+    <string name="monster_torso">トルソ</string>
+	<string name="monster_legs">脚</string>
+    <string name="monster_preview">モンスターのプレビュー</string>
+    <string name="preview_message">イークス！</string>
+
+</resources>
