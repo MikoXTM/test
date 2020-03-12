@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="home_welcome">Welkom bij KillerApp</string>
+    <string name="main_login">Log in bij je account</string>
+    <string name="user_name.label">Gebruikersnaam:</string>
+    <string name="user_password.label">Wachtwoord:</string>
+    <string name="forgot_password">Wachtwoord vergeten?</string>
+	<string name="forgot_password_message">Je ontvangt een e-mail met een speciale link om je wachtwoord opnieuw in te stellen. Controleer de spammap.</string>
+    <string name="forgot_username">Gebruikersnaam vergeten?</string>
+	<string name="forgot_username_message">Om uw gebruikersnaam op te halen, moet u een van uw beveiligingsvragen beantwoorden.</string>
+    <string name="no_search_results_title">Een fijne dag!</string>
+
+</resources>
