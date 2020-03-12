@@ -1,0 +1,3 @@
+プライバシー通知
+
+「ヘルプ」または「Cisco Jabberについて」の「Send usage data to Cisco」オプションを無効にせずにCisco Jabberソフトウェアを使用すると、Cisco Jabberソフトウェアの使用に基づくCisco Systems, Inc.のデータ収集に同意します。 シスコでは、個人を特定できる情報を収集していません。 すべてのデータは、http://www.cisco.com/web/siteassets/legal/privacy_02Jun10.htmlにあるシスコのプライバシーポリシーに従って収集されます。
