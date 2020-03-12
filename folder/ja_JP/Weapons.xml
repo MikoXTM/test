@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="monster_weapon_home">モンスタービルダー</string>
+    <string name="choose_weapon_header">さあ破壊の道具を選べ！</string>
+    <string name="choose_weapon_message">自分のフレニーをどうやって殺すの？</string>
+    <string name="weapon_shooter">シューターズ</string>
+    <string name="weapon_stabber">ステーバーズ</string>
+	<string name="weapon_slasher">スラッシャー</string>
+    <string name="weapon_preview">モンスターのプレビュー</string>
+    <string name="weapon_message">揺れる準備！</string>
+
+</resources>
