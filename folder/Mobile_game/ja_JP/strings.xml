@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="home_welcome">KillerAppへようこそ</string>
+    <string name="main_login">アカウントにサインイン</string>
+    <string name="user_name.label">ユーザー名：</string>
+    <string name="user_password.label">パスワード：</string>
+    <string name="forgot_password">パスワードを忘れた場合</string>
+	<string name="forgot_password_message">パスワードをリセットするための特別なリンクを含む電子メールが送信されます。スパムフォルダーを確認してください。</string>
+    <string name="forgot_username">ユーザー名を忘れた場合</string>
+	<string name="forgot_username_message">ユーザー名を取得するには、セキュリティに関する質問の1つに回答する必要があります。</string>
+    <string name="no_search_results_title">良い一日を！</string>
+
+</resources>
