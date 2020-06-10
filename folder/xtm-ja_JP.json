@@ -1,0 +1,49 @@
+{
+  "status": {
+    "cr": {
+      "heading": "ご注文承りました",
+      "description": "ご注文を承りました。適格性が確認され次第、更新いたします。"
+    },
+    "ip": {
+      "heading": "進行中",
+      "description": "ご注文はLivongoによって承認され、次の場所に配送されます < 0>{{range}} 営業日 < /0>."
+    },
+    "su": {
+      "heading": "キャリアの準備ができて",
+      "description": "ご注文は配送業者による集荷の準備ができており、次の場所に配送されます < 0>{{range}} 営業日 < /0>."
+    },
+    "sh": {
+      "heading": "輸送中",
+      "description": "パッケージが到着するはずです < 0>{{range}} 営業日 < /0>."
+    },
+    "it": {
+      "heading": "In-Transit",
+      "description": "あなたの荷物は < 0>{{date}} < /0>. < 1>Track パッケージ < /1>"
+    },
+    "oc": {
+      "heading": "キャリア施設にて",
+      "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
+    },
+    "od": {
+      "heading": "配送中",
+      "description": "パッケージは配送中で、到着までに到着します < 0>end 一日の < /0>. < 1>Track パッケージ < /1>"
+    },
+    "dl": {
+      "heading": "配達されたパッケージ",
+      "description1": "あなたのパッケージはに配信されました < 0>{{location}} < /0>. < 1>View 細部 < /1>",
+      "description2": "パッケージが配達されました。"
+    },
+    "fl": {
+      "heading": "未配達のパッケージ",
+      "description": "パッケージの配信中に問題が発生しました。 < 1>View 細部 < /1> または電話で < 2>{{phoneNumber}} < /2>"
+    },
+    "rp": {
+      "heading": "リヴォンゴに戻った",
+      "description": "メンバーサポートに電話してください < 2>{{phoneNumber}} < /2>. < 1>View 細部 < /1>"
+    },
+    "error": {
+      "heading": "エラー",
+      "description": "注文ステータスの読み込み中に問題が発生しました。Please call Member Support at <2>{{phoneNumber}}</2>."
+    }
+  }
+}
