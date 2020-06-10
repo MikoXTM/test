@@ -1,0 +1,49 @@
+{
+  "status": {
+    "cr": {
+      "heading": "Ordre reçu",
+      "description": "Nous avons reçu votre commande et vous mettrons à jour dès que nous vérifierons votre éligibilité."
+    },
+    "ip": {
+      "heading": "En cours",
+      "description": "Votre commande a été approuvée par Livongo et doit être livrée en < 0>{{range}} jours ouvrables < /0>."
+    },
+    "su": {
+      "heading": "Prêt pour le transporteur",
+      "description": "Votre commande est prête à être retirée par le transporteur et doit être livrée en < 0>{{range}} jours ouvrables < /0>."
+    },
+    "sh": {
+      "heading": "En transit",
+      "description": "Votre colis doit arriver en < 0>{{range}} jours ouvrables < /0>."
+    },
+    "it": {
+      "heading": "In-Transit",
+      "description": "Votre colis doit arriver par < 0>{{date}} < /0>. < 1>Track Paquet < /1>"
+    },
+    "oc": {
+      "heading": "À l'installation de transporteur",
+      "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
+    },
+    "od": {
+      "heading": "En cours de livraison",
+      "description": "Votre colis est en cours de livraison et arrivera par < 0>end du jour < /0>. < 1>Track Paquet < /1>"
+    },
+    "dl": {
+      "heading": "Paquet livré",
+      "description1": "Votre colis a été livré à < 0>{{location}} < /0>. < 1>View Détails < /1>",
+      "description2": "Votre colis a été livré."
+    },
+    "fl": {
+      "heading": "Paquet non livré",
+      "description": "Un problème est survenu lors de la livraison de votre colis. < 1>View Détails < /1> ou appelez-nous au < 2>{{phoneNumber}} < /2>"
+    },
+    "rp": {
+      "heading": "Retour à Livongo",
+      "description": "Veuillez appeler l'assistance aux membres à < 2>{{phoneNumber}} < /2>. < 1>View Détails < /1>"
+    },
+    "error": {
+      "heading": "Erreur",
+      "description": "Un problème est survenu lors du chargement de l'état de votre commande. Please call Member Support at <2>{{phoneNumber}}</2>."
+    }
+  }
+}
