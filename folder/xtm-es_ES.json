@@ -1,0 +1,49 @@
+{
+  "status": {
+    "cr": {
+      "heading": "orden recibida",
+      "description": "Hemos recibido su pedido y lo actualizaremos tan pronto como verifiquemos su elegibilidad."
+    },
+    "ip": {
+      "heading": "En progreso",
+      "description": "Su pedido ha sido aprobado por Livongo y debe ser entregado en < 0>{{range}} días hábiles < /0>."
+    },
+    "su": {
+      "heading": "Listo para el transportista",
+      "description": "Su pedido está listo para ser recogido por el transportista y debe entregarse en < 0>{{range}} días hábiles < /0>."
+    },
+    "sh": {
+      "heading": "En tránsito",
+      "description": "Su paquete debe llegar a < 0>{{range}} días hábiles < /0>."
+    },
+    "it": {
+      "heading": "In-Transit",
+      "description": "Su paquete debe llegar antes de < 0>{{date}} < /0>. < 1>Track Paquete < /1>"
+    },
+    "oc": {
+      "heading": "En la instalación portadora",
+      "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
+    },
+    "od": {
+      "heading": "Fuera para entrega",
+      "description": "Su paquete está fuera de entrega y llegará antes de < 0>end de dia < /0>. < 1>Track Paquete < /1>"
+    },
+    "dl": {
+      "heading": "Paquete entregado",
+      "description1": "Su paquete fue entregado a < 0>{{location}} < /0>. < 1>View Detalles < /1>",
+      "description2": "Tu paquete fue entregado."
+    },
+    "fl": {
+      "heading": "Paquete no entregado",
+      "description": "Hubo un problema al entregar su paquete. < 1>View Detalles < /1> o llámanos al < 2>{{phoneNumber}} < /2>"
+    },
+    "rp": {
+      "heading": "Regresó a Livongo",
+      "description": "Llame a Soporte para miembros al < 2>{{phoneNumber}} < /2>. < 1>View Detalles < /1>"
+    },
+    "error": {
+      "heading": "Error",
+      "description": "Hubo un problema al cargar el estado de su pedido. Please call Member Support at <2>{{phoneNumber}}</2>."
+    }
+  }
+}
