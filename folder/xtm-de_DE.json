@@ -1,0 +1,49 @@
+{
+  "status": {
+    "cr": {
+      "heading": "Bestellung erhalten",
+      "description": "Wir haben Ihre Bestellung erhalten und werden Sie aktualisieren, sobald wir Ihre Berechtigung überprüfen."
+    },
+    "ip": {
+      "heading": "In Bearbeitung",
+      "description": "Ihre Bestellung wurde von Livongo genehmigt und sollte in geliefert werden < 0>{{range}} Arbeitstage < /0>."
+    },
+    "su": {
+      "heading": "Bereit für Carrier",
+      "description": "Ihre Bestellung ist zur Abholung durch den Spediteur bereit und sollte in geliefert werden < 0>{{range}} Arbeitstage < /0>."
+    },
+    "sh": {
+      "heading": "Im Transit",
+      "description": "Ihr Paket sollte in ankommen < 0>{{range}} Arbeitstage < /0>."
+    },
+    "it": {
+      "heading": "In-Transit",
+      "description": "Ihr Paket sollte bis ankommen < 0>{{date}} < /0>. < 1>Track Paket < /1>"
+    },
+    "oc": {
+      "heading": "In der Carrier Facility",
+      "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
+    },
+    "od": {
+      "heading": "Raus zur Lieferung",
+      "description": "Ihr Paket ist nicht mehr lieferbar und kommt bis zum < 0>end vom Tag < /0>. < 1>Track Paket < /1>"
+    },
+    "dl": {
+      "heading": "Paket geliefert",
+      "description1": "Ihr Paket wurde an geliefert < 0>{{location}} < /0>. < 1>View Einzelheiten < /1>",
+      "description2": "Ihr Paket wurde zugestellt."
+    },
+    "fl": {
+      "heading": "Nicht zugestelltes Paket",
+      "description": "Bei der Zustellung Ihres Pakets ist ein Problem aufgetreten. < 1>View Einzelheiten < /1> oder rufen Sie uns an < 2>{{phoneNumber}} < /2>"
+    },
+    "rp": {
+      "heading": "Rückkehr nach Livongo",
+      "description": "Bitte rufen Sie den Mitgliedersupport unter an < 2>{{phoneNumber}} < /2>. < 1>View Einzelheiten < /1>"
+    },
+    "error": {
+      "heading": "Error",
+      "description": "Beim Laden Ihres Bestellstatus ist ein Problem aufgetreten. Please call Member Support at <2>{{phoneNumber}}</2>."
+    }
+  }
+}
