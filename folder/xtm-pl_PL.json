@@ -1,0 +1,49 @@
+{
+  "status": {
+    "cr": {
+      "heading": "zamówienie przyjęte",
+      "description": "Otrzymaliśmy Twoje zamówienie i zaktualizujemy Cię, gdy tylko zweryfikujemy Twoje uprawnienia."
+    },
+    "ip": {
+      "heading": "W trakcie",
+      "description": "Twoje zamówienie zostało zatwierdzone przez Livongo i powinno zostać dostarczone < 0>{{range}} dni robocze < /0>."
+    },
+    "su": {
+      "heading": "Gotowy na Przewoźnika",
+      "description": "Twoje zamówienie jest gotowe do odbioru przez przewoźnika i powinno zostać dostarczone < 0>{{range}} dni robocze < /0>."
+    },
+    "sh": {
+      "heading": "W tranzycie",
+      "description": "Twoja paczka powinna dotrzeć < 0>{{range}} dni robocze < /0>."
+    },
+    "it": {
+      "heading": "In-Transit",
+      "description": "Twoja paczka powinna dotrzeć do < 0>{{date}} < /0>. < 1>Track Pakiet < /1>"
+    },
+    "oc": {
+      "heading": "W Carrier Facility",
+      "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
+    },
+    "od": {
+      "heading": "W drodze do odbiorcy",
+      "description": "Twoja paczka jest dostarczona i dotrze do < 0>end dnia < /0>. < 1>Track Pakiet < /1>"
+    },
+    "dl": {
+      "heading": "Pakiet dostarczony",
+      "description1": "Twoja paczka została dostarczona do < 0>{{location}} < /0>. < 1>View Detale < /1>",
+      "description2": "Twoja paczka została dostarczona."
+    },
+    "fl": {
+      "heading": "Niedostarczona paczka",
+      "description": "Podczas dostarczania paczki wystąpił problem. < 1>View Detale < /1> lub zadzwoń do nas na < 2>{{phoneNumber}} < /2>"
+    },
+    "rp": {
+      "heading": "Powrócił do Livongo",
+      "description": "Zadzwoń do działu obsługi klienta pod numer < 2>{{phoneNumber}} < /2>. < 1>View Detale < /1>"
+    },
+    "error": {
+      "heading": "Błąd",
+      "description": "Podczas ładowania statusu zamówienia wystąpił problem. Please call Member Support at <2>{{phoneNumber}}</2>."
+    }
+  }
+}
