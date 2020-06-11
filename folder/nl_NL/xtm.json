@@ -1,0 +1,49 @@
+{
+  "status": {
+    "cr": {
+      "heading": "bestelling ontvangen",
+      "description": "We hebben uw bestelling ontvangen en zullen u updaten zodra we uw geschiktheid hebben geverifieerd."
+    },
+    "ip": {
+      "heading": "Bezig",
+      "description": "Uw bestelling is goedgekeurd door Livongo en moet binnen <0>{{range}} werkdagen</0>geleverd worden ."
+    },
+    "su": {
+      "heading": "Klaar voor vervoerder",
+      "description": "Uw bestelling is klaar om door de vervoerder te worden opgehaald en moet binnen <0>{{range}} werkdagen</0>worden bezorgd."
+    },
+    "sh": {
+      "heading": "Onderweg",
+      "description": "Uw pakket moet binnen <0>{{range}} werkdagen</0>aankomen."
+    },
+    "it": {
+      "heading": "In-Transit",
+      "description": "Je pakket zou uiterlijk <0>{{date}}</0>moeten zijn . <1>Pakket volgen</1>"
+    },
+    "oc": {
+      "heading": "Bij Carrier Facility",
+      "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
+    },
+    "od": {
+      "heading": "Uit voor bezorging",
+      "description": "Uw pakket is out voor de levering en zal komen met de <0>einde van de dag</0>. <1>Track Package</1>"
+    },
+    "dl": {
+      "heading": "Pakket geleverd",
+      "description1": "Je pakket is bezorgd bij <0>{{location}}</0>. <1>Details weergeven</1>",
+      "description2": "Your package was delivered."
+    },
+    "fl": {
+      "heading": "Niet-geleverd pakket",
+      "description": "Er is een probleem opgetreden bij het bezorgen van uw pakket. <1>Details weergeven</1> of bel ons op <2>{{phoneNumber}}</2>"
+    },
+    "rp": {
+      "heading": "Keerde terug naar Livongo",
+      "description": "Bel Ledenondersteuning op <2>{{phoneNumber}}</2>. <1>View Details</1>"
+    },
+    "error": {
+      "heading": "Fout",
+      "description": "Er is een probleem opgetreden bij het laden van uw bestelstatus. Please call Member Support at <2>{{phoneNumber}}</2>."
+    }
+  }
+}
