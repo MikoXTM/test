@@ -1,49 +1,53 @@
 {
   "status": {
     "cr": {
-      "heading": "objednávka byla obdržena",
-      "description": "Obdrželi jsme vaši objednávku a budeme vás aktualizovat, jakmile ověříme vaši způsobilost."
+      "heading": "Order Received",
+      "description": "We have received your order and will update you as soon as we verify your eligibility."
     },
     "ip": {
-      "heading": "Probíhá",
-      "description": "Vaše objednávka byla schválena společností Livongo a měla by být doručena do <0>{{range}} pracovních dnů</0>."
+      "heading": "In-Progress",
+      "description": "Your order has been approved by Livongo and should be delivered in <0>{{range}} business days</0>."
     },
     "su": {
-      "heading": "Připraveno pro dopravce",
-      "description": "Vaše objednávka je připravena k vyzvednutí dopravcem a měla by být doručena do <0>{{range}} pracovních dnů</0>."
+      "heading": "Ready for Carrier",
+      "description": "Your order is ready for carrier pick-up and should be delivered in <0>{{range}} business days</0>."
     },
     "sh": {
       "heading": "In-Transit",
-      "description": "Balíček by měl dorazit do <0>{{range}} pracovních dnů</0>."
+      "description": "Your package should arrive in <0>{{range}} business days</0>."
     },
     "it": {
       "heading": "In-Transit",
-      "description": "Váš balíček by měl dorazit do <0>{{date}}</0>. <1>Sledovat balíček</1>"
+      "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
     },
     "oc": {
-      "heading": "V přepravním zařízení",
+      "heading": "At Carrier Facility",
       "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
     },
     "od": {
-      "heading": "K dodání",
-      "description": "Váš balíček je k dodání a dorazí do <0>konce dne</0>. <1>Track Package</1>"
+      "heading": "Out for Delivery",
+      "description": "Your package is out for delivery and will arrive by <0>end of day</0>. <1>Track Package</1>"
     },
     "dl": {
-      "heading": "Balíček byl dodán",
-      "description1": "Váš balíček byl doručen do <0>{{location}}</0>. <1>Zobrazit podrobnosti</1>",
+      "heading": "Package Delivered",
+      "description1": "Your package was delivered to <0>{{location}}</0>. <1>View Details</1>",
       "description2": "Your package was delivered."
     },
     "fl": {
-      "heading": "Nedoručený balíček",
-      "description": "Při doručování vašeho balíčku došlo k potížím. <1>Zobrazit podrobnosti</1> nebo nám zavolat na <2>{{phoneNumber}}</2>"
+      "heading": "Undelivered Package",
+      "description": "There was an issue delivering your package. <1>View Details</1> or call us at <2>{{phoneNumber}}</2>"
     },
     "rp": {
-      "heading": "Vrátil se k Livongu",
-      "description": "Zavolejte podporu členů na číslo <2>{{phoneNumber}}</2>. <1>View Details</1>"
+      "heading": "Returned to Livongo",
+      "description": "Please call Member Support at <2>{{phoneNumber}}</2>. <1>View Details</1>"
     },
     "error": {
-      "heading": "Chyba",
-      "description": "Při načítání stavu vaší objednávky došlo k potížím. Please call Member Support at <2>{{phoneNumber}}</2>."
+      "heading": "Error",
+      "description": "There was an issue loading your order status. Please call Member Support at <2>{{phoneNumber}}</2>."   
+    },
+    "error": {
+      "heading": "Update",
+      "description": "This is the updated line."
     }
   }
 }
