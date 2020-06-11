@@ -1,0 +1,49 @@
+{
+  "status": {
+    "cr": {
+      "heading": "Order Received",
+      "description": "We have received your order and will update you as soon as we verify your eligibility."
+    },
+    "ip": {
+      "heading": "In-Progress",
+      "description": "Your order has been approved by Livongo and should be delivered in <0>{{range}} business days</0>."
+    },
+    "su": {
+      "heading": "Ready for Carrier",
+      "description": "Your order is ready for carrier pick-up and should be delivered in <0>{{range}} business days</0>."
+    },
+    "sh": {
+      "heading": "In-Transit",
+      "description": "Your package should arrive in <0>{{range}} business days</0>."
+    },
+    "it": {
+      "heading": "In-Transit",
+      "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
+    },
+    "oc": {
+      "heading": "At Carrier Facility",
+      "description": "Your package should arrive by <0>{{date}}</0>. <1>Track Package</1>"
+    },
+    "od": {
+      "heading": "Out for Delivery",
+      "description": "Your package is out for delivery and will arrive by <0>end of day</0>. <1>Track Package</1>"
+    },
+    "dl": {
+      "heading": "Package Delivered",
+      "description1": "Your package was delivered to <0>{{location}}</0>. <1>View Details</1>",
+      "description2": "Your package was delivered."
+    },
+    "fl": {
+      "heading": "Undelivered Package",
+      "description": "There was an issue delivering your package. <1>View Details</1> or call us at <2>{{phoneNumber}}</2>"
+    },
+    "rp": {
+      "heading": "Returned to Livongo",
+      "description": "Please call Member Support at <2>{{phoneNumber}}</2>. <1>View Details</1>"
+    },
+    "error": {
+      "heading": "Error",
+      "description": "There was an issue loading your order status. Please call Member Support at <2>{{phoneNumber}}</2>."
+    }
+  }
+}
