@@ -1,0 +1,109 @@
+[
+  {
+    "term": "اسم التطبيق",
+    "definition": "عمل قائمة",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": "من فضلك لا تغير اسم التطبيق"
+  },
+  {
+    "term": "app.login.text",
+    "definition": "أدخل بيانات الاعتماد الخاصة بك أدناه لتسجيل الدخول",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.login.message.success",
+    "definition": "تم تسجيل الدخول بنجاح ! مرحبا بعودتك %s !",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.login.message.error",
+    "definition": "تأكد من إدخال اسم المستخدم وكلمة المرور الصحيحين",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.login.password.forget",
+    "definition": "لقد نسيت كلمة المرور",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.login.password.reset",
+    "definition": "أدخل عنوانك في الحقل أدناه. سيتم إرسال كلمة مرور جديدة إلى صندوق الوارد الخاص بك.",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.register.text",
+    "definition": "سجل مجانا! بطاقة الإئتمان غير مطالب بها!",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.register.message.success",
+    "definition": "شكرا لك على التسجيل ! يرجى التحقق من عنوان بريدك الإلكتروني لتفعيل حسابك.",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.register.message. Error",
+    "definition": "لم نتمكن من تسجيلك. يرجى تصحيح الحقول المحددة.",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.menu.terms",
+    "definition": "الأحكام والشروط",
+    "context": "",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.login.text",
+    "definition": "اسم المستخدم",
+    "context": "form_label",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.users.active",
+    "definition": {
+      "one": "مستخدم واحد فقط على الإنترنت",
+      "other": "هناك %d المستخدمين على الانترنت"
+    },
+    "context": "",
+    "term_plural": "app.users.active",
+    "reference": "/app/modules/views",
+    "comment": ""
+  },
+  {
+    "term": "app.login.pass",
+    "definition": "كلمه السر",
+    "context": "form_label",
+    "term_plural": "",
+    "reference": "/app/modules/views",
+    "comment": ""
+  }
+]
