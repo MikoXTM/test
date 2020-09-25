@@ -8,5 +8,16 @@
   <string key="String ID 2">
    <original>Toto je pravděpodobně největší pokrok v jazykové technologii od Neural Machine Translation (NMT), což je jedinečný matematický algoritmický přístup k pokroku jazykové technologie založený na masivních neuronových sítích.</original>
   </string>
-
+  
+  <string key="String ID 3">
+   <original>Označuje přibližnou blízkost mezi odlišnými zdrojovými a cílovými slovy v segmentu.</original>
+  </string>
+  <string key="String ID 4">
+   <original>Mezijazykový vektorový prostor se používá ke zvýšení produktivity překladatelů, recenzentů a redaktorů.</original>
+  </string>
+  
+  <string key="String ID 5">
+   <original>Mezijazykový vektorový prostor čerpá z obrovských zdrojů velkých dat, včetně procházení celého internetu a rozsáhlých dvojjazyčných slovníků XTM, aby vypočítal pravděpodobnost, že dané slovo v cílovém jazyce bude správným překladem zdrojového slova pro více než 250 jazykových párů.</original>
+  </string>
+ 
 </strings>
