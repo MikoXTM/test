@@ -8,5 +8,16 @@
   <string key="String ID 2">
    <original>Dit is misschien wel de grootste vooruitgang in taaltechnologie sinds Neural Machine Translation (NMT), een unieke wiskundige algoritmische benadering van de vooruitgang van taaltechnologie op basis van enorme neurale netwerken.</original>
   </string>
-
+  
+  <string key="String ID 3">
+   <original>Het geeft de geschatte nabijheid aan tussen verschillende bron- en doelwoorden binnen een segment.</original>
+  </string>
+  <string key="String ID 4">
+   <original>Intertalige Vector Space wordt gebruikt om de productiviteit van vertalers, recensenten en post-editors te verbeteren.</original>
+  </string>
+  
+  <string key="String ID 5">
+   <original>Inter-Language Vector Space maakt gebruik van enorme Big Data-bronnen, waaronder een verkenning van al het internet en de enorme tweetalige woordenboeken van XTM om de waarschijnlijkheid te berekenen dat een bepaald doeltaalwoord de juiste vertaling is van een bronwoord voor meer dan 250 talenparen.</original>
+  </string>
+ 
 </strings>
