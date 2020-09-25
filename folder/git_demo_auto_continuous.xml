@@ -8,5 +8,16 @@
   <string key="String ID 2">
    <original>This is arguably the biggest advance in language technology since Neural Machine Translation (NMT), a unique mathematical algorithmic approach to the advancement of language technology based on massive neural networks.</original>
   </string>
-
+  
+  <string key="String ID 3">
+   <original>It indicates the approximate closeness between distinct source and target words within a segment.</original>
+  </string>
+  <string key="String ID 4">
+   <original>Inter-language Vector Space is being used to enhance translators’, reviewers’ and post-editors’ productivity.</original>
+  </string>
+  
+  <string key="String ID 5">
+   <original>Inter-Language Vector Space draws on massive Big Data resources including a crawl of all of the Internet and XTM’s massive bilingual dictionaries to calculate the probability of a given target language word being the correct translation of a source word for over 250 language pairs.</original>
+  </string>
+ 
 </strings>
