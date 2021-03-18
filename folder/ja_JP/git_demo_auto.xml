@@ -4,6 +4,9 @@
   <string key="Introduction">
    <original>言語間ベクトル空間は、ニューラルMTと同等の、L10NAIのユニークな進歩です。それはその操作においてほとんど「魔法」であり、与えられたセグメントの翻訳のために単語とフレーズレベルで直接整列することを可能にします。</original>
   </string>  
- 
+   
+  <string key="Update">
+   <original>更新</original>
+  </string>  
 
 </strings>
