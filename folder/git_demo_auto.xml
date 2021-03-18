@@ -4,6 +4,9 @@
   <string key="Introduction">
    <original>Inter-Language Vector Space is a unique advancement in L10N AI, on par with Neural MT. It is almost ‘magical’ in its operation allowing direct alignment at the word and phrase level for the translation of a given segment.</original>
   </string>  
- 
+   
+  <string key="Update">
+   <original>Update</original>
+  </string>  
 
 </strings>
