@@ -1,0 +1,13 @@
+{
+  "CONFIRMED": "Confirmed",
+  "NOT_CONFIRMED": "Not confirmed",
+  "NOT_REQUIRED": "Not required",
+  "PAID": "Paid",
+  "WAITING_FOR_PAYMENT": "Waiting for payment",
+  "APPROVED": "Approved",
+  "PENDING": "Pending",
+  "REJECTED": "Rejected",
+  "NO_COSTS_AVAILABLE": "No costs available",
+  "OUTDATED": "Outdated",
+  "COSTS_GENERATED": "Costs generated"
+}

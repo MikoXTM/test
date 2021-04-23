@@ -1,0 +1,13 @@
+{
+  "PDF": "PDF document",
+  "PDF_TABLE": "PDF source/target table",
+  "PDF_EXTENDED_TABLE": "PDF extended table",
+  "HTML": "HTML document",
+  "HTML_TABLE": "HTML source/target table",
+  "HTML_EXTENDED_TABLE": "HTML extended table",
+  "TARGET": "Target",
+  "TARGET_COLOURED_BY_MATCH_RATE": "Match rate color-coded target",
+  "TARGET_COLOURED_BY_XLIFF_DOC_STATUS": "Status color-coded target",
+  "XLIFF": "XLIFF",
+  "XLIFF_NTP": "XLIFF with no target population"
+}

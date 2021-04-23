@@ -1,0 +1,14 @@
+{
+  "INITIAL_METRICS": "Metrics",
+  "CURRENT_METRICS": "Current metrics",
+  "STATISTICS_SOURCE": "Statistic source",
+  "STATISTICS_TARGET": "Statistic target",
+  "TIME_OR_STATISTICS_SOURCE": "Time or statistics source",
+  "TIME_OR_STATISTICS_TARGET": "Time or statistics target",
+  "TIME_OR_METRICS_INITIAL": "Time or metrics",
+  "TIME_OR_METRICS_CURRENT": "Time or current metrics",
+  "OVERRIDE_ALL": "For the entire workflow",
+  "OVERRIDE_MISSING": "No assignment",
+  "INTERNAL_LINGUIST": "Internal user",
+  "LSP": "LSP"
+}

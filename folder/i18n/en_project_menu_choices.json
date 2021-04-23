@@ -1,0 +1,10 @@
+{
+  "START_PROJECT": "Start project",
+  "FINISH_PROJECT": "Finish project",
+  "DELETE_PROJECT_AND_TM":  "Delete project and project TM",
+  "DELETE_PROJECT_LEAVING_TM": "Delete project leaving TM",
+  "DELETE_PROJECT": "Delete project",
+  "ARCHIVE_PROJECT": "Archive project",
+  "ACTIVATE_PROJECT": "Activate project",
+  "REANALYZE_PROJECT": "Reanalyse project"
+}
