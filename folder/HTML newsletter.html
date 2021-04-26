@@ -1,0 +1,806 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
+<title></title>
+<style type="text/css">
+body { margin: 0px; padding: 0px; }
+* { -webkit-text-size-adjust: none; } /* prevent iOS font upsizing */
+.ExternalClass * { line-height: 100%; } /* force Outlook.com to honor line-height */
+.appleFix a { color: #ffffff !important; text-decoration: none !important; } /* prevent iOS auto-linking */
+td { mso-line-height-rule: exactly; } /* force Outlook to honor line-height */
+.whiteLink a:link { color: #ffffff; } /* keeps links white in outlook */
+.blackLink a:link { color:#000000; } /* keeps links white in outlook */
+
+@media only screen and (max-width: 480px) {
+body { width: 100%; min-width: 100%; } /* force iOS5 to fill entire screen */
+body[yahoo] .marginfix { position: relative; top: 0; left: 0; right: 0; } /* to eliminate padding in iOS7 */
+/*** Structure ***/
+body[yahoo] .full-width-content { width: 300px !important; min-width: 300px !important; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box;    /* Firefox, other Gecko */ box-sizing: border-box; /* Opera/IE 8+ */ }
+body[yahoo] .hide { width: 0px !important; height: 0px !important; display: none !important; }
+body[yahoo] .stack { display: block !important; width: 100% !important; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box;    /* Firefox, other Gecko */ box-sizing: border-box;         /* Opera/IE 8+ */ }
+body[yahoo] .reverseStack { position: relative !important; display: block; height: 495px !important; /* adjust this based on image height and content height */ }
+body[yahoo] .reverseStackFooter { position: relative !important; display: block; height: 220px !important; /* adjust this based on image height and content height */ }
+body[yahoo] .reverseStackTop { position: absolute !important; display: block !important; width: 100% !important; }
+body[yahoo] .reverseStackBottom { position: absolute !important; display: block !important; bottom: 0px !important; }
+/*** Padding and resizing ***/
+body[yahoo] .nopadding { padding: 0px !important; }
+body[yahoo] .nopadleft { padding-left: 0px !important; }
+body[yahoo] .botpad15 { padding-bottom:15px !important; }
+body[yahoo] .padding20 { padding-left:20px !important; padding-right:20px !important; }
+body[yahoo] .alignCenter { text-align: center !important; }
+body[yahoo] .alignLeft { text-align: left !important; }
+
+body[yahoo] span.mobileTITLE1 { font-size: 22px !important; line-height: 26px !important; } /* shrink title font to fit in mobile */
+body[yahoo] span.mobileTITLE2 { font-size: 18px !important; line-height: 22px !important; } /* shrink title font to fit in mobile */
+body[yahoo] span.mobileCTA { font-size:16px !important; line-height:20px !important; } /*resize text cta to fit mobile scree added by Emeric 07/22/14*/
+body[yahoo] span.mobileCTA2 { font-size:14px !important; line-height:20px !important; } /*resize text cta to fit mobile scree added by Emeric 07/22/14*/
+body[yahoo] .capi { text-transform: capitalize !important; } /*cap a letter in mobile added by Emeric 7/16/14*/
+
+/*** Image adjustments ***/
+body[yahoo] .stack img, img.shrink { max-width: 100% !important; height: auto !important; }
+body[yahoo] img.shrink { width: 100% !important; height: auto !important; }
+body[yahoo] img.two-across-resize { width: 128px !important; height: auto !important; }
+body[yahoo] img.threeAcrossImage { width: 300px !important; height: auto !important; }
+body[yahoo] img.fullWidth { width: 100% !important; max-width: 100% !important; height: auto !important; }
+body[yahoo] .footerLogo { margin: auto auto !important; } /* to center footer logo on mobile */
+/*** Image swaps ***/
+/* Make adjustments to these based on images used */
+body[yahoo] span.headerImage { width: 300px !important; height: 70px   !important; background-image: url(images/header_m.jpg); display: block; }
+body[yahoo] span.heroImage { width: 300px !important; height: 330px    !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/beta/03/images/hero_m.jpg); display: block; }
+
+body[yahoo] span.moduleI1image { width: 260px !important; height: 180px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/beta/03/images/i1_m.jpg); display: block; }
+body[yahoo] span.moduleI2image { width: 260px !important; height: 180px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/beta/03/images/i2_m.jpg); display: block; }
+body[yahoo] span.moduleI3image { width: 260px !important; height: 180px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/beta/03/images/i3_m.jpg); display: block; }
+
+
+body[yahoo] span.bannerImage { width: 300px !important; height: 150px  !important; background-image: url(images/banner_m.jpg); display: block; }
+body[yahoo] span.ratingImageESRB { width: 150px !important; height: 68px   !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/rating_rp.jpg); display: block; text-align:center !important; margin:auto !important; background-position:center !important; 	background-repeat:no-repeat !important; }
+body[yahoo] span.ratingImageEALOC { width: 150px !important; height: 68px   !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/rating_rp.jpg); display: block; text-align:center !important; margin:auto !important; background-position:center !important; 	background-repeat:no-repeat !important; }
+
+body[yahoo] span.divider{ width: 300px !important; height: 25px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/divider_m.jpg); display: block; }
+body[yahoo] span.dividerImperial { width: 300px !important; height: 45px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/divider_imperial_m.jpg); display: block; }
+body[yahoo] span.dividerRebel { width: 300px !important; height: 45px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/divider_rebel_m.jpg); display: block; }
+body[yahoo] span.ctaFacebook { width: 100px !important; height: 100px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_facebook_m.jpg); display: block; }
+body[yahoo] span.ctaTwitter { width: 100px !important; height: 100px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_twitter_m.jpg); display: block; }
+body[yahoo] span.ctaInstagram{ width: 100px !important; height: 100px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_instagram_m.jpg); display: block; }
+
+body[yahoo] span.ctaFacebook2 { width: 150px !important; height: 100px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_facebook2_m.jpg); display: block; }
+body[yahoo] span.ctaTwitter2 { width: 150px !important; height: 100px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_twitter2_m.jpg); display: block; }
+
+body[yahoo] span.smJoin{ width: 300px !important; height: 30px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_join_m.jpg); display: block; }
+body[yahoo] span.smTwitter{ width: 70px !important; height: 65px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_twitter_m.jpg); display: block; }
+body[yahoo] span.smFacebook{ width: 50px !important; height: 65px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_facebook_m.jpg); display: block; }
+body[yahoo] span.smGoogle{ width: 60px !important; height: 65px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_google_m.jpg); display: block; }
+body[yahoo] span.smInstagram{ width: 65px !important; height: 65px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_instagram_m.jpg); display: block; }
+body[yahoo] span.smYoutube{ width: 55px !important; height: 65px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_youtube_m.jpg); display: block; }
+
+body[yahoo] span.logoDice{ width: 110px !important; height: 90px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_dice_m.jpg); display: block; }
+body[yahoo] span.logoLucas{ width: 95px !important; height: 90px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_lucas_m.jpg); display: block; }
+body[yahoo] span.logoEA{ width: 95px !important; height: 90px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_ea_m.jpg); display: block; }
+body[yahoo] span.logoBlankPS4{ width: 300px !important; height: 60px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_blank_ps4_m.jpg); display: block; }
+body[yahoo] span.logoBlankXBONE{ width: 300px !important; height: 60px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_blank_xbone_m.jpg); display: block; }
+body[yahoo] span.logoBlankORIGIN{ width: 300px !important; height: 60px !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_blank_origin_m.jpg); display: block; }
+
+body[yahoo] span.psHeader { width: 300px !important; height: 45px   !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/playstation_header_m.jpg); display: block; }
+body[yahoo] span.psFooter { width: 300px !important; height: 45px   !important; background-image: url(http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/playstation_footer_m.jpg); display: block; }
+
+}
+</style>
+</head>
+
+<body style="margin:0px; padding:0px;" yahoo="fix" bgcolor="#8f9298">
+<!--full page table-->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#8f9298" class="marginfix">
+<tr><td align="center">
+<!--container-->
+<table cellpadding="0" cellspacing="0" border="0" width="600" class="full-width-content">
+<tr><td width="600" bgcolor="#f2f4f4" align="center" style="min-width:600px;" class="full-width-content">
+
+<!--SUBJECT LINE-->
+<table cellpadding="0" cellspacing="0" border="0" width="600" class="full-width-content" bgcolor="#555555">
+  <tr>
+    <td align="left" style="font-family: Arial, Helvetica, sans serif;font-size:12px;color:#FFFFFF;line-height:14px; padding:5px 20px 5px 20px;" class="hide">
+      <strong>REVIEW: 7317 - SWBF Beta - 03 Play Now All Segments</strong><br>
+      SL1: Discover the new Drop Zone Mode in the Star Wars&trade; Battlefront&trade; Beta<br>
+      SL2: The Star Wars&trade; Battlefront&trade; Beta is Live. Join the Fight Now!
+    </td>
+  </tr>
+</table>
+<!--end SUBJECT LINE--> 
+
+<!--BEGIN HEADER--> 
+
+<!--PREHEADER-->
+<table cellpadding="0" cellspacing="0" border="0" width="600" class="full-width-content" bgcolor="#252123">
+  <tr>
+    <td align="left" style="font-family:Arial,Helvetica,sans serif; color:#ffffff; font-size:12px; line-height:16px; padding:8px 20px 8px 20px;" class="hide">
+      The <em>Star&nbsp;Wars&trade;</em> Battlefront&trade; Beta is live. <a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="color:#ffc715; text-decoration:underline;">Learn more here</a>. <br>
+      View online <a href="http://ebm.em.ea.com/c/tag/%%t%%/doc.html?t_params=%%t_params%%" target="_blank" style="color:#ffc715; text-decoration:underline;">click here</a>.
+    </td>
+  </tr>
+</table>
+<!--end PREHEADER--> 
+
+<!-- END HEADER --> 
+<!-- BEGIN MAIN CONTENT --> 
+
+<!--HERO-->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+  	<td align="left" valign="top">
+    	<!--container-->
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+          <td align="center" valign="top">
+            <a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="border:none;">
+            <span class="heroImage"></span>
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/beta/03/images/hero.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+        </tr>
+      </table>
+      <!--end container-->
+    </td>
+  </tr>
+</table>
+<!--end HERO--> 
+
+<!--DIVIDER IMPERIAL-->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="center" valign="top">
+    	<span class="dividerImperial"></span>
+      <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/divider_imperial.jpg" alt="" border="0" style="display:block;" class="hide">
+    </td>
+  </tr>
+</table>
+<!--end DIVDER IMPERIAL--> 
+
+<!-- Module Type A -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="left" style="padding:15px 40px 15px 40px;" class="padding20">
+    	<!--container-->
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <!--title-->
+        <!--
+        <tr>
+          <td align="left" style="font-family:Arial,Verdana,sans serif; color:#252123; font-size:22px; line-height:30px; padding:0px 0px 10px 0px; font-weight:bold;">
+            <span class="mobileTITLE2">
+            Join the Fight Now!
+            <br>
+            </span>
+          </td>
+        </tr>
+        <!--copy-->
+        <tr>
+          <td align="left" valign="top" style="font-family:Arial,Verdana,sans-serif; font-size:16px; color:#252123; line-height:20px; padding-bottom:5px;">
+            The <em>Star Wars</em>&trade; Battlefront&trade; Beta has landed. 
+            
+            <br><br>
+            Get ready to... 
+          </td>
+        </tr>
+        <!--end copy-->
+        <!--list-->
+        <tr>
+          <td align="left" valign="top" style="font-family:Arial,Verdana,sans-serif; font-size:16px; color:#636363; line-height:20px; padding:0px 10px 10px 25px;" class="nopadleft">
+            <!--START EDIT COPY HERE-->
+            
+            
+                        
+            <!--list item1-->
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+              <!--bullet-->
+                <td valign="top" style="padding-right:3px; padding-bottom:5px;">
+                    <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/icon_xwing.jpg" alt="" border="0" style="display:block;">
+                </td>
+                <!--copy-->
+                <td valign="middle" style="font-size:14px; line-height:16px; font-family:Arial, Verdana, Helvetica, sans-serif; color:#252123; padding-bottom:8px;">
+                <!--START EDIT COPY HERE-->
+                Pilot X-wings, TIE fighters, and AT-AT walkers on the icy plains of Hoth in Walker&nbsp;Assault&nbsp;mode
+                <!--END EDIT COPY-->
+                </td>
+              </tr>
+            </table>
+            <!--end list item-->
+            
+                      
+            
+            
+            <!--list item1-->
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+              <!--bullet-->
+                <td valign="top" style="padding-right:3px; padding-bottom:5px;">
+                    <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/icon_drop.jpg" alt="" border="0" style="display:block;">
+                </td>
+                <!--copy-->
+                <td valign="middle" style="font-size:14px; line-height:16px; font-family:Arial, Verdana, Helvetica, sans-serif; color:#252123; padding-bottom:8px;">
+                <!--START EDIT COPY HERE-->
+                Battle for pod control through the smoldering planet of Sullust in Drop Zone mode
+                <!--END EDIT COPY-->
+                </td>
+              </tr>
+            </table>
+            <!--end list item-->           
+            
+            <!--list item1-->
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+              <!--bullet-->
+                <td valign="top" style="padding-right:3px; padding-bottom:3px;">
+                    <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/icon_life.jpg" alt="" border="0" style="display:block;">
+                </td>
+                <!--copy-->
+                <td valign="middle" style="font-size:14px; line-height:16px; font-family:Arial, Verdana, Helvetica, sans-serif; color:#252123; padding-bottom:8px;">
+                <!--START EDIT COPY HERE-->
+                Take out waves of stormtroopers to survive a Tatooine&nbsp;invasion.
+                <!--END EDIT COPY-->
+                </td>
+              </tr>
+            </table>
+            <!--end list item-->
+            
+            <!--list item1-->
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+              <!--bullet-->
+                <td valign="top" style="padding-right:3px; padding-bottom:3px;" width="53">&nbsp;
+                
+                </td>
+                <!--copy-->
+                <td valign="middle" style="font-size:14px; line-height:16px; font-family:Arial, Verdana, Helvetica, sans-serif; color:#252123; padding-bottom:8px;">
+                <!--START EDIT COPY HERE-->
+                and more!
+                <!--END EDIT COPY-->
+                </td>
+              </tr>
+            </table>
+            <!--end list item-->
+            
+            
+            <!--END EDIT COPY HERE-->
+          </td>
+        </tr>
+        <!--end list-->
+        <!--cta-->
+        <tr>
+          <td align="center" valign="top" style="padding:0px;">
+            <!--BULLETPROOF CTA-->
+            <table cellpadding="0" cellspacing="0" border="0" bgcolor="#ffc715">
+              <tr>
+                <td valign="top" align="right">
+                  <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_yellow_left.jpg" alt="" border="0" style="display:block;">
+                </td>
+                <td align="center" style="font-family:Arial,Verdana,sans serif; font-size:28px; line-height:32px; color:#000000; font-weight:bold; padding:0px 10px 0px 10px;">
+                  <span class="whiteLink mobileCTA"><a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="text-decoration:none; color:#000000;">
+                  GET STARTED
+                  </a></span>
+                </td>
+                <td valign="top" align="left">
+                  <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_yellow_right.jpg" alt="" border="0" style="display:block;">
+                </td>
+              </tr>
+            </table>
+            <!--end BULLETPROOF CTA-->
+          </td>
+        </tr>
+        <!--end cta-->
+      </table>
+      <!--end container-->
+    </td>
+  </tr>
+</table>
+<!-- end Module Type A -->
+
+
+
+
+
+<!--DIVIDER-->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="center" valign="top" style="padding-bottom:15px;">
+    	<span class="divider"></span>
+      <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/divider.jpg" alt="" border="0" style="display:block;" class="hide">
+    </td>
+  </tr>
+</table>
+<!--end DIVDER--> 
+<!-- Module Type I -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td>
+    	<!--container-->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+        	<!--i1 module-->
+          <td align="left" valign="top" class="stack" width="33%">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tr>
+                <td align="left" valign="top">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <!--img-->
+                    <tr>
+                      <td align="center" valign="top" style="padding:0px 20px 0px 40px;" class="padding20">
+                        <a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="border:none;">
+                        <span class="moduleI1image"></span>
+                        <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/beta/03/images/i1.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+                      </td>
+                    </tr>
+                    <!--text-->
+                    <tr>
+                      <td align="left" valign="top" style="padding:10px 20px 20px 40px;" class="padding20">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                          <!--title-->
+                          <tr>
+                            <td align="center" class="alignLeft" style="font-family:Arial,Verdana,sans serif; color:#252123; font-size:24px; line-height:28px; padding:0px 0px 0px 0px; font-weight:bold;">
+                              <span class="mobileTITLE2">
+                              Walker Assault</span>
+                            </td>
+                          </tr>
+                          <!--copy-->
+                          <tr>
+                            <td align="center" class="alignLeft" valign="top" style="font-family:Arial,Verdana,sans-serif; font-size:14px; color:#252123; line-height:18px; padding:10px 0px 20px 0px;">
+                              Join a 40-player battle on Hoth and play as Luke Skywalker or Darth&nbsp;Vader!
+                            </td>
+                          </tr>
+                          <!--cta-->
+                          <tr>
+                            <td align="center" class="alignLeft" valign="top" style="padding:0px;">
+                              <!--BULLETPROOF CTA-->
+                              <table cellpadding="0" cellspacing="0" border="0" bgcolor="#000000">
+                                <tr>
+                                  <td valign="top" align="right">
+                                    <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_black_left.jpg" alt="" border="0" style="display:block;">
+                                  </td>
+                                  <td align="center" style="font-family:Arial,Verdana,sans serif; font-size:14px; line-height:20px; color:#FFFFFF; padding:0px 10px 0px 10px;">
+                                    <span class="whiteLink mobileCTA"><a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="text-decoration:none; color:#FFFFFF;">
+                                    LEARN MORE
+                                    </a></span>
+                                  </td>
+                                  <td valign="top" align="left">
+                                    <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_black_right.jpg" alt="" border="0" style="display:block;">
+                                  </td>
+                                </tr>
+                              </table>
+                              <!--end BULLETPROOF CTA-->
+                            </td>
+                          </tr>
+                          <!--end cta-->
+                        </table>
+                      </td>
+                    </tr>
+                    <!--end text-->
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <!--end i1 module-->
+          <!--i2 module-->
+          <td align="left" valign="top" class="stack" width="33%">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tr>
+                <td align="left" valign="top" style="padding:0px;">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <!--img-->
+                    <tr>
+                      <td align="center" valign="top" style="padding:0px 20px 0px 0px;" class="padding20">
+                        <a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="border:none;">
+                        <span class="moduleI2image"></span>
+                        <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/beta/03/images/i2.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" style="padding:10px 20px 20px 0px;" class="padding20">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                          <!--title-->
+                          <tr>
+                            <td align="center" class="alignLeft" style="font-family:Arial,Verdana,sans serif; color:#252123; font-size:24px; line-height:28px; padding:0px 0px 0px 0px; font-weight:bold;">
+                              <span class="mobileTITLE2">
+                              Survival Mission</span>
+                            </td>
+                          </tr>
+                          <!--copy-->
+                          <tr>
+                            <td align="center" class="alignLeft" valign="top" style="font-family:Arial,Verdana,sans-serif; font-size:14px; color:#252123; line-height:18px; padding:10px 0px 20px 0px;">
+                              Fight back waves of stormtroopers with a Rebel&nbsp;comrade. <span class="hide"><br>&nbsp;</span> 
+                            </td>
+                          </tr>
+                          <!--cta-->
+                          <tr>
+                            <td align="center" class="alignLeft" valign="top" style="padding:0px;">
+                              <!--BULLETPROOF CTA-->
+                              <table cellpadding="0" cellspacing="0" border="0" bgcolor="#000000">
+                                <tr>
+                                  <td valign="top" align="right">
+                                    <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_black_left.jpg" alt="" border="0" style="display:block;">
+                                  </td>
+                                  <td align="center" style="font-family:Arial,Verdana,sans serif; font-size:14px; line-height:20px; color:#FFFFFF; padding:0px 10px 0px 10px;">
+                                    <span class="whiteLink mobileCTA"><a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="text-decoration:none; color:#FFFFFF;">
+                                   LEARN MORE</a></span>
+                                  </td>
+                                  <td valign="top" align="left">
+                                    <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_black_right.jpg" alt="" border="0" style="display:block;">
+                                  </td>
+                                </tr>
+                              </table>
+                              <!--end BULLETPROOF CTA-->
+                            </td>
+                          </tr>
+                          <!--end cta-->
+                        </table>
+                      </td>
+                    </tr>
+                    <!--end text-->
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <!--end i2 module-->
+          <!--i3 module-->
+          <td align="left" valign="top" class="stack" width="33%">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tr>
+                <td align="left" valign="top" style="padding:0px;">
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <!--img-->
+                    <tr>
+                      <td align="center" valign="top" style="padding:0px 40px 0px 00px;" class="padding20">
+                        <a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="border:none;">
+                        <span class="moduleI3image"></span>
+                        <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/beta/03/images/i3.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top" style="padding:10px 40px 20px 00px;" class="padding20">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                          <!--title-->
+                          <tr>
+                            <td align="center" class="alignLeft" style="font-family:Arial,Verdana,sans serif; color:#252123; font-size:24px; line-height:28px; padding:0px 0px 0px 0px; font-weight:bold;">
+                              <span class="mobileTITLE2">
+                              Drop<span class="hide"><br></span>Zone</span>
+                            </td>
+                          </tr>
+                          <!--copy-->
+                          <tr>
+                            <td align="center" class="alignLeft" valign="top" style="font-family:Arial,Verdana,sans-serif; font-size:14px; color:#252123; line-height:18px; padding:10px 0px 20px 0px;">
+                              Combine skill and strategy to battle for control of drop pods on&nbsp;Sullust. 
+                            </td>
+                          </tr>
+                          <!--cta-->
+                          <tr>
+                            <td align="center" class="alignLeft" valign="top" style="padding:0px;">
+                              <!--BULLETPROOF CTA-->
+                              <table cellpadding="0" cellspacing="0" border="0" bgcolor="#000000">
+                                <tr>
+                                  <td valign="top" align="right">
+                                    <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_black_left.jpg" alt="" border="0" style="display:block;">
+                                  </td>
+                                  <td align="center" style="font-family:Arial,Verdana,sans serif; font-size:14px; line-height:20px; color:#FFFFFF; padding:0px 10px 0px 10px;">
+                                    <span class="whiteLink mobileCTA"><a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="text-decoration:none; color:#FFFFFF;">
+                                    LEARN MORE</a></span>
+                                  </td>
+                                  <td valign="top" align="left">
+                                    <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_black_right.jpg" alt="" border="0" style="display:block;">
+                                  </td>
+                                </tr>
+                              </table>
+                              <!--end BULLETPROOF CTA-->
+                            </td>
+                          </tr>
+                          <!--end cta-->
+                        </table>
+                      </td>
+                    </tr>
+                    <!--end text-->
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <!--end i3 module-->
+        </tr>
+      </table>
+      <!--end container-->
+    </td>
+  </tr>
+</table>
+<!-- end Module Type I --> 
+
+<!--DIVIDER-->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="center" valign="top" style="padding-bottom:15px;">
+    	<span class="divider"></span>
+      <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/divider.jpg" alt="" border="0" style="display:block;" class="hide">
+    </td>
+  </tr>
+</table>
+<!--end DIVDER--> 
+
+<!-- Module Type C -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td style="padding-bottom:15px;">
+    	<!--container-->
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+        	<!--left half-->
+          <td align="left" valign="top" class="stack padding20" style="padding:0px 20px 0px 40px;">
+            <a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="border:none;">
+             <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/beta/03/images/c.jpg" alt="" border="0" style="display:block;" class="shrink"></a>
+          </td>
+          <!--end left half-->
+          <!--right half-->
+          <td align="left" valign="top" class="stack">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+              <tr>
+                <td align="left" valign="top" style="padding:20px 40px 0px 20px;" class="padding20">
+                  <table cellpadding="0" cellspacing="0" border="0">
+                    <!--title-->
+                    <tr>
+                      <td align="left" style="font-family:Arial,Verdana,sans serif; color:#252123; font-size:20px; line-height:28px; padding:0px 0px 0px 0px; font-weight:bold;">
+                        <span class="mobileTITLE2">
+                        Never Miss a Moment
+                        </span>
+                      </td>
+                    </tr>
+                    <!--copy-->
+                    <tr>
+                      <td align="left" valign="top" style="font-family:Arial,Verdana,sans-serif; font-size:14px; color:#252123; line-height:18px; padding:10px 0px 20px 0px;">
+                       Sign up for the EA <em>Star&nbsp;Wars&trade;</em> newsletter and be the first to know what’s happening across EA’s galaxy of games, news, and events!
+                      </td>
+                    </tr>
+                    <!--cta-->
+                    <tr>
+                      <td align="left" valign="top" style="padding:0px;">
+                        <!--BULLETPROOF CTA-->
+                        <table cellpadding="0" cellspacing="0" border="0" bgcolor="#000000">
+                          <tr>
+                            <td valign="top" align="right">
+                              <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_black_left.jpg" alt="" border="0" style="display:block;">
+                            </td>
+                            <td align="center" style="font-family:Arial,Verdana,sans serif; font-size:14px; line-height:20px; color:#FFFFFF; padding:0px 10px 0px 10px;">
+                              <span class="whiteLink mobileCTA"><a href="http://starwars.ea.com/starwars/battlefront/beta" target="_blank" style="text-decoration:none; color:#FFFFFF;">
+                              Join the Community
+                              </a></span>
+                            </td>
+                            <td valign="top" align="left">
+                              <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/cta_black_right.jpg" alt="" border="0" style="display:block;">
+                            </td>
+                          </tr>
+                        </table>
+                        <!--end BULLETPROOF CTA-->
+                      </td>
+                    </tr>
+                    <!--end cta-->
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <!--end right half-->
+        </tr>
+      </table>
+      <!--end container-->
+    </td>
+  </tr>
+</table>
+<!-- end Module Type C -->
+
+<!--end MAIN CONTENT-->  
+
+<!--DIVIDER IMPERIAL-->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="center" valign="top">
+    	<span class="dividerRebel"></span>
+      <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/divider_rebel.jpg" alt="" border="0" style="display:block;" class="hide">
+    </td>
+  </tr>
+</table>
+<!--end DIVDER IMPERIAL--> 
+
+<!-- SOCIAL ICONS module -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<!--MOBILE SM-->
+  <tr>
+    <td align="center" valign="top" bgcolor="#8f9298">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+          <!--join-->
+          <td align="center" valign="top"><span class="smJoin"></span></td>          
+        </tr>
+      </table>     
+    </td>
+  </tr>
+  <tr>
+  <tr>
+    <td align="center" valign="top" bgcolor="#8f9298">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+        	<!--twitter-->
+          <td align="center" valign="top">
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_join.jpg" alt="" border="0" style="display:block;" class="hide">
+          </td>
+          <!--twitter-->
+          <td align="center" valign="top">
+            <a href="http://www.twitter.com/EAStarWars" target="_blank" style="border:none;">
+            <span class="smTwitter"></span>
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_twitter.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+          <!--facebook-->
+          <td align="center" valign="top">
+            <a href="http://www.facebook.com/EAStarWars" target="_blank" style="border:none;">
+            <span class="smFacebook"></span>
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_facebook.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+          <!--google-->
+          <td align="center" valign="top">
+            <a href="https://plus.google.com/+EAStarWars" target="_blank" style="border:none;">
+            <span class="smGoogle"></span>
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_google.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+          <!--youtube-->
+          <td align="center" valign="top">
+            <a href="https://www.youtube.com/EAStarWars" target="_blank" style="border:none;">
+            <span class="smYoutube"></span>
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_youtube.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+          <!--instagram-->
+          <td align="center" valign="top">
+            <a href="https://instagram.com/eastarwars" target="_blank" style="border:none;">
+            <span class="smInstagram"></span>
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/sm_instagram.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+        </tr>
+      </table>     
+    </td>
+  </tr>
+  <!--end MOBILE SM-->
+  
+    <!--desktop LOGO-->
+  <tr>
+    <td align="center" valign="top" bgcolor="#8f9298">
+      <!--LOGO-->
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+        	<!--dice-->
+          <td align="center" valign="top">
+            <a href="http://dice.se/" target="_blank" style="border:none;">
+            <span class="logoDice"></span>
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_dice.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+          <!--lucas-->
+          <td align="center" valign="top">
+            <a href="http://lucasfilm.com/" target="_blank" style="border:none;">
+            <span class="logoLucas"></span>
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_lucas.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+          <!--ea-->
+          <td align="center" valign="top">
+            <a href="http://www.ea.com/" target="_blank" style="border:none;">
+            <span class="logoEA"></span>
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_ea.jpg" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+          <!--blank-->
+          <td align="center" valign="top">
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_blank.jpg" alt="" border="0" style="display:block;" class="hide">
+          </td>
+        </tr>
+      </table>
+      <!--end LOGO-->
+      <!--LOGO-->
+      <!--end LOGO-->     
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" bgcolor="#8f9298">
+      <!--CONSOLES-->
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+        	<!--playstation 4-->
+          <td align="center" valign="top">
+            <a href="http://www.playstation.com" target="_blank" style="border:none;">
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_ps4.jpg" alt="" border="0" style="display:block;" class="shrink"></a>
+          </td>
+          <!--origin-->
+          <td align="center" valign="top">
+            <a href="http://www.origin.com" target="_blank" style="border:none;">
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_origin.jpg" alt="" border="0" style="display:block;" class="shrink"></a>
+          </td>
+          <!--xbox one-->
+          <td align="center" valign="top">
+            <a href="http://www.xbox.com" target="_blank" style="border:none;">
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/logo_xbone.jpg" alt="" border="0" style="display:block;" class="shrink"></a>
+          </td>
+        </tr>
+      </table>
+      <!--end CONSOLES-->      
+    </td>
+  </tr>
+  <!--end desktop LOGO-->
+</table>
+<!--end SOCIAL ICONS module--> 
+
+
+<!--begin FOOTER-->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" bgcolor="#8f9298">
+  <tr>
+    <td align="left" style="padding:15px 40px 50px 40px;" class="padding20">
+    	<!--rating-->
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+          <td valign="top" align="right" class="alignCenter" style="padding-top:20px; padding-bottom:15px; border-top:1px solid #ffffff;">
+          	<a href="http://www.esrb.org" target="_blank" style="border:none;">
+            <span class="ratingImageESRB"></span></a>
+            <!--EALoc
+            <a href="http://www.pegi.org" target="_blank" style="border:none;">
+            <span class="ratingImageEALOC"></span></a>
+            -->
+          </td>
+        </tr>
+      </table>
+      <!--end rating-->
+    	<!--container-->
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
+        <tr>
+          <td class="alignCenter" align="left" valign="top" style="font-family:Arial,Verdana,sans-serif; font-size:12px; color:#ffffff; line-height:18px; padding:0px 10px 10px 0px;">
+          	          
+            STAR&nbsp;WARS <em>&copy; &amp; TM 2015 Lucasfilm Ltd. All rights reserved. Game code and certain audio and/or visual material &copy;&nbsp;2015&nbsp;Electronic&nbsp;Arts&nbsp;Inc. </em>
+            
+          </td>
+          <!--rating-->
+          <td valign="top" align="right" class="hide" style="padding-bottom:10px;">
+          	<a href="http://www.esrb.org" target="_blank" style="border:none;">
+            <img src="http://newsletters-cdn.ea.com/2015/starwarsbf/temp/images/rating_rp.jpg" width="150" height="68" alt="" border="0" style="display:block;" class="hide"></a>
+          </td>
+        </tr>
+      </table>
+      <!--end container-->
+      <!--container-->
+      <table cellpadding="0" cellspacing="0" border="0" width="100%" class="stack">
+        <tr>
+          <td class="alignCenter" align="left" valign="top" style="font-family:Arial,Verdana,sans-serif; font-size:12px; color:#ffffff; line-height:18px; padding:0px 10px 0px 0px;">
+            BETA PARTICIPATION REQUIRES A PERSISTENT INTERNET CONNECTION, THE ORIGIN CLIENT TO REMAIN IN ONLINE MODE (FOR PC PLAYERS), AND IS GOVERNED BY THE TERMS OF THE BETA AGREEMENT. GAMEPLAY PROGRESS, ACHIEVEMENTS, CHARACTERS, CHARACTER DATA AND/OR ANY OTHER VALUE OR STATUS INDICATORS ACHIEVED THROUGH GAMEPLAY IN THE BETA WILL NOT TRANSFER TO STAR WARS BATTLEFRONT MAIN GAME OR STAR WARS BATTLEFRONT COMPANION. BETA IS PRE-RELEASE SOFTWARE, MAY CONTAIN ERRORS/DEFECTS AND IS PROVIDED “AS IS” WITHOUT ANY EXPRESS OR IMPLIED WARRANTY.
+            
+            <br><br>
+            
+            <!--privacy & cookie policy-->
+            <a href="http://tos.ea.com/legalapp/WEBPRIVACY/US/en/PC/" target="_blank" style="color:#ffffff;">Privacy&nbsp;&amp;&nbsp;Cookie&nbsp;Policy</a> | 
+            <!--term of service-->
+            <a href="http://tos.ea.com/legalapp/WEBTERMS/US/en/PC/" target="_blank" style="color:#ffffff;">Terms&nbsp;of&nbsp;Service</a> | 
+            <!--legal notices-->
+            <a href="http://www.ea.com/1/legal-notices" target="_blank" style="color:#ffffff;">Legal&nbsp;Notices</a>
+            
+            <br><br>
+            
+            <!--email opt out-->
+            If you no longer want us to contact you, <a href="http://preferences.ea.com/newsletter/optout?email=%%email%%" target="_blank" style="color:#ffffff;">click&nbsp;here</a> to be removed from our mailing list or to change your preferences.              
+            <!--mail address-->
+            You can also write to: Privacy Policy Administrator, Electronic Arts Inc., <span class="appleFix">209 Redwood Shores Parkway, Redwood City, CA 94065</span>
+            
+          </td>
+        </tr>
+      </table>
+      <!--end container-->
+    </td>
+  </tr>
+</table>            
+<!--end FOOTER-->
+
+</td></tr>
+</table>
+<!--end container-->
+</td></tr>
+</table>
+<!--end full page table-->
+<!--2015 CAP TEAM to3mo-->
+</body>
+</html>
