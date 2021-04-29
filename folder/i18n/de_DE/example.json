@@ -1,7 +1,8 @@
 {
   "checkBackSoon": "Schau bald wieder vorbei für die nächste Ziehung!",
+  "myFunkyNewString": "Dies ist ein funky neuer String",
   "closingSoon": "BALD SCHLIESSEN",
-  "jackpotAmountInUserCurrency": "Dieser Jackpot entspricht {{JACKPOT_USER_CURRENCY_AMOUNT}}",
+  "jackpotAmountInUserCurrency": "This jackpot is equivalent to {{JACKPOT_USER_CURRENCY_AMOUNT}}",
   "jackpotAmountInUserCurrency_cashValue": "Dieser Jackpot entspricht {{JACKPOT_USER_CURRENCY_AMOUNT}} (in Bargeld: {{JACKPOT_CASH_VALUE_USER_CURRENCY_AMOUNT}})",
   "LifePrizeValueJackpot": "{{0}} / Tag fürs Leben",
   "PlayButton": "JETZT SPIELEN",
