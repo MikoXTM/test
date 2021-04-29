@@ -1,5 +1,6 @@
 {
 	"checkBackSoon": "Check back soon for the next draw!",
+	"myFunkyNewString": "This is a funky new string",
 	"closingSoon" : "CLOSING SOON",
 	"jackpotAmountInUserCurrency": "This jackpot is equivalent to {{JACKPOT_USER_CURRENCY_AMOUNT}}",
 	"jackpotAmountInUserCurrency_cashValue": "This jackpot is equivalent to {{JACKPOT_USER_CURRENCY_AMOUNT}} (cash value: {{JACKPOT_CASH_VALUE_USER_CURRENCY_AMOUNT}})",
