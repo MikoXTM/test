@@ -1,5 +1,6 @@
 {
   "project_status_autoarchived": "Auto-archived",
+  "project_status_reanalysed": "Reanalysed",
   "project_status_deactivated": "Deactivated",
   "start_project_wait": "Starting project…",
   "pin_header_new": "Specify new PIN number (4-digit)",
