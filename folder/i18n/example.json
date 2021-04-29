@@ -1,0 +1,9 @@
+{
+	"checkBackSoon": "Check back soon for the next draw!",
+	"closingSoon" : "CLOSING SOON",
+	"jackpotAmountInUserCurrency": "This jackpot is equivalent to {{JACKPOT_USER_CURRENCY_AMOUNT}}",
+	"jackpotAmountInUserCurrency_cashValue": "This jackpot is equivalent to {{JACKPOT_USER_CURRENCY_AMOUNT}} (cash value: {{JACKPOT_CASH_VALUE_USER_CURRENCY_AMOUNT}})",
+	"LifePrizeValueJackpot": "{{0}} / Day For Life",
+	"PlayButton": "PLAY NOW",
+	"PlayButton_BettingOn": "BET NOW"
+}
