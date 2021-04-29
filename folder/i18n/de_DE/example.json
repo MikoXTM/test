@@ -1,0 +1,9 @@
+{
+  "checkBackSoon": "Schau bald wieder vorbei für die nächste Ziehung!",
+  "closingSoon": "BALD SCHLIESSEN",
+  "jackpotAmountInUserCurrency": "Dieser Jackpot entspricht {{JACKPOT_USER_CURRENCY_AMOUNT}}",
+  "jackpotAmountInUserCurrency_cashValue": "Dieser Jackpot entspricht {{JACKPOT_USER_CURRENCY_AMOUNT}} (in Bargeld: {{JACKPOT_CASH_VALUE_USER_CURRENCY_AMOUNT}})",
+  "LifePrizeValueJackpot": "{{0}} / Tag fürs Leben",
+  "PlayButton": "JETZT SPIELEN",
+  "PlayButton_BettingOn": "WETTE JETZT"
+}
