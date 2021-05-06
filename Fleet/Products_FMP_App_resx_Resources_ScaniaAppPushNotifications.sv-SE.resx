@@ -122,7 +122,8 @@
     <comment>PART OF SPEECH: translate in singular.</comment>
   </data>
   <data name="Heater_Started_Push" xml:space="preserve">
-    <value>Värmaren har startats</value>
+    <value>Värmaren har nu startats</value>
+    <comment>A developer comment.</comment>
   </data>
   <data name="Heater_Stopped_Push" xml:space="preserve">
     <value>Värmaren har stoppats</value>
