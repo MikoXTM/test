@@ -123,11 +123,11 @@
   <data name="NSPhotoLibraryUsageDescription" xml:space="preserve">
     <value>För att appen ska kunna använda bilder från bildbiblioteket måste du ge appen åtkomst till ditt bildbibliotek.</value>
   </data>
-  <data name="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
-    <value>För att appen ska kunna lägga till en bild i ditt bildbibliotek måste du ge appen åtkomst till ditt bildbibliotek.</value>
-  </data>
   <data name="NSLocationWhenInUseUsageDescription" xml:space="preserve">
     <value>För att appen ska kunna bestämma din position på kartan måste du ge appen åtkomst till platsdata. Utan åtkomst kommer appen inte att kunna visa din position.</value>
+  </data>
+<data name="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
+    <value>För att appen ska kunna lägga till en bild i ditt bildbibliotek måste du ge appen åtkomst till ditt bildbibliotek.</value>
   </data>
   <data name="NSContactsUsageDescription" xml:space="preserve">
     <value>För att spara kontakter från appens adressbok till kontakter på din enhet måste du ge appen åtkomst.</value>
