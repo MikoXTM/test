@@ -132,4 +132,8 @@
   <data name="NSContactsUsageDescription" xml:space="preserve">
     <value>För att spara kontakter från appens adressbok till kontakter på din enhet måste du ge appen åtkomst.</value>
   </data>
+  <data name="NSCameraUsageDescription" xml:space="preserve">
+    <value>Appen behöver åtkomst till kameran. Gå till Inställningar för att ge åtkomst.</value>
+  <comment>Some info for translators.</comment>
+  </data>
 </root>
