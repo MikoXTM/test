@@ -179,4 +179,7 @@
    <data name="DefectReport_InAppUpdatedStatus" xml:space="preserve">
     <value>Förbättrad information om felrapporter – nu kan du följa status för alla felrapporter.</value>
   </data>
+  <data name="DefectReport_InAppUpdatedStatusNew" xml:space="preserve">
+    <value>Vi har förbättrat informationen om felrapporter. Nu kan du följa status för alla felrapporter.</value>
+  </data>
 </root>
