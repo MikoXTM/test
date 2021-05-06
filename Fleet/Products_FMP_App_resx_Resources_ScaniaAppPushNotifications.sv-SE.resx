@@ -134,4 +134,7 @@
   <data name="Heater_StartFailed_Push" xml:space="preserve">
     <value>Misslyckades att starta värmaren</value>
   </data>
+  <data name="Heater_AddTimer" xml:space="preserve">
+    <value>Lägg till timmer</value>
+    <comment>In the remote heater control - adding a timer for the heater.</comment>
 </root>
