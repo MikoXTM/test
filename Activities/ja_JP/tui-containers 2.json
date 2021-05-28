@@ -1,6 +1,0 @@
-{
-  "DELETE_RESOURCE_YES": "削除",
-  "DELETE_RESOURCE_NO": "キャンセル",
-  "DELETE_RESOURCE_MESSAGE": "<1>{{リソースタイプラベル}}</1> <3><0>{{ラベル}}</0>lt;/3>を削除しますか?",
-  "DELETE_RESOURCE_MESSAGE_female": "<1>{{リソースタイプラベル}}</1> <3><0>{{ラベル}}</0>lt;/3>を削除しますか?"
-}
