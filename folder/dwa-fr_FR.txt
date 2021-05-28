@@ -1,4 +1,0 @@
-Attributes new file
-LSP broken in two
-Hotel names and addresses Chinese, French, empty
-Trivago Marketing French and Spanish entries
