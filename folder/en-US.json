@@ -1,0 +1,639 @@
+{
+    "app": {
+        "badges": {
+            "comingSoon": "COMING SOON",
+            "free": "FREE",
+            "new": "NEW"
+        },
+        "buttons": {
+            "acceptAndContinue": "ACCEPT AND CONTINUE",
+            "addToPlaylistTTS": "Add to playlist",
+            "back": "BACK",
+            "backToLogin": "BACK TO LOGIN",
+            "cancel": "CANCEL",
+            "cancelLCase": "Cancel",
+            "changeEmail": "CHANGE EMAIL",
+            "close": "CLOSE",
+            "closeLCase": "Close",
+            "continueLCase": "Continue",
+            "cookiePreferences": "COOKIE PREFERENCES",
+            "deleteLCase": "Delete",
+            "disabled": "disabled",
+            "dismiss": "DISMISS",
+            "done": "DONE",
+            "exit": "EXIT",
+            "impressum": "IMPRINT",
+            "info": "INFO",
+            "login": "LOG IN",
+            "manageProfiles": "MANAGE PROFILES",
+            "more": "more",
+            "next": "NEXT",
+            "notSelected": "not selected",
+            "ok": "OK",
+            "play": "PLAY",
+            "playlistButton": "PLAYLIST",
+            "privacyPolicy": "PRIVACY POLICY",
+            "removeFromPlaylistTTS": "Remove from playlist",
+            "renewSubscription": "RENEW SUBSCRIPTION",
+            "resume": "Resume",
+            "restorePurchase": "RESTORE PURCHASE",
+            "selected": "selected",
+            "sendReminder": "SEND REMINDER",
+            "signIn": "SIGN IN",
+            "signOut": "LOGOUT",
+            "startTrial": "START FREE TRIAL",
+            "termsAndConditions": "TERMS OF SERVICE",
+            "trailer": "TRAILER",
+            "tryAgain": "TRY AGAIN",
+            "watch": "WATCH",
+            "iAccept": "I Accept",
+            "learnMore": "Learn More",
+            "save": "SAVE"
+        },
+        "keyboard": {
+            "shift": "shift",
+            "symbols": "symbols"
+        },
+        "loading": "Loading...",
+        "modal": {
+            "cookies": {
+                "title": "COOKIE PREFERENCES",
+                "message": "Find information about what all our Cookies do below, and set your preferences. Note that turning any non-essential Cookies off may effect the user experience. See Cookie section of our Privacy Policy for more information."
+            },
+            "error": {
+                "title": "An unknown error occurred. Please try again."
+            },
+            "emailUsed": {
+                "message": "Our records indicate this account already exists. Please Sign In or try again.",
+                "title": "Email Address Already Used"
+            },
+            "emailNotFound": {
+                "message": "We were unable to send a link to reset your password to {{email}}. Please try again.",
+                "title": "Password Reset Link Failed To Send"
+            },
+            "exitConfirmation": {
+                "title": "Are you sure you want to exit {{product}}?"
+            },
+            "forgotPassword": {
+                "message": "We'll send a link to {{email}} to reset your password.  If you don't see a link in your inbox shortly, please check your junk email.",
+                "title": "Forgot Password?"
+            },
+            "loginFailed": {
+                "title": "Login Failed!"
+            },
+            "networkDisconnect": {
+                "message": "Check your Internet or Wi-Fi and try again.",
+                "title": "We're not feeling much of a connection."
+            },
+            "parentalControlWarning": {
+                "message": "You can update this in your settings at {{productURL}}.",
+                "title": "You don't have parental controls set for your current location."
+            },
+            "passwordLinkSent": {
+                "message": "We've sent a link to reset your password to {{email}}. If you don't see a link in your inbox shortly, please check your junk email folder.",
+                "title": "Password Reset Link Sent"
+            },
+            "profileDelete": {
+                "message": "This action will delete {{profileName}}'s profile and viewing history.",
+                "title": "Delete Profile"
+            },
+            "profileDeleteFailed": {
+                "message": "Profile was not found. It may have already been deleted.",
+                "title": "Profile Failure"
+            },
+            "profileEditName": {
+                "title": "Edit Profile Name"
+            },
+            "profileNotFound": {
+                "message": "Profile was not found. It may have been deleted.",
+                "title": "Select Profile"
+            },
+            "renewSubscriptionFailed": {
+                "message": "Please try again later",
+                "title": "Failed to renew subscription"
+            },
+            "restoreFailed": {
+                "message": "Please try again later",
+                "title": "Failed To Restore Your Account"
+            },
+            "samsungAccountRequired": {
+                "message": "You must sign in or create a samsung account to continue.",
+                "title": "Samsung Account Required"
+            },
+            "subscriptionActive": {
+                "message": "Our records indicate this Samsung account already has an active subscription. Please Sign In or try again.",
+                "title": "Subscription Currently Active"
+            },
+            "termsOfService": {
+                "message": "To see the full {{product}} terms and conditions, please visit: https://www.{{product}}.com/termsofservice",
+                "title": "Terms of Service"
+            },
+            "traveling": {
+                "message": "You will now have access to all titles from your current location. Not all content may be available in your selected language.",
+                "title": "Looks like you are outside your home country."
+            },
+            "upgrade": {
+                "message": "Thank you for subscribing. To watch this title, upgrade your account. Call (800) 675-1111",
+                "title": "First, a Quick Piece of Business"
+            }
+        },
+        "notFound": "Oops! The page you are looking for doesn't exist",
+        "unsupported": {
+            "header": "{{product}} is not Available",
+            "message": "{{product}} online streaming services are only available through participating partners located in certain countries and territories"
+        },
+        "swimlane": {
+            "viewAll": "VIEW ALL",
+            "viewAllSubtext": "{{contentCount}} Titles",
+            "viewAllTTS": "{{swimlaneName}} view all"
+        },
+        "scrollPanel": {
+            "endScroll": "End scroll"
+        }
+    },
+    "browse": {
+        "recommended": "Recommended",
+        "searchButton": "SEARCH FOR MOVIES, SERIES, OR ACTORS"
+    },
+    "details": {
+        "addToFavorites": "ADD TO FAVORITES",
+        "appearingIn": "Appearing In",
+        "artistNoTitles": "{{name}} is not currently in any titles on {{product}}.",
+        "available": "AVAILABLE",
+        "directedBy": "DIRECTED BY",
+        "writtenBy": "WRITTEN BY",
+        "cast": "CAST",
+        "castAndCrew": "Cast & Crew",
+        "episodes": "Episodes",
+        "extras": "Extras",
+        "removeFromFavorites": "REMOVE FROM FAVORITES",
+        "seriesInfo": "SERIES INFO",
+        "viewSeries": "VIEW SERIES"
+    },
+    "gdpr": {
+        "banner": "We use Cookies to provide you with the best user experience. Simply click I Accept to agree to the use of all cookies. Please click Learn More if you'd like to read more about how Starz uses cookies."
+    },
+    "keyboard": {
+        "clear": "Clear All",
+        "delete": "Delete",
+        "errors": {
+            "invalidEmail": "Please enter a valid email address.",
+            "passwordTooLong": "MUST BE LESS THAN {{maxLength}} CHARACTERS",
+            "passwordTooShort": "Bummer. Your password must be at least {{minLength}} characters long.",
+            "passwordTooShort2": "MUST BE MORE THAN {{minLength}} CHARACTERS"
+        },
+        "hidePassword": "Hide Password",
+        "shift": "shift",
+        "showPassword": "Show Password",
+        "space": "Space",
+        "symbols": "symbols"
+    },
+    "languages": {
+        "de": "Deutsche",
+        "en": "English",
+        "es-419": "Español",
+        "es": "Español",
+        "fr": "Français",
+        "it": "Italiano",
+        "off": "Off"
+    },
+    "login": {
+        "emailActivation": {
+            "emailHeader": "Enter Your Email Address",
+            "emailPlaceholder": "Email Address",
+            "emailSubHeader": "Enter the email address tied to your {{product}} account.",
+            "forgotPasswordButton": "Forgot Password?",
+            "passwordHeader": "Enter Your Password",
+            "passwordPlaceholder": "Password",
+            "passwordSubHeader": "You can set a password from your account settings on any mobile device or computer."
+        },
+        "forgotPassword": {
+            "emailPlaceholder": "Email Address",
+            "header": "Forgot Password?",
+            "subheader": "Enter the email address you'd like to use to reset your password."
+        },
+        "pickLogin": {
+            "header": "LOG IN TO {{product}}",
+            "subheader": "Log in with your {{product}} Account or TV Provider?",
+            "instructions1": "Go to ",
+            "instructions2": " on your phone or computer and enter this code:",
+            "newcode": "Get New Code",
+            "device": "Log in on this device with your {{product}} Account.",
+            "email": "USE EMAIL",
+            "restore": "Restore Purchase",
+            "purchased": "Purchased on SamsungTV?",
+            "or": "OR"
+        }
+    },
+    "movieDetails": {
+        "playButton": "PLAY",
+        "trailerButton": "TRAILER",
+        "watchForFree": "WATCH FOR FREE"
+    },
+    "navigationMenu": {
+        "browse": "BROWSE",
+        "featured": "FEATURED",
+        "home": "HOME",
+        "login": "LOG IN",
+        "movies": "MOVIES",
+        "playlist": "PLAYLIST",
+        "profiles": "PROFILES",
+        "reactivate": "Reactivate",
+        "search": "SEARCH",
+        "searchresults": "SEARCH",
+        "series": "SERIES",
+        "settings": "SETTINGS",
+        "startFreeTrial": "SIGN UP"
+    },
+    "pinChallenge": {
+        "buttons": {
+            "resendReminder": "Resend Reminder",
+            "sendReminder": "Forgot Pin? Send Reminder"
+        },
+        "error": "Sorry... That Was A No Go. Please Try Again.",
+        "message": "Unless you know the 4-digit PIN.",
+        "sendReminderTitle": "Your PIN has been sent to {{email}}.",
+        "title": "This Title's A No-No."
+    },
+    "playback": {
+        "autoroll": {
+            "stillWatching": "Are you still watching?",
+            "title": "Coming Up In {{timeLeftTag}} Seconds...",
+            "upNext": "Up next",
+            "viewSeriesButton": "VIEW SERIES"
+        },
+        "controls": {
+            "audioLanguage": "AUDIO LANGUAGE",
+            "options": "Options",
+            "skipBackwardHintText": "Press and hold to rewind",
+            "skipForwardHintText": "Press and hold to fast forward",
+            "subtitleLanguage": "SUBTITLE LANGUAGE",
+            "subtitles": "SUBTITLES",
+            "startOver": "Start Over",
+            "ttsFFW": "fast forward",
+            "ttsPause": "pause",
+            "ttsPlay": "play",
+            "ttsREW": "rewind"
+        },
+        "loading": "Loading video",
+        "stopping": "Stopping video",
+        "playbackError": {
+            "title": "There was a playback error."
+        },
+        "preroll": {
+            "skipButton": "SKIP"
+        },
+        "recommendedContent": {
+            "recommendedTTS": "We think you'll also enjoy {{contentTitle}}",
+            "title": "We think you'll enjoy..."
+        },
+        "continuePrompt": {
+            "titleHeader": "ARE YOU STILL WATCHING",
+            "episodeHeader": ": EPISODE",
+            "continue": "YES, STILL WATCHING",
+            "exit": "EXIT PLAYER"
+        },
+        "spoolUp": {
+            "upNext": "Up next in {{countdown}}s:"
+        },
+        "streamOverload": {
+            "message": "Four (4) devices at one time is the max. Please stop playback on an active device and try again.",
+            "title": "Stream Overload"
+        },
+        "ageGate": {
+            "message": "This program is rated {{rating}}. Please confirm you are old enough to view this content.",
+            "title": "MATURE CONTENT",
+            "watchNow": "WATCH NOW"
+        }
+    },
+    "playbackPrompt": {
+        "content": "Obsessable TV, movies, and more await.<br/>Subscribe monthly for {{monthlyPrice}}.",
+        "tagLine": "STREAM IT. DOWNLOAD IT. WATCH IT.",
+        "title": "WELCOME TO {{product}}"
+    },
+    "playlist": {
+        "favoritesEmpty": "Use the {{favoritesIconTag}} to favorite Cast & Crew.",
+        "favoritesHeader": "Favorites",
+        "playlistEmpty1": "Use the",
+        "playlistEmpty2": "to add titles to your Playlist.",
+        "playlistHeader": "Playlist",
+        "playlistEmptyTts": "Use the playlist button to add titles to your playlist",
+        "playlistRecommended": "Other Titles to Add To Your Playlist",
+        "resumeEmpty": "You have yet to play any titles.",
+        "resumeHeader": "Resume"
+    },
+    "preview": {
+        "popular": "Popular",
+        "continueWatching": "Continue Watching"
+    },
+    "profiles": {
+        "avatar": {
+            "create": "CREATE PROFILE",
+            "header": "Choose an avatar for {{profileName}}.",
+            "save": "SAVE CHANGES",
+            "choose": "Avatar {{count}}"
+        },
+        "header": {
+            "createProfile": "CREATE PROFILE",
+            "editAvatar": "EDIT PROFILE AVATAR",
+            "editName": "EDIT PROFILE NAME",
+            "editProfile": "EDIT PROFILE",
+            "profiles": "PROFILES"
+        },
+        "manage": {
+            "addProfile": "ADD PROFILE",
+            "delete": "DELETE",
+            "edit": "EDIT",
+            "editAvatar": "EDIT AVATAR",
+            "editName": "EDIT NAME"
+        },
+        "name": {
+            "heading": "Name this profile.  15 characters max.",
+            "nameMissing": "Profile name must be specified.",
+            "p1": "This profile will have access to all content.",
+            "p2": "You can modify your Parental Controls at {{productURL}} or from the {{product}} app on your mobile device.",
+            "placeholderText": "PROFILE NAME",
+            "save": "SAVE CHANGES",
+            "uniqueError": "{{profileName}} has already been used."
+        },
+        "select": {
+            "accountRestoreHeader": "{{product}} Welcomes You With Open Arms",
+            "accountRestoreSubtext": "Looks like you already have an account. Please choose your profile...",
+            "selectProfile": "Please choose your profile..."
+        }
+    },
+    "search": {
+        "placeholderText": "Search for Movies, Series, or Actors",
+        "results": "Results",
+        "noResults": {
+            "subheader": "Please check you have the right spelling."
+        }
+    },
+    "settings": {
+        "account": {
+            "3rdPartyMessage": "To manage your subscription and billing information sign into your {{storeName}} account.",
+            "accessUntil": "ACCESS UNTIL",
+            "billingAndPlan": "Billing & Plan Info",
+            "currentSubscription": "CURRENT SUBSCRIPTION",
+            "automaticRenewal": "Automatic Renewal",
+            "pausedSubscription": "Paused Subscription",
+            "email": "EMAIL",
+            "giftCard": "GIFT CARDS",
+            "lapsedPaymentCTA": "RENEW NOW",
+            "lapsedPaymentHeader": "YOUR SUBSCRIPTION HAS LAPSED",
+            "lapsedPaymentSubheader": "To dive back into all the obsessable original series and hit movies, please update your payment info to renew your subscription.",
+            "manageAccount": "To manage your account, please visit",
+            "name": "FULL NAME",
+            "parentalControls": "PARENTAL CONTROLS",
+            "paymentInfo": "PAYMENT INFO",
+            "paymentInfoBody": "Your subscription is through {{affiliateName}}. To manage your subscription, contact {{affiliateName}}.",
+            "personalInfo": "PERSONAL INFO",
+            "receiptEmptyCTA": "GET STARTED",
+            "receiptEmptyNeedPayment": "You’ll need a payment method to start your free trial.",
+            "receiptEmptyNoPayment": "NO PAYMENT ON FILE"
+        },
+        "contact": {
+            "p1": "You may contact {{product}} customer support by emailing Support@{{product}}.com"
+        },
+        "captions": {
+            "title": "SUBTITLE APPEARANCE",
+            "reset": "RESET",
+            "preview": "Subtitle will appear like this",
+            "options": {
+                "font-name": "FONT",
+                "font-size": "FONT SIZE",
+                "font-color": "FONT COLOR",
+                "font-opacity": "FONT OPACITY",
+                "font-edge": "FONT EDGE",
+                "background-opacity": "BACKGROUND OPACITY",
+                "background-color": "BACKGROUND COLOR",
+                "window-opacity": "WINDOW OPACITY",
+                "window-color": "WINDOW COLOR"
+            },
+            "fonts": {
+                "Default": "Default",
+                "monospacedSerif": "Monospaced Serif",
+                "proportionalSerif": "Proportional Serif",
+                "monospacedSansSerif": "Monospaced Sans Serif",
+                "proportionalSansSerif": "Proportional Sans Serif",
+                "casual": "Casual",
+                "script": "Script",
+                "smallCaps": "Small Caps"
+            },
+            "colors": {
+                "black": "Black",
+                "red": "Red",
+                "green": "Green",
+                "blue": "Blue",
+                "yellow": "Yellow",
+                "magenta": "Magenta",
+                "cyan": "Cyan",
+                "white": "White"
+            },
+            "edges": {
+                "none": "None",
+                "raised": "Raised",
+                "depressed": "Depressed",
+                "uniform": "Uniform",
+                "drop-shadow": "Drop Shadow"
+            }
+        },
+        "general": "To view our Frequently Asked Questions, or to Contact Us please visit <span class=\"link\">{{productURL}}</span>.",
+        "faq": {
+            "title": "FAQ TOPICS"
+        },
+        "language": {
+            "header": "Preferred Language",
+            "subheader": "Select a default language for your {{product}} app."
+        },
+        "menu": {
+            "account": "ACCOUNT MANAGEMENT",
+            "application": "APPLICATION SETTINGS",
+            "contactUs": "CONTACT US",
+            "cookies": "COOKIE PREFERENCES",
+            "debugSettings": "DEBUG SETTINGS",
+            "captionSettings": "SUBTITLES",
+            "faq": "FAQ",
+            "help": "GENERAL & HELP",
+            "language": "LANGUAGE SETTINGS",
+            "parentalControls": "PARENTAL CONTROLS",
+            "privacy": "PRIVACY POLICY",
+            "subscription": "SUBSCRIPTION",
+            "terms": "TERMS & CONDITIONS"
+        },
+        "parentalControls": {
+            "movie": "Movie Ratings",
+            "p1": "You can modify your Parental Controls at www.{{product}}.com or from the {{product}} app on your mobile device.",
+            "p2": "Current Maximum Allowed Settings",
+            "tv": "TV Ratings",
+            "profileSettingTTS": "Parental Controls for {{profileName}}",
+            "maxRating": "Maximum Ratings"
+        },
+        "privacyPolicy": "To see the full {{product}} privacy policy, please visit: https://www.{{product}}.com/privacypolicy",
+        "subscription": {
+            "accessUntil": "ACCESS UNTIL",
+            "anaMessage": "Your subscription has lapsed. To dive back into all the obsessable original series and hit movies, please update your payment info to renew your subscription.",
+            "anaTitle": "SUBSCRIPTION LAPSED",
+            "body": "Log on to {{link}} to manage your payment info and subscription settings.",
+            "buttons": {
+                "startTrial": "START YOUR FREE TRIAL"
+            },
+            "freeTrialMessage": "To start your free 7-day trial and get all that {{product}} has to offer, please update your payment settings.",
+            "freeTrialTitle": "START YOUR FREE TRIAL",
+            "giftCard": "GIFT CARD",
+            "purchasedThrough": "PURCHASED THROUGH",
+            "subscription": "SUBSCRIPTION",
+            "title": "DETAILS"
+        },
+        "termsAndConditions": "To see the full {{product}} terms and conditions, please visit: https://www.{{product}}.com/termsofservice"
+    },
+    "signUp": {
+        "backOutModal": {
+            "leaveCTA": "LEAVE",
+            "message": "Your subscription to {{product}} is not complete. Are you sure you want to leave this page?",
+            "stayCTA": "STAY",
+            "title": "Are You Sure?"
+        },
+        "buyPrompt": {
+            "purchaseHeader": "First, A Quick Piece of Business",
+            "purchaseSubheader": "To start your free 7-day trial and get all that {{product}} has to offer, please enter your payment info don't miss a thing.",
+            "renewHeader": "WE HAVE A PROBLEM",
+            "renewSubheader": "Your subscription has lapsed. To dive back into all the obsessable original series and hit movies, please update your payment info to renew your subscription."
+        },
+        "email": {
+            "header": "Become The Fan You Were Born to Be.",
+            "subHeader": "Time to create a {{product}} account. Let’s start with your email address.",
+            "termsButton": "Terms of Service",
+            "termsIntro": "By selecting NEXT, you agree to the {{product}}"
+        },
+        "error": "Oops…Something Went Wrong",
+        "landing": {
+            "bullet1": "Watch on up to 4 screens simultaneously",
+            "bullet2": "Watch on a computer, TV, smartphone or tablet",
+            "bullet3": "Mobile downloads for watching offline",
+            "bullet4": "After your 7-day free trial ends, you will be charged {{monthlyPrice}} / month",
+            "bullet5": "No TV package needed",
+            "disney": "Endless movies, TV series, and Originals from Disney, Pixar, Marvel, Star Wars, and National Geographic.",
+            "espn": "With ESPN+ stream thousands of live events, exclusive originals, the complete 30 for 30 library, & more.",
+            "header": "WELCOME TO {{product}}",
+            "partnerSubheadline": "You now have unlimited access to hit series and thousands of movies to watch whenever, wherever.",
+            "startObsessing": "START OBSESSING",
+            "subHeader": "Get Full Access to {{product}} Original Series and Hit Movies",
+            "visit": "Visit"
+        },
+        "name": {
+            "createButton": "CREATE ACCOUNT",
+            "header": "Personalize Your Profile",
+            "lengthError": "Full name is required.",
+            "placeholderText": "Full Name",
+            "subHeader": "Please enter your first and last name."
+        },
+        "noStore": {
+            "bullet1": "Use your phone or computer and go to www.starz.com/{{storefront}}",
+            "bullet2": "Start your free trial",
+            "bullet3": "Come back here, select \"Log in\" and use the same username and password to log in",
+            "bullet4": "Get Watching",
+            "header": "GET ALL OF {{product}} RIGHT NOW",
+            "subHeader": "Stream all of {{product}}, no TV package required. Try it free for 7 days (then {{monthlyPrice}}/month)."
+        },
+        "password": {
+            "header": "Now It’s Time to Create A Password",
+            "subHeader": "It must be at least 6 characters long. Choose wisely. This account will be created for {{email}}."
+        },
+        "plans": {
+            "annualBanner": "2 MONTHS FREE!",
+            "annualCallout": "You will be charged {{annualPrice}} / year - ",
+            "annualFreeTrialCallout": "After your free trial ends, you will be charged {{annualPrice}} / year - ",
+            "annualOption": "ANNUAL",
+            "annualPrice": "{{price}} / YEAR",
+            "annualSavings": "that's a savings of {{planEquivalent}}!",
+            "dailyPrice": "{{price}} / DAY",
+            "header": "This account will be created for ",
+            "monthlyCallout": "You will be charged {{monthlyPrice}} / month.",
+            "monthlyFreeTrialCallout": "After your free trial ends, you will be charged {{monthlyPrice}} / month.",
+            "monthlyOption": "MONTHLY",
+            "monthlyPrice": "{{price}} / MONTH",
+            "subHeader": "CHOOSE YOUR PLAN",
+            "subHeader2": "You can cancel anytime during your 7-DAY FREE TRIAL.",
+            "subHeader3": "After 7 days, you'll be charged for the subscription you choose.",
+            "subHeader4": "Choose your subscription type."
+        },
+        "recurlyPayment": {
+            "heading": "Enter Payment Info",
+            "perMonth": "month",
+            "perYear": "year",
+            "subheader": "After your 7-DAY FREE TRIAL, you will be charged {{price}} per {{duration}}",
+            "validation": {
+                "firstName": "Please enter your first name",
+                "lastName": "Please enter your last name",
+                "creditCard": "Please enter your credit card number",
+                "expiration": "Enter expiration date",
+                "cvv": "Enter CVV",
+                "postalCode": "Enter your zip code"
+            }
+        },
+        "renewSubscriptionFailedModal": {
+            "message": "Please try again later",
+            "title": "Failed to renew subscription"
+        },
+        "subscriptionActiveModal": {
+            "message": "Our records indicate this Samsung account already has an active subscription. Please Sign In or try again.",
+            "title": "Subscription Currently Active"
+        },
+        "success": {
+            "editProfilesButton": "EDIT PROFILES",
+            "header": "{{product}} Welcomes You With Open Arms",
+            "profile1": "PROFILE 1",
+            "startWatchingButton": "START WATCHING",
+            "subHeader": "Obsessable TV, movies and more are now at your fingertips.",
+            "subHeader2": "We’ve created your first profile for you. You can edit this now or later."
+        },
+        "userNotLoggedIntoStoreModal": {
+            "message": "Please log in to your {{store}} account on this device.",
+            "title": "A Quick Piece Of Business"
+        },
+        "paymentFailed": "Payment Failed",
+        "googleAccountPausedModal": {
+            "message": "Your subscription is currently paused and will resume {{billingDate}}. To dive back into all the obsessable original series and hit movies, you can resume your subscription now through the Google Play Store.",
+            "title": "Your Subscription Is Paused"
+        },
+        "googleAccountSuspendedModal": {
+            "message": "Your payment method has expired. Please update your payment information with the store where your account was created.",
+            "title": "First, A Quick Piece of Business"
+        }
+    },
+    "viewAll": {
+        "buttons": {
+            "all": "All",
+            "az": "A-Z",
+            "clear": "CLEAR ALL",
+            "filters": "FILTERS",
+            "movies": "Movies",
+            "popular": "Popular",
+            "releaseYear": "Release Year",
+            "series": "Series"
+        },
+        "filters": {
+            "releaseYear": {
+                "1960s": "1960s",
+                "1970s": "1970s",
+                "1980s": "1980s",
+                "1990s": "1990s",
+                "2000s": "2000s",
+                "2010s": "2010s",
+                "lessThan1960s": "< 1960s"
+            },
+            "runTime": {
+                "20to40": "20 to 40 mins",
+                "40to60": "40 to 60 mins",
+                "greaterThan60": "> 60 mins",
+                "lessThan20": "Under 20 mins"
+            }
+        },
+        "filtersHeader": "Filters",
+        "noResults1": "No Results Found.",
+        "noResults2": "Use less filters for more results.",
+        "releaseYear": "RELEASE YEAR",
+        "runTime": "RUNTIME"
+    }
+}
