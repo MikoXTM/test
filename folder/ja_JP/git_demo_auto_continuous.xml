@@ -2,22 +2,11 @@
 <strings locale="en_US" revision="6726">
   
   <string key="String ID 1">
-   <original>XTM Internationalは、XTMCloudのXTMAI戦略の強力な基盤となる、高度なニューラルネットワークベースのテクノロジーであるInter-language VectorSpaceを発表できることを嬉しく思います。</original>
+   <original>XTM Internationalは、XTMクラウドのXTM AI戦略の強力な基盤となる、高度なニューラルネットワークベースのテクノロジーであるInter-language VectorSpaceを発表できることを嬉しく思います。</original>
   </string>  
   
   <string key="String ID 2">
-   <original>これは間違いなく、大規模なニューラルネットワークに基づく言語技術の進歩に対するユニークな数学的アルゴリズムアプローチであるニューラル機械翻訳（NMT）以来、言語技術における最大の進歩です。</original>
+   <original>これは間違いなく、大規模なニューラルネットワークに基づく言語技術の進歩に対する独自の数学的アルゴリズムアプローチであるニューラル機械翻訳（NMT）以来の言語技術の最大の進歩です。</original>
   </string>
-  
-  <string key="String ID 3">
-   <original>これは、セグメント内の個別のソースワードとターゲットワードの間のおおよその近さを示します。</original>
-  </string>
-  <string key="String ID 4">
-   <original>Inter-language Vector Spaceは、翻訳者、レビュー担当者、ポスト編集者の生産性を高めるために使用されています。</original>
-  </string>
-  
-  <string key="String ID 5">
-   <original>Inter-Language Vector Spaceは、すべてのインターネットのクロールとXTMの大規模なバイリンガル辞書を含む大規模なビッグデータリソースを利用して、特定のターゲット言語の単語が250以上の言語ペアのソース単語の正しい翻訳である確率を計算します。</original>
-  </string>
- 
+
 </strings>
