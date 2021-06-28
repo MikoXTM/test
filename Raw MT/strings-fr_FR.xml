@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>  <!-- MAIN LOGIN SCREEN -->     <string name="Login.lbl.Server">Serveur</string>
+	<string name="Login.lbl.Company">Compagnie</string>
+	<string name="Login.lbl.Username">Nom d'utilisateur</string>
+    <string name="Login.lbl.Password">Mot de passe</string>
+    <string name="Login.lbl.Login">Connexion</string>  <!-- PIN SCREEN -->     <string name="PIN.txt.NewPIN">Spécifiez le nouveau code PIN (4 chiffres)</string>
+    <string name="PIN.btn.Cancel">Annuler</string>  <!-- MAIN NAVIGATION SCREEN -->     <string name="Nav.menu.Projects">Projets</string>
+    <string name="Nav.menu.Customers">Les clients</string>
+    <string name="Nav.menu.Users">Utilisateurs</string>
+    <string name="Nav.menu.LSPs">LSP</string>
+    <string name="Nav.menu.Tasks">Tâches</string>
+    <string name="Nav.menu.Settings">Paramètres</string>
+    <string name="Nav.menu.Logout">Se déconnecter</string>  <!-- PROJECTS SCREEN -->     <string name="Proj.hdr.Projects">Projets</string>
+    <string name="Proj.status.Started">A DÉBUTÉ</string>
+    <string name="Proj.status.PartiallyStarted">PARTIELLEMENT COMMENCÉ</string>
+    <string name="Proj.status.Finished">FINI</string>
+    <string name="Proj.lbl.DateCreated">Créé: <ph type="date"/></string>
+    <string name="Proj.lbl.DateDue">Dû: <ph type="date"/></string>  <!-- ADD PROJECT SCREEN -->     <string name="AddProj.hdr.AddProject">Ajouter un projet</string>
+    <string name="AddProj.subhead.General">Général</string>
+    <string name="AddProj.lbl.Customer">Client</string>
+    <string name="AddProj.lbl.ProjName">Nom du projet</string>
+    <string name="AddProj.lbl.Description">La description</string>
+    <string name="AddProj.lbl.RefID">Pièce d'identité</string>
+    <string name="AddProj.lbl.DueDate">Date d'échéance</string>
+    <string name="AddProj.lbl.ProjTemplate">Modèle de projet</string>  <!-- SETTINGS SCREEN -->     <string name="Settings.hdr.Settings">Paramètres</string>
+    <string name="Settings.menu.EditProfile">Editer le profil</string>
+    <string name="Settings.menu.AutoCurrConv">Conversion automatique de devise</string>
+    <string name="Settings.menu.ChangePIN">Changer le NIP</string>
+    <string name="Settings.menu.About">À propos</string>
+    <string name="Settings.menu.Feedback">Envoyer des commentaires</string>  <!-- ABOUT SCREEN -->     <string name="About.hdr.About">À propos</string>
+    <string name="About.txt.Version">Version mobile XTM <ph type="version"/></string>
+    <string name="About.txt.Copyright">© 2018 XTM International Ltd.</string>
+    <string name="About.menu.Privacy">Politique de confidentialité</string>
+    <string name="About.menu.3rdParty">Avis de tiers</string>
+    <string name="About.subhead.WhatsNew">Quoi de neuf</string>
+
+</resources>
