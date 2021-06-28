@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- MAIN LOGIN SCREEN -->
+    <string name="Login.lbl.Server">Server</string>
+	<string name="Login.lbl.Company">Company</string>
+	<string name="Login.lbl.Username">User name</string>
+    <string name="Login.lbl.Password">Password</string>
+    <string name="Login.lbl.Login">Log in</string>
+
+<!-- PIN SCREEN -->
+    <string name="PIN.txt.NewPIN">Specify new PIN number (4-digit)</string>
+    <string name="PIN.btn.Cancel">Cancel</string>
+
+<!-- MAIN NAVIGATION SCREEN -->
+    <string name="Nav.menu.Projects">Projects</string>
+    <string name="Nav.menu.Customers">Customers</string>
+    <string name="Nav.menu.Users">Users</string>
+    <string name="Nav.menu.LSPs">LSPs</string>
+    <string name="Nav.menu.Tasks">Tasks</string>
+    <string name="Nav.menu.Settings">Settings</string>
+    <string name="Nav.menu.Logout">Log out</string>
+
+<!-- PROJECTS SCREEN -->
+    <string name="Proj.hdr.Projects">Projects</string>
+    <string name="Proj.status.Started">STARTED</string>
+    <string name="Proj.status.PartiallyStarted">PARTIALLY STARTED</string>
+    <string name="Proj.status.Finished">FINISHED</string>
+    <string name="Proj.lbl.DateCreated">Created: <ph type="date" /></string>
+    <string name="Proj.lbl.DateDue">Due: <ph type="date" /></string>
+
+<!-- ADD PROJECT SCREEN -->
+    <string name="AddProj.hdr.AddProject">Add Project</string>
+    <string name="AddProj.subhead.General">General</string>
+    <string name="AddProj.lbl.Customer">Customer</string>
+    <string name="AddProj.lbl.ProjName">Project name</string>
+    <string name="AddProj.lbl.Description">Description</string>
+    <string name="AddProj.lbl.RefID">Reference ID</string>
+    <string name="AddProj.lbl.DueDate">Due date</string>
+    <string name="AddProj.lbl.ProjTemplate">Project template</string>
+
+<!-- SETTINGS SCREEN -->
+    <string name="Settings.hdr.Settings">Settings</string>
+    <string name="Settings.menu.EditProfile">Edit profile</string>
+    <string name="Settings.menu.AutoCurrConv">Auto Currency conversion</string>
+    <string name="Settings.menu.ChangePIN">Change PIN</string>
+    <string name="Settings.menu.About">About</string>
+    <string name="Settings.menu.Feedback">Send feedback</string>
+
+<!-- ABOUT SCREEN -->
+    <string name="About.hdr.About">About</string>
+    <string name="About.txt.Version">XTM Mobile Version <ph type="version" /></string>
+    <string name="About.txt.Copyright">© 2018 XTM International Ltd.</string>
+    <string name="About.menu.Privacy">Privacy policy</string>
+    <string name="About.menu.3rdParty">Third party notices</string>
+    <string name="About.subhead.WhatsNew">What's new</string>
+
+</resources>
